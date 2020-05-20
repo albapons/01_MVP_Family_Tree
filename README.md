@@ -50,21 +50,20 @@ To accomplish this, you will need to:
 ## Resources
 
 - PROJECT 1: MVP - https://docs.google.com/document/d/1ilYoDMpLV2yYZx6Cok610ttx6eA19aUKrZBU8HXgg54/edit
-
 - D3.JS - https://d3js.org/
 - FAMILY TREE DNA - https://www.familytreedna.com/
 - MY HERITAGE - https://www.myheritage.es/
 - ANCESTRY - https://www.ancestry.com/family-tree/
 - FAMILY SEARCH - https://www.familysearch.org/search/family-trees
 
-Some ideas about the frontend:
+#### Some ideas about the frontend:
+
 - https://www.ohsweetbabies.com/images/decoration-balloon-family-tree-1.jpg
 - https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/66351384/original/03e1a561616128e2f26dcb0848bc9c6fd517cfb2/design-a-unique-family-tree.png
 - https://ksr-ugc.imgix.net/assets/024/416/202/4b24a038dc83efeb68387a66655369a6_original.png?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1552586603&auto=format&frame=1&q=92&s=c83fa2da29dc5ddb0b3bed5ede6c5975
 - https://familyhistorydaily.com/wp-content/uploads/2018/03/Free-Family-Tree-Offers-Record-Hints-Tons-of-Tools-and-a-Modern-Design-1140x570.png
-- 
+-
 
+## DATABASE DESIGN:
 
-
-
-
+https://dbdesigner.page.link/siNH3UpngMftUKY69
