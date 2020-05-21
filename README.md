@@ -35,10 +35,10 @@ This project would be an app to draw and save your family tree.
 
 Create a webpage with the following functionality:
 
-- [x] A list of students.
-- [x] A form to add new students. There should be room to input the first and last names, separately.
+- [ ] A list of students.
+- [ ] A form to add new students. There should be room to input the first and last names, separately.
   - After clicking a button in the form, the new student should be added to the database and displayed on the page.
-- [x] Each student can be deleted with a delete button. After clicking on this button, student should be deleted from the database and the updated list of students shown on the page
+- [ ] Each student can be deleted with a delete button. After clicking on this button, student should be deleted from the database and the updated list of students shown on the page
 - [ ] Style the app to make it look as polished as possible. Bootstrap is already loaded in the index.html file, so you can use it if you want to.
 - [ ] (Optional/bonus) Clicking on a student should show the student's profile to the right of the students list. The info to display this profile should be obtained from a fetch request to `/students/:id`
 
