@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import FamilyForm from "./components/FamilyForm";
 
 class App extends Component {
   constructor(props) {
@@ -41,6 +42,9 @@ class App extends Component {
     return (
       <div className="container my-4">
         <h3>My family</h3>
+
+        <FamilyForm allFamily={this.state.allFamily} />
+
         <ul>
           {this.state.allFamily.map((e, index) => (
             <li key={index}>
@@ -51,28 +55,6 @@ class App extends Component {
             </li>
           ))}
         </ul>
-        <input placeholder="First Name"></input>
-        <input placeholder="Last Name"></input>
-        <div className="form-group">
-          <label htmlFor="sel1">Select progenitor 1:</label>
-          <select className="form-control" id="sel1">
-            {this.state.allFamily.map((e, index) => (
-              <option key={index}>
-                {e.firstName} {e.lastName}
-              </option>
-            ))}
-          </select>
-        </div>
-        <div className="form-group">
-          <label htmlFor="sel1">Select progenitor 2:</label>
-          <select className="form-control" id="sel1">
-            {this.state.allFamily.map((e, index) => (
-              <option key={index}>
-                {e.firstName} {e.lastName}
-              </option>
-            ))}{" "}
-          </select>
-        </div>
       </div>
     );
   }
