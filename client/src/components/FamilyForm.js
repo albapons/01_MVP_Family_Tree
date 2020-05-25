@@ -3,18 +3,24 @@ import React, { Component } from "react";
 export default class FamilyForm extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      firstName: "",
+      lastName: "",
+      progenitor_1: null,
+      progenitor_2: null,
+    };
   }
   render() {
     let allFamily = this.props.allFamily;
     return (
-      <div>
-        <input placeholder="First Name"></input>
-        <input placeholder="Last Name"></input>
+      <div className="container my-4 ">
+        <input placeholder="First Name" className="form-control my-2"></input>
+        <input placeholder="Last Name" className="form-control my-2"></input>
         <div>
           {" "}
-          <div className="form-group">
-            <label htmlFor="sel1">Select progenitor 1:</label>
-            <select className="form-control" id="sel1">
+          <div className="form-group my-2">
+            <select className="form-control" id="progenitor_1">
+              <option selected>Select progenitor 1</option>
               {allFamily.map((e, index) => (
                 <option key={index}>
                   {e.firstName} {e.lastName}
@@ -22,9 +28,9 @@ export default class FamilyForm extends Component {
               ))}
             </select>
           </div>
-          <div className="form-group">
-            <label htmlFor="sel1">Select progenitor 2:</label>
-            <select className="form-control" id="sel1">
+          <div className="form-group my-2">
+            <select className="form-control" id="progenitor_2">
+              <option selected>Select progenitor 2</option>
               {allFamily.map((e, index) => (
                 <option key={index}>
                   {e.firstName} {e.lastName}
@@ -32,7 +38,11 @@ export default class FamilyForm extends Component {
               ))}
             </select>
           </div>
-          <button>Add</button>
+          <div className="d-flex justify-content-center">
+            <button className="btn-lg btn-outline-warning font-weight-bold">
+              ADD
+            </button>
+          </div>
         </div>
       </div>
     );

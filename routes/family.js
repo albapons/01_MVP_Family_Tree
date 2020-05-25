@@ -5,7 +5,7 @@ const db = require("../model/helper");
 
 /* GET a list of family members. */
 router.get("/", function (req, res, next) {
-  db(`SELECT * FROM people;`)
+  db(`SELECT * FROM people ORDER BY lastName ASC;`)
     .then((results) => {
       res.send(results.data);
     })
@@ -22,14 +22,15 @@ router.get("/", function (req, res, next) {
 // }
 // router.get("/", getFamily);
 
+/* No sé si fa falta */
 /* GET the parents table. */
-router.get("/parents", function (req, res, next) {
-  db(`SELECT * FROM parents;`)
-    .then((results) => {
-      res.send(results.data);
-    })
-    .catch((err) => res.status(500).send(err));
-});
+// router.get("/parents", function (req, res, next) {
+//   db(`SELECT * FROM parents;`)
+//     .then((results) => {
+//       res.send(results.data);
+//     })
+//     .catch((err) => res.status(500).send(err));
+// });
 
 /* No sé si fa falta */
 // function getParents(req, res) {
@@ -57,7 +58,7 @@ router.get("/:id", function (req, res, next) {
         res.send(person);
       });
     })
-    // també ahuria de demanar dades de parents per o amb couple_id ja està?
+    // també hauria de demanar dades de parents per o amb couple_id ja està?
     .catch((err) => res.status(500).send(err));
 });
 

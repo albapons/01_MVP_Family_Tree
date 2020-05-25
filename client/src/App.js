@@ -9,6 +9,7 @@ class App extends Component {
     super(props);
     this.state = {
       allFamily: [],
+      allParents: [],
       familyView: true,
     };
   }
@@ -25,32 +26,34 @@ class App extends Component {
         this.setState({ allFamily: response });
       })
       .catch((err) => console.log(err));
-  };
-
-  deletePerson = (id) => {
-    fetch(`/students/${id}`, {
-      method: "DELETE",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
+    fetch(`/parents`)
       .then((response) => response.json())
       .then((response) => {
-        this.setState({ allFamily: response });
+        console.log(response);
+        this.setState({ allParents: response });
       })
       .catch((err) => console.log(err));
   };
 
-  changeUser(isFamily) {
-    this.setState({ familyView: isFamily });
-  }
-
   render() {
     return (
       <div className="container my-4">
-        <h3>My family</h3>
         <Router>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-right">
+            <Link to="/" className="navbar-brand">
+              Home
+            </Link>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item active">
@@ -59,20 +62,29 @@ class App extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/" className="nav-link">
+                  <Link to="/list" className="nav-link">
                     Family Tree
                   </Link>
                 </li>
               </ul>
             </div>
           </nav>
-
+          <h3 className="title">DRAW YOUR FAMILY</h3>
           <Switch>
-            <Route path="/">
+            <Route path="/list">
               <FamilyList allFamily={this.state.allFamily} />
             </Route>
             <Route path="/form">
               <FamilyForm allFamily={this.state.allFamily} />
+            </Route>
+            <Route path="/">
+              <div className="container d-flex justify-content-center align-items-center">
+                {/* <img src="../images/home.jpg" alt="error" width="auto"></img> */}
+                <img
+                  src="https://image.freepik.com/free-vector/types-families_23-2147532363.jpg"
+                  alt="error"
+                ></img>
+              </div>
             </Route>
           </Switch>
         </Router>
