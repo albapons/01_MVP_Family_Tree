@@ -22,13 +22,13 @@ function getFamily(req, res) {
 router.get("/", getFamily);
 
 /* GET the parents table. */
-// router.get("/parents", function (req, res, next) {
-//   db(`SELECT * FROM parents;`)
-//     .then((results) => {
-//       res.send(results.data);
-//     })
-//     .catch((err) => res.status(500).send(err));
-// });
+router.get("/parents", function (req, res, next) {
+  db(`SELECT * FROM parents;`)
+    .then((results) => {
+      res.send(results.data);
+    })
+    .catch((err) => res.status(500).send(err));
+});
 
 // /* No sé si fa falta */
 // // function getParents(req, res) {
@@ -44,10 +44,11 @@ router.get("/", getFamily);
 router.get("/:id", function (req, res, next) {
   const { id } = req.params;
 
-  db(`SELECT * FROM people;`)
+  db(`SELECT * FROM people WHERE id = ${id};`)
     .then((results) => {
       res.send(results.data);
     })
+    // també ahuria de demanar dades de parents per o amb couple_id ja està?
     .catch((err) => res.status(500).send(err));
 });
 

@@ -5,7 +5,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      allFamily: null,
+      allFamily: [],
     };
   }
 
@@ -39,22 +39,40 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container my-4">
+        <h3>My family</h3>
         <ul>
           {this.state.allFamily.map((e, index) => (
             <li key={index}>
               <span>
-                {e.firstname} {e.lastname}
+                {e.firstName} {e.lastName}
               </span>
-              <button
-                onClick={() => this.deletePerson(e.id)}
-                className=" mx-2btn btn-sm btn-outline-danger"
-              >
-                <i className="far fa-trash-alt"></i>
-              </button>
+              <button onClick={() => this.deletePerson(e.id)}>Delete</button>
             </li>
           ))}
         </ul>
+        <input placeholder="First Name"></input>
+        <input placeholder="Last Name"></input>
+        <div className="form-group">
+          <label htmlFor="sel1">Select progenitor 1:</label>
+          <select className="form-control" id="sel1">
+            {this.state.allFamily.map((e, index) => (
+              <option key={index}>
+                {e.firstName} {e.lastName}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="form-group">
+          <label htmlFor="sel1">Select progenitor 2:</label>
+          <select className="form-control" id="sel1">
+            {this.state.allFamily.map((e, index) => (
+              <option key={index}>
+                {e.firstName} {e.lastName}
+              </option>
+            ))}{" "}
+          </select>
+        </div>
       </div>
     );
   }
