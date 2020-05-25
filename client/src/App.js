@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
 import FamilyForm from "./components/FamilyForm";
+import FamilyList from "./components/FamilyList";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       allFamily: [],
+      familyView: true,
     };
   }
 
@@ -38,23 +40,40 @@ class App extends Component {
       .catch((err) => console.log(err));
   };
 
+  changeUser(isFamily) {
+    this.setState({ familyView: isFamily });
+  }
+
   render() {
     return (
       <div className="container my-4">
         <h3>My family</h3>
+        <div className="container text-right">
+          <button
+            onClick={() => this.changeUser(true)}
+            className={
+              familyView
+                ? "btn-sm btn-success text-light mx-2 my-2"
+                : "btn-sm btn-light text-dark mx-2 my-2"
+            }
+            disabled={adminView}
+          >
+            FAMILY TREE
+          </button>
+          <button
+            onClick={() => this.changeUser(false)}
+            className={
+              familyView
+                ? "btn-sm btn-light text-dark mx-2 my-2"
+                : "btn-sm btn-success text-light mx-2 my-2"
+            }
+            disabled={!familyView}
+          >
+            FORM
+          </button>
+        </div>
 
-        <FamilyForm allFamily={this.state.allFamily} />
-
-        <ul>
-          {this.state.allFamily.map((e, index) => (
-            <li key={index}>
-              <span>
-                {e.firstName} {e.lastName}
-              </span>
-              <button onClick={() => this.deletePerson(e.id)}>Delete</button>
-            </li>
-          ))}
-        </ul>
+        <FamilyList allFamily={this.state.allFamily} />
       </div>
     );
   }
