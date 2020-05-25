@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import FamilyForm from "./components/FamilyForm";
 import FamilyList from "./components/FamilyList";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class App extends Component {
   constructor(props) {
@@ -48,32 +49,33 @@ class App extends Component {
     return (
       <div className="container my-4">
         <h3>My family</h3>
-        <div className="container text-right">
-          <button
-            onClick={() => this.changeUser(true)}
-            className={
-              familyView
-                ? "btn-sm btn-success text-light mx-2 my-2"
-                : "btn-sm btn-light text-dark mx-2 my-2"
-            }
-            disabled={adminView}
-          >
-            FAMILY TREE
-          </button>
-          <button
-            onClick={() => this.changeUser(false)}
-            className={
-              familyView
-                ? "btn-sm btn-light text-dark mx-2 my-2"
-                : "btn-sm btn-success text-light mx-2 my-2"
-            }
-            disabled={!familyView}
-          >
-            FORM
-          </button>
-        </div>
+        <Router>
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav">
+                <li className="nav-item active">
+                  <Link to="/form" className="nav-link">
+                    Form
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/" className="nav-link">
+                    Family Tree
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </nav>
 
-        <FamilyList allFamily={this.state.allFamily} />
+          <Switch>
+            <Route path="/">
+              <FamilyList allFamily={this.state.allFamily} />
+            </Route>
+            <Route path="/form">
+              <FamilyForm allFamily={this.state.allFamily} />
+            </Route>
+          </Switch>
+        </Router>
       </div>
     );
   }

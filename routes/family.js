@@ -12,14 +12,15 @@ router.get("/", function (req, res, next) {
     .catch((err) => res.status(500).send(err));
 });
 
-function getFamily(req, res) {
-  db(`SELECT * FROM people;`)
-    .then((results) => {
-      res.send(results.data);
-    })
-    .catch((err) => res.status(500).send(err));
-}
-router.get("/", getFamily);
+/* No sé si fa falta */
+// function getFamily(req, res) {
+//   db(`SELECT * FROM people;`)
+//     .then((results) => {
+//       res.send(results.data);
+//     })
+//     .catch((err) => res.status(500).send(err));
+// }
+// router.get("/", getFamily);
 
 /* GET the parents table. */
 router.get("/parents", function (req, res, next) {
@@ -30,15 +31,15 @@ router.get("/parents", function (req, res, next) {
     .catch((err) => res.status(500).send(err));
 });
 
-// /* No sé si fa falta */
-// // function getParents(req, res) {
-// //   db(`SELECT * FROM parents;`)
-// //     .then((results) => {
-// //       res.send(results.data);
-// //     })
-// //     .catch((err) => res.status(500).send(err));
-// // }
-// // router.get("/parents", getParents);
+/* No sé si fa falta */
+// function getParents(req, res) {
+//   db(`SELECT * FROM parents;`)
+//     .then((results) => {
+//       res.send(results.data);
+//     })
+//     .catch((err) => res.status(500).send(err));
+// }
+// router.get("/parents", getParents);
 
 /* GET the family tree from 1 person. */
 router.get("/:id", function (req, res, next) {
@@ -59,18 +60,6 @@ router.get("/:id", function (req, res, next) {
     // també ahuria de demanar dades de parents per o amb couple_id ja està?
     .catch((err) => res.status(500).send(err));
 });
-
-/* INSERT a new relative into the DB */
-// router.post("/", function (req, res, next) {
-//   const { firstName, lastName } = req.body;
-//   db(
-//     `INSERT INTO people (firstName, lastName) VALUES ("${firstName}", "${lastName}");`
-//   )
-//     .then(() => {
-//       getFamily(req, res);
-//     })
-//     .catch((err) => res.status(500).send(err));
-// });
 
 /* INSERT new partner relationship */
 router.post("/", function (req, res, next) {
