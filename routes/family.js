@@ -62,37 +62,90 @@ router.get("/:id", function (req, res, next) {
     .catch((err) => res.status(500).send(err));
 });
 
-/* INSERT new partner relationship */
+/* POST new partner relationship */
 router.post("/", function (req, res, next) {
   const { progenitor_1, progenitor_2, firstName, lastName } = req.body;
+  // 0. Comprovar si hem insertat progenitors
+  // 0A Si NO hem insertat progenitors crear persona sense progenitors
+  if (!progenitor_1 && !progenitor_2) {
+    db(
+      `INSERT INTO people (firstName, lastName) VALUES ("${firstName}", "${lastName}");`
+    )
+      .then((results) =>
+        res.send({
+          msg: `OK, hem creat una nova persona ${firstName} ${lastName} sense progenitors.`,
+        })
+      )
+      .catch((err) => res.status(500).send(err));
+  } else if (progenitor_1 && !progenitor_2) {
+    // 0B Si hem insertat NOMÉS 1 progenitor crear una persona amb només un progenitor.
+    db(`INSERT INTO parents (progenitor_1) VALUES ("${progenitor_1}");`)
+      .then((results) => {
+        // 2.2 Busquem l'últim ID que s'ha insertat
+        db(`SELECT id FROM parents ORDER BY id DESC limit 1;`)
+          // Ho guardem en una variable couple_id
+          .then((results) => {
+            let couple_id = results.data[0].id;
+            // 3. Creem la nova persona
+            db(
+              `INSERT INTO people (firstName, lastName, couple_id) VALUES ("${firstName}", "${lastName}", ${couple_id});`
+            )
+              .then((results) =>
+                res.send({
+                  msg: `OK, hem creat una nova persona ${firstName} ${lastName} amb un progenitor ${progenitor_1}.`,
+                })
+              )
+              .catch((err) => res.status(500).send(err));
+          })
+          .catch((err) => res.status(500).send(err));
+      })
+      .catch((err) => res.status(500).send(err));
+  }
+  // 0C Si hem insertat 2 progenitors saltar a 1
   // 1. Comprovar si hi ha una parella existent amb aquestes dades
   db(
     `SELECT * FROM parents WHERE (progenitor_1 = ${progenitor_1} AND progenitor_2 = ${progenitor_2}) OR (progenitor_1 = ${progenitor_2} AND progenitor_2 = ${progenitor_1}) ;`
   ).then((results) => {
     // 2. Si NO existeix (rebem un emtpy array)
     if (results.data.length === 0) {
-      // res.send("no array");
+      console.log("la parella que hem seleccionat no existeix");
       // 2.1 Creem una nova parella
       db(
         `INSERT INTO parents (progenitor_1, progenitor_2) VALUES ("${progenitor_1}", "${progenitor_2}");`
       )
         .then((results) => {
-          res.send(results.data);
-          // error "Cannot add or update a child row: a foreign key constraint fails (`mvp1`.`parents`, CONSTRAINT `parents_fk0` FOREIGN KEY (`progenitor_1`) REFERENCES `people` (`id`))"
+          // 2.2 Busquem l'últim ID que s'ha insertat
+          db(`SELECT id FROM parents ORDER BY id DESC limit 1;`)
+            // Ho guardem en una variable couple_id
+            .then((results) => {
+              let couple_id = results.data[0].id;
+              // 3. Creem la nova persona
+              db(
+                `INSERT INTO people (firstName, lastName, couple_id) VALUES ("${firstName}", "${lastName}", ${couple_id});`
+              )
+                .then((results) =>
+                  res.send({
+                    msg: `OK, hem creat una nova persona ${firstName} ${lastName} amb 2 progenitor ${progenitor_1} i ${progenitor_2}.`,
+                  })
+                )
+                .catch((err) => res.status(500).send(err));
+            })
+            .catch((err) => res.status(500).send(err));
         })
         .catch((err) => res.status(500).send(err));
-      // 2.2 Busquem l'últim ID que s'ha insertat
-      db(`SELECT id FROM parents ORDER BY id DESC limit 1;`)
-        // Ho guardem en una variable couple_id
-        .then((results) => {
-          let couple_id = results.data.id;
-        })
+    } else {
+      let couple_id = results.data[0].id;
+      console.log("la parella que hem seleccionat existeix", couple_id);
+      db(
+        `INSERT INTO people (firstName, lastName, couple_id) VALUES ("${firstName}", "${lastName}", ${couple_id});`
+      )
+        .then((results) =>
+          res.send({
+            msg: `OK, hem creat una nova persona ${firstName} ${lastName} amb 2 progenitor ${progenitor_1} i ${progenitor_2}.`,
+          })
+        )
         .catch((err) => res.status(500).send(err));
     }
-    // 3. Creem la nova persona
-    db(
-      `INSERT INTO people (firstName, lastName, couple_id) VALUES ("${firstName}", "${lastName}", ${couple_id});`
-    ).catch((err) => res.status(500).send(err));
   });
 });
 

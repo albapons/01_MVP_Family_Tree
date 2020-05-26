@@ -6,22 +6,29 @@ export default class FamilyForm extends Component {
     this.state = {
       firstName: "",
       lastName: "",
-      progenitor_1: "",
-      progenitor_2: "",
+      progenitor_1: null,
+      progenitor_2: null,
     };
   }
 
   handleInput = (e) => {
-    let value = e.target.value;
-    if (e.target.value === "Select progenitor 1" || "Select progenitor 1") {
-      value = null;
-    }
+    const value = e.target.value;
     const name = e.target.name;
 
     this.setState({
       [name]: value,
     });
   };
+
+  // addPerson = () => {
+  //   const { firstName, lastName } = this.state;
+
+  //   const person = { firstName, lastName };
+
+  //   api.addPerson(student).then((response) => {
+  //     this.props.onAddPerson(response.msg);
+  //   });
+  // };
 
   render() {
     let allFamily = this.props.allFamily;
@@ -50,12 +57,11 @@ export default class FamilyForm extends Component {
             <select
               className="form-control"
               name="progenitor_1"
-              value={progenitor_1}
               onChange={(e) => this.handleInput(e)}
             >
-              <option defaultValue>Select progenitor 1</option>
+              <option value={0}>Select progenitor 1</option>
               {allFamily.map((e, index) => (
-                <option key={index}>
+                <option key={index} value={e.id}>
                   {e.firstName} {e.lastName}
                 </option>
               ))}
@@ -65,12 +71,11 @@ export default class FamilyForm extends Component {
             <select
               className="form-control"
               name="progenitor_2"
-              value={progenitor_2}
               onChange={(e) => this.handleInput(e)}
             >
-              <option defaultValue>Select progenitor 2</option>
+              <option value={0}>Select progenitor 2</option>
               {allFamily.map((e, index) => (
-                <option key={index}>
+                <option key={index} value={e.id}>
                   {e.firstName} {e.lastName}
                 </option>
               ))}

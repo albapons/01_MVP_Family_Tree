@@ -18,8 +18,8 @@ con.connect(function (err) {
   if (err) throw err;
   console.log("Connected!");
 
-  let sql =
-    "CREATE TABLE people ( id int NOT NULL AUTO_INCREMENT,firstName varchar(255),lastName varchar(255),partner varchar(255),PRIMARY KEY (id));CREATE TABLE parents (id int NOT NULL AUTO_INCREMENT,people_id int, progenitor_1 int, progenitor_2 int, PRIMARY KEY (id)); ALTER TABLE parents ADD CONSTRAINT parents_fk0 FOREIGN KEY (people_id) REFERENCES people(id); ALTER TABLE parents ADD CONSTRAINT parents_fk1 FOREIGN KEY (progenitor_1) REFERENCES people(id); ALTER TABLE parents ADD CONSTRAINT parents_fk2 FOREIGN KEY (progenitor_2) REFERENCES people(id);";
+  let sql = `DROP TABLE parents; DROP TABLE people; CREATE TABLE people (id int NOT NULL AUTO_INCREMENT,firstName varchar(255),lastName varchar(255),couple_id int,PRIMARY KEY (id));CREATE TABLE parents (id int NOT NULL AUTO_INCREMENT, progenitor_1 int, progenitor_2 int, PRIMARY KEY (id)); INSERT INTO people (firstName, lastName) VALUES ("Dolors", "Lloret Ribalta"), ("Jesús", "Pons Català"); INSERT INTO parents (progenitor_1, progenitor_2) VALUES ("1", "2"); INSERT INTO people (firstName, lastName, couple_id) VALUES ("Alba", "Pons Lloret", 1);`;
+  //  "ALTER TABLE parents ADD CONSTRAINT parents_fk0 FOREIGN KEY (people_id) REFERENCES people(id); ALTER TABLE parents ADD CONSTRAINT parents_fk1 FOREIGN KEY (progenitor_1) REFERENCES people(id); ALTER TABLE parents ADD CONSTRAINT parents_fk2 FOREIGN KEY (progenitor_2) REFERENCES people(id);";
 
   con.query(sql, function (err, result) {
     if (err) throw err;
