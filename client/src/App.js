@@ -10,7 +10,6 @@ class App extends Component {
     this.state = {
       allFamily: [],
       allParents: [],
-      familyView: true,
     };
   }
 
@@ -47,13 +46,14 @@ class App extends Component {
               className="navbar-toggler"
               type="button"
               data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon"></span>
             </button>
+
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item active">

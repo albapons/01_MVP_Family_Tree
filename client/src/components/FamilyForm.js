@@ -6,21 +6,54 @@ export default class FamilyForm extends Component {
     this.state = {
       firstName: "",
       lastName: "",
-      progenitor_1: null,
-      progenitor_2: null,
+      progenitor_1: "",
+      progenitor_2: "",
     };
   }
+
+  handleInput = (e) => {
+    let value = e.target.value;
+    if (e.target.value === "Select progenitor 1" || "Select progenitor 1") {
+      value = null;
+    }
+    const name = e.target.name;
+
+    this.setState({
+      [name]: value,
+    });
+  };
+
   render() {
     let allFamily = this.props.allFamily;
+    let { firstName, lastName, progenitor_1, progenitor_2 } = this.state;
     return (
       <div className="container my-4 ">
-        <input placeholder="First Name" className="form-control my-2"></input>
-        <input placeholder="Last Name" className="form-control my-2"></input>
+        <input
+          placeholder="First Name"
+          className="form-control my-2"
+          type="text"
+          name="firstName"
+          value={firstName}
+          onChange={(e) => this.handleInput(e)}
+        ></input>
+        <input
+          placeholder="Last Name"
+          className="form-control my-2"
+          type="text"
+          name="lastName"
+          value={lastName}
+          onChange={(e) => this.handleInput(e)}
+        ></input>
         <div>
           {" "}
           <div className="form-group my-2">
-            <select className="form-control" id="progenitor_1">
-              <option selected>Select progenitor 1</option>
+            <select
+              className="form-control"
+              name="progenitor_1"
+              value={progenitor_1}
+              onChange={(e) => this.handleInput(e)}
+            >
+              <option defaultValue>Select progenitor 1</option>
               {allFamily.map((e, index) => (
                 <option key={index}>
                   {e.firstName} {e.lastName}
@@ -29,8 +62,13 @@ export default class FamilyForm extends Component {
             </select>
           </div>
           <div className="form-group my-2">
-            <select className="form-control" id="progenitor_2">
-              <option selected>Select progenitor 2</option>
+            <select
+              className="form-control"
+              name="progenitor_2"
+              value={progenitor_2}
+              onChange={(e) => this.handleInput(e)}
+            >
+              <option defaultValue>Select progenitor 2</option>
               {allFamily.map((e, index) => (
                 <option key={index}>
                   {e.firstName} {e.lastName}
