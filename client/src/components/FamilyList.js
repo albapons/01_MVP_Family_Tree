@@ -1,18 +1,13 @@
 import React, { Component } from "react";
+import api from "../utils/api";
 
 export default class FamilyList extends Component {
-  deletePerson = (id) => {
-    fetch(`/students/${id}`, {
-      method: "DELETE",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-      .then((response) => response.json())
-      .then((response) => {
-        this.setState({ allFamily: response });
-      })
-      .catch((err) => console.log(err));
+  onDeletePerson = (id) => {
+    console.log(id);
+
+    api.deletePerson(id).then((response) => {
+      this.props.onDeletePerson(response.msg);
+    });
   };
 
   render() {
@@ -31,7 +26,7 @@ export default class FamilyList extends Component {
               </span>
               <button
                 className="btn btn-outline-warning"
-                onClick={() => this.deletePerson(e.id)}
+                onClick={() => this.onDeletePerson(e.id)}
               >
                 <i className="fas fa-user-minus text-warning"></i>
               </button>

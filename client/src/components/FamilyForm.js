@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import api from "../utils/api";
 
 export default class FamilyForm extends Component {
   constructor(props) {
@@ -20,19 +21,18 @@ export default class FamilyForm extends Component {
     });
   };
 
-  // addPerson = () => {
-  //   const { firstName, lastName } = this.state;
+  addPerson = () => {
+    const { firstName, lastName, progenitor_1, progenitor_2 } = this.state;
+    const person = { firstName, lastName, progenitor_1, progenitor_2 };
 
-  //   const person = { firstName, lastName };
-
-  //   api.addPerson(student).then((response) => {
-  //     this.props.onAddPerson(response.msg);
-  //   });
-  // };
+    api.addPerson(person).then((response) => {
+      this.props.onAddPerson(response.msg);
+    });
+  };
 
   render() {
     let allFamily = this.props.allFamily;
-    let { firstName, lastName, progenitor_1, progenitor_2 } = this.state;
+    let { firstName, lastName } = this.state;
     return (
       <div className="container my-4 ">
         <input
@@ -59,7 +59,7 @@ export default class FamilyForm extends Component {
               name="progenitor_1"
               onChange={(e) => this.handleInput(e)}
             >
-              <option value={0}>Select progenitor 1</option>
+              <option value={null}>Select progenitor 1</option>
               {allFamily.map((e, index) => (
                 <option key={index} value={e.id}>
                   {e.firstName} {e.lastName}
@@ -73,7 +73,7 @@ export default class FamilyForm extends Component {
               name="progenitor_2"
               onChange={(e) => this.handleInput(e)}
             >
-              <option value={0}>Select progenitor 2</option>
+              <option value={null}>Select progenitor 2</option>
               {allFamily.map((e, index) => (
                 <option key={index} value={e.id}>
                   {e.firstName} {e.lastName}
@@ -82,7 +82,10 @@ export default class FamilyForm extends Component {
             </select>
           </div>
           <div className="d-flex justify-content-center">
-            <button className="btn-lg btn-outline-warning font-weight-bold">
+            <button
+              onClick={(e) => this.addPerson()}
+              className="btn-lg btn-outline-warning font-weight-bold"
+            >
               ADD
             </button>
           </div>

@@ -10,6 +10,7 @@ class App extends Component {
     this.state = {
       allFamily: [],
       allParents: [],
+      msg: "",
     };
   }
 
@@ -25,13 +26,25 @@ class App extends Component {
         this.setState({ allFamily: response });
       })
       .catch((err) => console.log(err));
-    fetch(`/parents`)
-      .then((response) => response.json())
-      .then((response) => {
-        console.log(response);
-        this.setState({ allParents: response });
-      })
-      .catch((err) => console.log(err));
+    // fetch(`/parents`)
+    //   .then((response) => response.json())
+    //   .then((response) => {
+    //     console.log(response);
+    //     this.setState({ allParents: response });
+    //   })
+    //   .catch((err) => console.log(err));
+  };
+
+  onAddPerson = (msg) => {
+    this.setState({ msg });
+    console.log(msg);
+    this.getFamily();
+  };
+
+  onDeletePerson = (msg) => {
+    this.setState({ msg });
+    console.log(msg);
+    this.getFamily();
   };
 
   render() {
@@ -72,10 +85,33 @@ class App extends Component {
           <h3 className="title">DRAW YOUR FAMILY</h3>
           <Switch>
             <Route path="/list">
-              <FamilyList allFamily={this.state.allFamily} />
+              <FamilyList
+                allFamily={this.state.allFamily}
+                onDeletePerson={this.onDeletePerson}
+              />
             </Route>
             <Route path="/form">
-              <FamilyForm allFamily={this.state.allFamily} />
+              <FamilyForm
+                allFamily={this.state.allFamily}
+                onAddPerson={this.onAddPerson}
+              />
+              {this.state.msg && (
+                <div
+                  className="alert alert-warning alert-dismissible fade show"
+                  role="alert"
+                >
+                  {this.state.msg}
+                  {/* The close button doesn't works, maybe because we need to reset this.state.msg? */}
+                  <button
+                    type="button"
+                    className="close"
+                    data-dismiss="alert"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              )}
             </Route>
             <Route path="/">
               <div className="container d-flex justify-content-center align-items-center">
