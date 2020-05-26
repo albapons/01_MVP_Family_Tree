@@ -28,6 +28,15 @@ export default class FamilyForm extends Component {
     api.addPerson(person).then((response) => {
       this.props.onAddPerson(response.msg);
     });
+
+    // reset this.state?
+    this.setState({
+      firstName: "",
+      lastName: "",
+      // this doesn't works
+      progenitor_1: null,
+      progenitor_2: null,
+    });
   };
 
   render() {

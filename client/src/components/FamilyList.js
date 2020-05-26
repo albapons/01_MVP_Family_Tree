@@ -10,6 +10,8 @@ export default class FamilyList extends Component {
     });
   };
 
+  getThisFamily = (id) => {};
+
   render() {
     let allFamily = this.props.allFamily;
 
@@ -20,6 +22,7 @@ export default class FamilyList extends Component {
             <li
               className="list-group-item d-flex justify-content-between align-items-center"
               key={index}
+              onClick={() => this.getThisFamily(e.id)}
             >
               <span>
                 {e.firstName} {e.lastName}
