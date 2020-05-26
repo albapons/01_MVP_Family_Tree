@@ -28,7 +28,6 @@ router.get("/:id", function (req, res, next) {
         res.send(person);
       });
     })
-    // també hauria de demanar dades de parents per o amb couple_id ja està?
     .catch((err) => res.status(500).send(err));
 });
 

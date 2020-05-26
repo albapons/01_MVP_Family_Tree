@@ -10,7 +10,6 @@ export default function Tree() {
     api.getFamily(id).then((response) => {
       setPerson(response);
       console.log(response);
-      console.log(person);
     });
   }, [id]);
 
@@ -18,41 +17,70 @@ export default function Tree() {
     <div className=" container d-flex justify-content-center align-items-center my-4">
       <div>
         {person && (
-          <div>
-            <p>
-              <i className="fas fa-user text-warning mx-2"></i>
-              Me: {person.firstName} {person.lastName}
-            </p>
-            {person.parents && (
-              <div>
-                <p>
-                  <i className="fas fa-user text-warning mx-2"></i>
-                  Progenitor 1:
-                  {person.parents[0].firstName}
-                  {person.parents[0].lastName}
+          <div className="container">
+            <div className="row d-flex justify-content-center">
+              <div className="col-12">
+                <i className="fas fa-user text-warning my-2 fa-5x"></i>
+                <p className="my-2">
+                  {" "}
+                  {person.firstName} {person.lastName}
                 </p>
-                <p>
-                  <i className="fas fa-user text-warning mx-2"></i>
-                  Progenitor 2:
-                  {person.parents[1].firstName}
-                  {person.parents[1].lastName}
-                </p>
+              </div>
+            </div>
+
+            {person.parents?.length && (
+              <div className="row d-flex justify-content-center">
+                {person.parents[0] && (
+                  <div className="col-6">
+                    <i className="fas fa-user text-warning my-2 fa-5x"></i>
+                    <p className="my-2">
+                      {person.parents[0].firstName} {person.parents[0].lastName}
+                    </p>
+                  </div>
+                )}
+                {person.parents[1] && (
+                  <div className="col-6">
+                    <i className="fas fa-user text-warning my-2 fa-5x"></i>
+                    <p className="my-2">
+                      {person.parents[1]?.firstName}{" "}
+                      {person.parents[1]?.lastName}
+                    </p>
+                  </div>
+                )}
               </div>
             )}
           </div>
         )}
-      </div>
 
-      {/* <div className="row col-12 my-4">
-        <i className="fas fa-user fa-5x text-warning"></i>
-        <div className="row my-4"></div>
-        <div className="row col-6">
-          <i className="fas fa-user fa-5x text-warning"></i>
-        </div>
-        <div className="row col-6">
-          <i className="fas fa-user fa-5x text-warning"></i>
-        </div>
-      </div> */}
+        {person && (
+          <div className="card my-4 my-4">
+            <div className="card-body my-2 my-2">
+              <p>
+                <i className="fas fa-user text-warning mx-2"></i>
+                Me: {person.firstName} {person.lastName}
+              </p>
+              {person.parents?.length && (
+                <div>
+                  {person.parents[0] && (
+                    <p>
+                      <i className="fas fa-user text-warning mx-2"></i>
+                      Progenitor 1: {person.parents[0].firstName}{" "}
+                      {person.parents[0].lastName}
+                    </p>
+                  )}
+                  {person.parents[1] && (
+                    <p>
+                      <i className="fas fa-user text-warning mx-2"></i>
+                      Progenitor 2: {person.parents[1]?.firstName}{" "}
+                      {person.parents[1]?.lastName}
+                    </p>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

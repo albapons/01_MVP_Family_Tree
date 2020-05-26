@@ -25,23 +25,31 @@ export default class FamilyForm extends Component {
     const { firstName, lastName, progenitor_1, progenitor_2 } = this.state;
     const person = { firstName, lastName, progenitor_1, progenitor_2 };
 
-    if (progenitor_1 === progenitor_2) {
+    if (progenitor_1 !== null && progenitor_1 === progenitor_2) {
       return alert(
-        "The two parents cannot refer to the same person, try again!"
+        "The two parents cannot refer to the same person, please try again!"
       );
     }
-    api.addPerson(person).then((response) => {
-      this.props.onAddPerson(response.msg);
-    });
-
-    // reset this.state?
-    this.setState({
-      firstName: "",
-      lastName: "",
-      // this doesn't works
-      progenitor_1: null,
-      progenitor_2: null,
-    });
+    if (firstName || lastName !== "") {
+      api
+        .addPerson(person)
+        .then((response) => {
+          this.props.onAddPerson(response.msg);
+        })
+        .then(
+          // reset this.state
+          this.setState({
+            firstName: "",
+            lastName: "",
+            progenitor_1: null,
+            progenitor_2: null,
+          })
+        );
+    } else {
+      return alert(
+        "First Name and Last Names are required fields, please try again!"
+      );
+    }
   };
 
   render() {
