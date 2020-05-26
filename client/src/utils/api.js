@@ -1,6 +1,8 @@
+const apiRoot = "/family";
+
 export default {
   addPerson: async (person) => {
-    let response = await fetch(`/family`, {
+    let response = await fetch(apiRoot, {
       method: "POST",
       headers: {
         "Content-type": "application/json",
@@ -16,12 +18,18 @@ export default {
   },
 
   deletePerson: async (id) => {
-    let response = await fetch(`/students/${id}`, {
+    let response = await fetch(`${apiRoot}/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
       },
     });
+    return response.json();
+  },
+
+  getFamily: async (id) => {
+    let response = await fetch(`${apiRoot}/${id}`);
+
     return response.json();
   },
 };

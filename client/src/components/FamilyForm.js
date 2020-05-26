@@ -25,6 +25,11 @@ export default class FamilyForm extends Component {
     const { firstName, lastName, progenitor_1, progenitor_2 } = this.state;
     const person = { firstName, lastName, progenitor_1, progenitor_2 };
 
+    if (progenitor_1 === progenitor_2) {
+      return alert(
+        "The two parents cannot refer to the same person, try again!"
+      );
+    }
     api.addPerson(person).then((response) => {
       this.props.onAddPerson(response.msg);
     });

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import FamilyForm from "./components/FamilyForm";
 import FamilyList from "./components/FamilyList";
+import Tree from "./components/Tree";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class App extends Component {
@@ -22,7 +23,7 @@ class App extends Component {
     fetch(`/family`)
       .then((response) => response.json())
       .then((response) => {
-        console.log(response);
+        // console.log(response);
         this.setState({ allFamily: response });
       })
       .catch((err) => console.log(err));
@@ -76,7 +77,7 @@ class App extends Component {
                 </li>
                 <li className="nav-item">
                   <Link to="/list" className="nav-link">
-                    Family Tree
+                    Family List
                   </Link>
                 </li>
               </ul>
@@ -89,6 +90,22 @@ class App extends Component {
                 allFamily={this.state.allFamily}
                 onDeletePerson={this.onDeletePerson}
               />
+              {/* {this.state.msg && (
+                <div
+                  className="alert alert-warning alert-dismissible fade show"
+                  role="alert"
+                >
+                  {this.state.msg}
+                  <button
+                    type="button"
+                    className="close"
+                    data-dismiss="alert"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              )} */}
             </Route>
             <Route path="/form">
               <FamilyForm
@@ -101,7 +118,6 @@ class App extends Component {
                   role="alert"
                 >
                   {this.state.msg}
-                  {/* The close button doesn't works, maybe because we need to reset this.state.msg? */}
                   <button
                     type="button"
                     className="close"
@@ -112,6 +128,9 @@ class App extends Component {
                   </button>
                 </div>
               )}
+            </Route>
+            <Route path="/tree/:id">
+              <Tree></Tree>
             </Route>
             <Route path="/">
               <div className="container d-flex justify-content-center align-items-center">

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import api from "../utils/api";
+import { Link } from "react-router-dom";
 
 export default class FamilyList extends Component {
   onDeletePerson = (id) => {
@@ -10,10 +11,8 @@ export default class FamilyList extends Component {
     });
   };
 
-  getThisFamily = (id) => {};
-
   render() {
-    let allFamily = this.props.allFamily;
+    let { allFamily } = this.props;
 
     return (
       <div>
@@ -22,10 +21,11 @@ export default class FamilyList extends Component {
             <li
               className="list-group-item d-flex justify-content-between align-items-center"
               key={index}
-              onClick={() => this.getThisFamily(e.id)}
             >
               <span>
-                {e.firstName} {e.lastName}
+                <Link to={`/tree/${e.id}`}>
+                  {e.firstName} {e.lastName}
+                </Link>
               </span>
               <button
                 className="btn btn-outline-warning"
@@ -36,6 +36,22 @@ export default class FamilyList extends Component {
             </li>
           ))}
         </ul>
+        {/* {msg && (
+          <div
+            className="alert alert-warning alert-dismissible fade show"
+            role="alert"
+          >
+            {msg}
+            <button
+              type="button"
+              className="close"
+              data-dismiss="alert"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        )} */}
       </div>
     );
   }
