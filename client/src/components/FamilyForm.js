@@ -41,6 +41,7 @@ export default class FamilyForm extends Component {
           this.setState({
             firstName: "",
             lastName: "",
+            // this doesn't works!
             progenitor_1: null,
             progenitor_2: null,
           })
