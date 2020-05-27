@@ -34,8 +34,8 @@ router.get("/:id", function (req, res, next) {
 /* POST new partner relationship */
 router.post("/", function (req, res, next) {
   const { progenitor_1, progenitor_2, firstName, lastName } = req.body;
-  // 0. Comprovar si hem insertat progenitors
-  // 0A Si NO hem insertat progenitors crear persona sense progenitors
+  // 0. Check if we have inserted parents
+  // 0A If we have NOT inserted parents create person without parents
   if (!progenitor_1 && !progenitor_2) {
     db(
       `INSERT INTO people (firstName, lastName) VALUES ("${firstName}", "${lastName}");`
@@ -47,15 +47,15 @@ router.post("/", function (req, res, next) {
       )
       .catch((err) => res.status(500).send(err));
   } else if (progenitor_1 && !progenitor_2) {
-    // 0B Si hem insertat NOMÉS 1 progenitor crear una persona amb només un progenitor.
+    // 0B If we have inserted ONLY 1 parent create a person with only one parent.
     db(`INSERT INTO parents (progenitor_1) VALUES ("${progenitor_1}");`)
       .then((results) => {
-        // 2.2 Busquem l'últim ID que s'ha insertat
+        // 0B.1 We look for the last ID that was inserted
         db(`SELECT id FROM parents ORDER BY id DESC limit 1;`)
-          // Ho guardem en una variable couple_id
+          // Save it in a variable couple_id
           .then((results) => {
             let couple_id = results.data[0].id;
-            // 3. Creem la nova persona
+            // 0B.2. We create the new person
             db(
               `INSERT INTO people (firstName, lastName, couple_id) VALUES ("${firstName}", "${lastName}", ${couple_id});`
             )
@@ -70,25 +70,25 @@ router.post("/", function (req, res, next) {
       })
       .catch((err) => res.status(500).send(err));
   } else {
-    // 0C Si hem insertat 2 progenitors saltar a 1
-    // 1. Comprovar si hi ha una parella existent amb aquestes dades
+    // 0C If we have inserted 2 parents jump to 1
+    // 1. Check if there is an existing pair with this data
     db(
       `SELECT * FROM parents WHERE (progenitor_1 = ${progenitor_1} AND progenitor_2 = ${progenitor_2}) OR (progenitor_1 = ${progenitor_2} AND progenitor_2 = ${progenitor_1}) ;`
     ).then((results) => {
-      // 2. Si NO existeix (rebem un emtpy array)
+      // 1.1. If it does NOT exist (we receive an empty array)
       if (results.data.length === 0) {
         console.log("This couple doesn't exist!");
-        // 2.1 Creem una nova parella
+        // 1.1.1 We create a new couple
         db(
           `INSERT INTO parents (progenitor_1, progenitor_2) VALUES ("${progenitor_1}", "${progenitor_2}");`
         )
           .then((results) => {
-            // 2.2 Busquem l'últim ID que s'ha insertat
+            // 1.1.2 We look for the last ID that was inserted
             db(`SELECT id FROM parents ORDER BY id DESC limit 1;`)
-              // Ho guardem en una variable couple_id
+              // Save it in a variable couple_id
               .then((results) => {
                 let couple_id = results.data[0].id;
-                // 3. Creem la nova persona
+                // 1.1.3. We create the new person
                 db(
                   `INSERT INTO people (firstName, lastName, couple_id) VALUES ("${firstName}", "${lastName}", ${couple_id});`
                 )
@@ -103,8 +103,11 @@ router.post("/", function (req, res, next) {
           })
           .catch((err) => res.status(500).send(err));
       } else {
+        // 1.2. If it exist (we receive an empty array)
+
         let couple_id = results.data[0].id;
         console.log("This couple exist!", couple_id);
+        // 1.2.1 We create the new person
         db(
           `INSERT INTO people (firstName, lastName, couple_id) VALUES ("${firstName}", "${lastName}", ${couple_id});`
         )
@@ -139,7 +142,7 @@ router.delete("/:id", function (req, res, next) {
     .catch((err) => res.status(500).send(err));
 });
 
-/* No sé si fa falta */
+/* I don't know if it's necessary */
 // function getFamily(req, res) {
 //   db(`SELECT * FROM people;`)
 //     .then((results) => {
@@ -149,7 +152,7 @@ router.delete("/:id", function (req, res, next) {
 // }
 // router.get("/", getFamily);
 
-/* No sé si fa falta */
+/* I don't know if it's necessary */
 /* GET the parents table. */
 // router.get("/parents", function (req, res, next) {
 //   db(`SELECT * FROM parents;`)
@@ -159,7 +162,7 @@ router.delete("/:id", function (req, res, next) {
 //     .catch((err) => res.status(500).send(err));
 // });
 
-/* No sé si fa falta */
+/* I don't know if it's necessary */
 // function getParents(req, res) {
 //   db(`SELECT * FROM parents;`)
 //     .then((results) => {

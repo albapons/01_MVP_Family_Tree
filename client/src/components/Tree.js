@@ -18,20 +18,10 @@ export default function Tree() {
       <div>
         {person && (
           <div>
-            <div className="d-flex flex-row d-flex justify-content-center">
-              <div className="d-flex flex-column text-center">
-                <i className="fas fa-user text-danger my-2 fa-5x"></i>
-                <p className="my-2  text-center">
-                  {" "}
-                  {person.firstName} {person.lastName}
-                </p>
-              </div>
-            </div>
-
-            {person.parents?.length && (
-              <div className="d-flex flex-row justify-content-between">
+            {!!person.parents?.length && (
+              <div className="d-flex flex-row justify-content-between my-4">
                 {person.parents[0] && (
-                  <div className="d-flex flex-column text-center">
+                  <div className="d-flex flex-column text-center my-4">
                     <i className="fas fa-user text-warning my-2 fa-5x "></i>
                     <p className="my-2">
                       {person.parents[0].firstName} {person.parents[0].lastName}
@@ -39,7 +29,7 @@ export default function Tree() {
                   </div>
                 )}
                 {person.parents[1] && (
-                  <div className="d-flex flex-column  text-center">
+                  <div className="d-flex flex-column text-center my-4">
                     <i className="fas fa-user text-warning text-center my-2 fa-5x"></i>
                     <p className="my-2">
                       {person.parents[1]?.firstName}{" "}
@@ -49,17 +39,23 @@ export default function Tree() {
                 )}
               </div>
             )}
+
+            <div className="d-flex flex-row d-flex justify-content-center my-4">
+              <div className="d-flex flex-column text-center">
+                <i className="fas fa-user text-danger my-2 fa-5x"></i>
+                <p className="my-2  text-center">
+                  {" "}
+                  {person.firstName} {person.lastName}
+                </p>
+              </div>
+            </div>
           </div>
         )}
 
         {person && (
           <div className="card my-4 my-4">
             <div className="card-body my-2 my-2">
-              <p>
-                <i className="fas fa-user text-danger mx-2"></i>
-                Me: {person.firstName} {person.lastName}
-              </p>
-              {person.parents?.length && (
+              {!!person.parents?.length && (
                 <div>
                   {person.parents[0] && (
                     <p>
@@ -70,12 +66,22 @@ export default function Tree() {
                   )}
                   {person.parents[1] && (
                     <p>
-                      <i className="fas fa-user text-warning mx-2"></i>
+                      <i className="fas fa-user text-warning mx-2 "></i>
                       Progenitor 2: {person.parents[1]?.firstName}{" "}
                       {person.parents[1]?.lastName}
                     </p>
                   )}
                 </div>
+              )}
+              <p>
+                <i className="fas fa-user text-danger mx-2"></i>
+                Me: {person.firstName} {person.lastName}
+              </p>
+              {!person.parents?.length && (
+                <p>
+                  <i className="fas fa-exclamation text-warning mx-2"></i>
+                  No progenitors assigned
+                </p>
               )}
             </div>
           </div>
