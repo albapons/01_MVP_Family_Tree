@@ -19,12 +19,14 @@ export default class FamilyList extends Component {
         <ul className="container my-4">
           {allFamily.map((e, index) => (
             <li
-              className="list-group-item d-flex justify-content-between align-items-center"
+              className="list-group-item  d-flex justify-content-between align-items-center"
               key={index}
             >
               <span>
                 <Link to={`/tree/${e.id}`}>
-                  {e.firstName} {e.lastName}
+                  <p className="text-dark">
+                    {e.firstName} {e.lastName}
+                  </p>
                 </Link>
               </span>
               <button

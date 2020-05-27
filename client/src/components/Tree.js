@@ -20,7 +20,7 @@ export default function Tree() {
           <div>
             <div className="d-flex flex-row d-flex justify-content-center">
               <div className="d-flex flex-column text-center">
-                <i className="fas fa-user text-warning my-2 fa-5x"></i>
+                <i className="fas fa-user text-danger my-2 fa-5x"></i>
                 <p className="my-2  text-center">
                   {" "}
                   {person.firstName} {person.lastName}
@@ -56,7 +56,7 @@ export default function Tree() {
           <div className="card my-4 my-4">
             <div className="card-body my-2 my-2">
               <p>
-                <i className="fas fa-user text-warning mx-2"></i>
+                <i className="fas fa-user text-danger mx-2"></i>
                 Me: {person.firstName} {person.lastName}
               </p>
               {person.parents?.length && (
