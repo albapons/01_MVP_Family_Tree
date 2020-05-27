@@ -52,7 +52,22 @@ class App extends Component {
     return (
       <div className="container my-4">
         <Router>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-right">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <Link to="/" className="navbar-brand">
+              Home
+            </Link>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            {/* <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-right">
             <Link to="/" className="navbar-brand">
               Home
             </Link>
@@ -66,7 +81,7 @@ class App extends Component {
               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon"></span>
-            </button>
+            </button> */}
 
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">

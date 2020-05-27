@@ -14,14 +14,14 @@ export default function Tree() {
   }, [id]);
 
   return (
-    <div className=" container d-flex justify-content-center align-items-center my-4">
+    <div className="d-flex justify-content-center align-items-center my-4">
       <div>
         {person && (
           <div>
-            <div className="row d-flex justify-content-center">
-              <div className="col">
+            <div className="d-flex flex-row d-flex justify-content-center">
+              <div className="d-flex flex-column text-center">
                 <i className="fas fa-user text-warning my-2 fa-5x"></i>
-                <p className="my-2">
+                <p className="my-2  text-center">
                   {" "}
                   {person.firstName} {person.lastName}
                 </p>
@@ -29,9 +29,9 @@ export default function Tree() {
             </div>
 
             {person.parents?.length && (
-              <div className="row d-flex justify-content-center">
+              <div className="d-flex flex-row justify-content-between">
                 {person.parents[0] && (
-                  <div className="col">
+                  <div className="d-flex flex-column text-center">
                     <i className="fas fa-user text-warning my-2 fa-5x "></i>
                     <p className="my-2">
                       {person.parents[0].firstName} {person.parents[0].lastName}
@@ -39,8 +39,8 @@ export default function Tree() {
                   </div>
                 )}
                 {person.parents[1] && (
-                  <div className="col">
-                    <i className="fas fa-user text-warning my-2 fa-5x"></i>
+                  <div className="d-flex flex-column  text-center">
+                    <i className="fas fa-user text-warning text-center my-2 fa-5x"></i>
                     <p className="my-2">
                       {person.parents[1]?.firstName}{" "}
                       {person.parents[1]?.lastName}
