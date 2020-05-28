@@ -2,7 +2,7 @@
 
 This project would be an app to draw and save your family tree.
 
-## Setup (COPY,PASTE!)
+## Setup
 
 ### Dependencies
 
@@ -12,19 +12,19 @@ This project would be an app to draw and save your family tree.
 ### Database Prep
 
 - Access the MySQL interface in your terminal by running `mysql -u root -p`
-- Create a new database called facebook: `create database facebook`
+- Create a new database called facebook: `create database familytree`
 - Add a `.env` file to the main folder of this repository containing the MySQL authentication information for MySQL user. For example:
 
 ```bash
   DB_HOST=localhost
   DB_USER=root
-  DB_NAME=facebook
+  DB_NAME=familytree
   DB_PASS=YOURPASSWORD
 ```
 
 - Run `npm run migrate` in the main folder of this repository, in a new terminal window. This will create a table called 'students' in your database.
 
-- Make sure you understand how the `students` table is constructed. In your MySQL console, you can run `use facebook;` and then `describe students;` to see the structure of the students table.
+- Make sure you understand how the `people` and  `parents` tables are constructed. In your MySQL console, you can run `USE familytree;` and then `DESCRIBE people;` or `DESCRIBE parents;` to see the structure of the tables.
 
 ### Development
 
