@@ -1,0 +1,3157 @@
+﻿{
+  "COUNTRY_CITIES": [
+    {
+      "CODE": "ABD",
+      "CITIES": {
+        "AB": { "LONG": "-2.099075", "LAT": "57.149651", "ENG": "Aberdeen" }
+      }
+    },
+    {
+      "CODE": "ABDS",
+      "CITIES": {
+        "AB54": { "LONG": "-2.62841", "LAT": "57.56102", "ENG": "Aberchirder" },
+        "AB33": { "LONG": "-2.70573", "LAT": "57.23723", "ENG": "Alford" },
+        "AB35": { "LONG": "-3.04822", "LAT": "57.04618", "ENG": "Ballater" },
+        "AB31": { "LONG": "-2.50436", "LAT": "57.04955", "ENG": "Banchory" },
+        "AB45": { "LONG": "-2.52970", "LAT": "57.66927", "ENG": "Banff" },
+        "AB21": { "LONG": "-2.490", "LAT": "53.750", "ENG": "Blackburn" },
+        "AB41": { "LONG": "-2.07645", "LAT": "57.36495", "ENG": "Ellon" },
+        "AB43": { "LONG": "-2.01005", "LAT": "57.69732", "ENG": "Fraserburgh" },
+        "AB54": { "LONG": "-2.79319", "LAT": "57.45230", "ENG": "Huntly" },
+        "DD10": { "LONG": "-2.28849", "LAT": "56.84362", "ENG": "Inverbervie" },
+        "AB51": { "LONG": "-2.37486", "LAT": "57.28357", "ENG": "Inverurie" },
+        "AB51": { "LONG": "-2.35784", "LAT": "57.23870", "ENG": "Kintore" },
+        "AB30": {
+          "LONG": "-2.46868",
+          "LAT": "56.83409",
+          "ENG": "Laurencekirk"
+        },
+        "AB44": { "LONG": "-2.49618", "LAT": "57.66940", "ENG": "Macduff" },
+        "AB51": { "LONG": "-2.32557", "LAT": "57.33760", "ENG": "Oldmeldrum" },
+        "AB42": { "LONG": "-1.77635", "LAT": "57.50850", "ENG": "Peterhead" },
+        "AB12": { "LONG": "-2.10880", "LAT": "57.05950", "ENG": "Portlethen" },
+        "AB45": { "LONG": "-2.69767", "LAT": "57.68642", "ENG": "Portsoy" },
+        "AB43": { "LONG": "-2.11071", "LAT": "57.69727", "ENG": "Rosehearty" },
+        "AB39": { "LONG": "-2.20722", "LAT": "56.96955", "ENG": "Stonehaven" },
+        "AB53": { "LONG": "-2.46106", "LAT": "57.54378", "ENG": "Turriff" },
+        "AB32": { "LONG": "-2.29086", "LAT": "57.14905", "ENG": "Westhill" }
+      }
+    },
+    {
+      "CODE": "AGY",
+      "CITIES": {
+        "LL68": { "LONG": "-4.34118", "LAT": "53.41532", "ENG": "Amlwch" },
+        "LL65": {
+          "LONG": "-4.5",
+          "LAT": "53.2833",
+          "ENG": "Bodedern",
+          "+": "SUICIDE BODEDERN"
+        },
+        "LL58": { "LONG": "-4.09313", "LAT": "53.26709", "ENG": "Beaumaris" },
+        "LL65": {
+          "LONG": "-4.4833",
+          "LAT": "53.2667",
+          "ENG": "Bryngwran",
+          "+": "BRYNCROES CHURCH",
+          "+": "BRYNGWRAN ON 13 JAN 1890"
+        },
+        "LL65": {
+          "LONG": "-4.633",
+          "LAT": "53.309",
+          "ENG": "Caergybi",
+          "+": "CAERGYBI (HOLYHEAD)"
+        },
+        "LL61": {
+          "LONG": "-4.320853",
+          "LAT": "53.168855",
+          "ENG": "Dwyran",
+          "+": "DWYRAN M C CHAPEL"
+        },
+        "LL60": { "LONG": "-4.28", "LAT": "53.2222", "ENG": "Gaerwen" },
+        "LL65": { "LONG": "-4.63567", "LAT": "53.31028", "ENG": "Holyhead" },
+        "LL77": { "LONG": "-4.30238", "LAT": "53.25424", "ENG": "Llangefni" },
+        "LL60": {
+          "LONG": "-4.327121",
+          "LAT": "53.19106",
+          "ENG": "Llangaffo",
+          "+": "Llangaffo Parish Church",
+          "+": "Llangaffo Cemetry"
+        },
+        "LL59": { "ENG": "Porthaethwy" },
+        "LL65": {
+          "LONG": "-4.617",
+          "LAT": "53.283",
+          "ENG": "Trearddur",
+          "+": "TREARDDUR BAY HOTEL"
+        }
+      }
+    },
+    {
+      "CODE": "ANS",
+      "CITIES": {
+        "DD11": { "LONG": "-2.57924", "LAT": "56.56411", "ENG": "Arbroath" },
+        "DD9": { "LONG": "-2.64708", "LAT": "56.72549", "ENG": "Brechin" },
+        "DD7": { "LONG": "-2.70822", "LAT": "56.50055", "ENG": "Carnoustie" },
+        "DD8": { "LONG": "-2.89026", "LAT": "56.64313", "ENG": "Forfar" },
+        "DD8": { "LONG": "-3.00510", "LAT": "56.66921", "ENG": "Kirriemuir" },
+        "DD5": { "LONG": "-2.82153", "LAT": "56.48189", "ENG": "Monifieth" },
+        "DD10": { "LONG": "-2.46712", "LAT": "56.70832", "ENG": "Montrose" }
+      }
+    },
+    {
+      "CODE": "ANT",
+      "CITIES": {
+        "": { "LONG": "-5.926437", "LAT": "54.607868", "ENG": "Belfast" }
+      }
+    },
+    {
+      "CODE": "AGB",
+      "CITIES": {
+        "PA28": { "LONG": "-5.61262", "LAT": "55.42496", "ENG": "Campbeltown" },
+        "PA31": { "ENG": "Ceann loch gilb" },
+        "PA23": { "LONG": "-4.92414", "LAT": "55.94678", "ENG": "Dunoon" },
+        "G84": { "LONG": "-4.73602", "LAT": "56.00503", "ENG": "Helensburgh" },
+        "PA32": { "LONG": "-5.07486", "LAT": "56.23077", "ENG": "Inveraray" },
+        "PA34": { "LONG": "-5.46303", "LAT": "56.41829", "ENG": "Oban" },
+        "PA20": { "LONG": "-5.05955", "LAT": "55.83561", "ENG": "Rothesay" },
+        "PA75": { "LONG": "-6.06913", "LAT": "56.62469", "ENG": "Tobermory" }
+      }
+    },
+    {
+      "CODE": "BNES",
+      "CITIES": {
+        "BS31": { "LONG": "-2.49747", "LAT": "51.41446", "ENG": "Keynsham" },
+        "BA3": {
+          "LONG": "-2.48177",
+          "LAT": "51.28864",
+          "ENG": "Midsomer norton"
+        },
+        "BA3": { "LONG": "-2.45309", "LAT": "51.28876", "ENG": "Radstock" }
+      }
+    },
+    {
+      "CODE": "BDF",
+      "CITIES": {
+        "MK45": { "LONG": "-0.49290", "LAT": "52.02627", "ENG": "Ampthill" },
+        "MK40": { "LONG": "-0.460739", "LAT": "52.136436", "ENG": "Bedford" },
+        "SG18": { "LONG": "-0.25736", "LAT": "52.08596", "ENG": "Biggleswade" },
+        "LU6": { "LONG": "-0.540", "LAT": "51.890", "ENG": "Dunstable" },
+        "MK45": { "LONG": "-0.49380", "LAT": "51.99931", "ENG": "Flitwick" },
+        "LU5": {
+          "LONG": "-0.52587",
+          "LAT": "51.90980",
+          "ENG": "Houghton regis"
+        },
+        "MK42": { "LONG": "-0.48956", "LAT": "52.12513", "ENG": "Kempston" },
+        "LU7": { "LONG": "-0.670", "LAT": "51.930", "ENG": "Leighton buzzard" },
+        "SG19": { "LONG": "-0.21180", "LAT": "52.13024", "ENG": "Potton" },
+        "SG19": { "LONG": "-0.29941", "LAT": "52.13153", "ENG": "Sandy" },
+        "SG17": { "LONG": "-0.33197", "LAT": "52.04208", "ENG": "Shefford" },
+        "SG5": { "LONG": "-0.23102", "LAT": "52.01364", "ENG": "Stotfold" },
+        "MK17": { "LONG": "-0.62513", "LAT": "51.99192", "ENG": "Woburn" }
+      }
+    },
+    {
+      "CODE": "BRK",
+      "CITIES": {
+        "RG12": { "LONG": "-0.770", "LAT": "51.420", "ENG": "Bracknell" },
+        "RG45": { "LONG": "-0.78741", "LAT": "51.37328", "ENG": "Crowthorne" },
+        "SL4": { "LONG": "-0.61153", "LAT": "51.48823", "ENG": "Eton" },
+        "RG17": { "LONG": "-1.51968", "LAT": "51.41453", "ENG": "Hungerford" },
+        "SL6": { "LONG": "-0.740", "LAT": "51.530", "ENG": "Maidenhead" },
+        "RG14": { "LONG": "-1.330", "LAT": "51.400", "ENG": "Newbury" },
+        "RG1": { "LONG": "-0.980", "LAT": "51.450", "ENG": "Reading" },
+        "GU47": { "LONG": "-0.80248", "LAT": "51.34646", "ENG": "Sandhurst" },
+        "SL1": { "LONG": "-0.610", "LAT": "51.520", "ENG": "Slough" },
+        "RG19": { "LONG": "-1.26102", "LAT": "51.40420", "ENG": "Thatcham" },
+        "SL4": { "LONG": "-5.95000", "LAT": "54.56667", "ENG": "Windsor" },
+        "RG40": { "LONG": "-0.850", "LAT": "51.420", "ENG": "Wokingham" },
+        "RG5": { "LONG": "-0.91498", "LAT": "51.44647", "ENG": "Woodley" }
+      }
+    },
+    {
+      "CODE": "BWD",
+      "CITIES": {
+        "BB1": { "LONG": "-2.490", "LAT": "53.750", "ENG": "Blackburn" },
+        "BB3": { "LONG": "-2.46343", "LAT": "53.69804", "ENG": "Darwen" }
+      }
+    },
+    {
+      "CODE": "BGW",
+      "CITIES": {
+        "NP11": { "LONG": "-3.13587", "LAT": "51.64380", "ENG": "Abercarn" },
+        "NP13": { "ENG": "Abertyleri" },
+        "CF81": { "ENG": "Bargoed" },
+        "NP13": { "LONG": "-3.16801", "LAT": "51.76937", "ENG": "Blaina" },
+        "NP23": { "LONG": "-3.18320", "LAT": "51.79619", "ENG": "Brynmawr" },
+        "CF83": { "ENG": "Caerffili" },
+        "NP23": { "ENG": "Glyn ebwy" },
+        "NP23": { "LONG": "-3.16847", "LAT": "51.78734", "ENG": "Nantyglo" },
+        "NP12": {
+          "LONG": "-3.17968",
+          "LAT": "51.66135",
+          "ENG": "Pontllanfraith"
+        },
+        "NP22": { "ENG": "Rhymney" },
+        "NP11": { "LONG": "-3.09166", "LAT": "51.60825", "ENG": "Risca" },
+        "NP11": { "ENG": "Trecceln" },
+        "NP22": { "LONG": "-3.24069", "LAT": "51.77761", "ENG": "Tredegar" },
+        "NP12": { "ENG": "Y coed duon" },
+        "CF82": {
+          "LONG": "-3.23701",
+          "LAT": "51.64278",
+          "ENG": "Ystrad mynach"
+        }
+      }
+    },
+    {
+      "CODE": "BRG",
+      "CITIES": {
+        "CF31": {
+          "LONG": "-3.580",
+          "LAT": "51.510",
+          "ENG": "Bridgend",
+          "+": "Bridgend Registry Office"
+        },
+        "CF34": { "LONG": "-3.65496", "LAT": "51.61065", "ENG": "Maesteg" },
+        "CF35": { "LONG": "-3.50762", "LAT": "51.52272", "ENG": "Pencoed" },
+        "CF32": { "LONG": "-3.58278", "LAT": "51.61165", "ENG": "Pontycymer" },
+        "CF36": { "LONG": "-3.69359", "LAT": "51.48421", "ENG": "Porthcawl" }
+      }
+    },
+    {
+      "CODE": "BTL",
+      "CITIES": {
+        "": { "LONG": "-2.587910", "LAT": "51.454514", "ENG": "Bristol" }
+      }
+    },
+    {
+      "CODE": "BKM",
+      "CITIES": {
+        "HP6": { "LONG": "-0.60576", "LAT": "51.67699", "ENG": "Amersham" },
+        "HP20": { "LONG": "-0.830", "LAT": "51.830", "ENG": "Aylesbury" },
+        "HP9": { "LONG": "-0.65127", "LAT": "51.60558", "ENG": "Beaconsfield" },
+        "MK18": { "LONG": "-0.98915", "LAT": "51.99561", "ENG": "Buckingham" },
+        "HP5": { "LONG": "-0.60493", "LAT": "51.70395", "ENG": "Chesham" },
+        "SL9": {
+          "LONG": "-0.56551",
+          "LAT": "51.57759",
+          "ENG": "Gerrards cross"
+        },
+        "HP11": { "LONG": "-0.780", "LAT": "51.640", "ENG": "High wycombe" },
+        "SL7": { "LONG": "-0.76773", "LAT": "51.57090", "ENG": "Marlow" },
+        "HP27": {
+          "LONG": "-0.83595",
+          "LAT": "51.72445",
+          "ENG": "Princes risborough"
+        },
+        "HP22": { "LONG": "-0.74787", "LAT": "51.76850", "ENG": "Wendover" },
+        "MK18": { "LONG": "-0.88855", "LAT": "51.94075", "ENG": "Winslow" }
+      }
+    },
+    {
+      "CODE": "CAM",
+      "CITIES": {
+        "": { "LONG": "0.119167", "LAT": "52.205276", "ENG": "Cambridge" },
+        "PE16": { "LONG": "0.05128", "LAT": "52.44965", "ENG": "Chatteris" },
+        "": { "LONG": "0.262222", "LAT": "52.398056", "ENG": "Ely" },
+        "PE29": {
+          "LONG": "-0.17488",
+          "LAT": "52.31849",
+          "ENG": "Godmanchester"
+        },
+        "PE29": { "LONG": "-0.17414", "LAT": "52.33646", "ENG": "Huntingdon" },
+        "PE15": { "LONG": "0.08537", "LAT": "52.54796", "ENG": "March" },
+        "": { "LONG": "-0.250830", "LAT": "52.573921", "ENG": "Peterborough" },
+        "PE26": { "LONG": "-0.11048", "LAT": "52.45235", "ENG": "Ramsey" },
+        "CB7": { "LONG": "0.33962", "LAT": "52.33640", "ENG": "Soham" },
+        "PE27": { "LONG": "-0.08613", "LAT": "52.33507", "ENG": "St ives" },
+        "PE19": { "LONG": "-0.26637", "LAT": "52.22996", "ENG": "St neots" },
+        "PE7": { "LONG": "-0.12059", "LAT": "52.56041", "ENG": "Whittlesey" },
+        "PE13": { "LONG": "0.16480", "LAT": "52.66343", "ENG": "Wisbech" }
+      }
+    },
+    {
+      "CODE": "CDF",
+      "CITIES": {
+        "": { "LONG": "-3.179090", "LAT": "51.481583", "ENG": "Cardiff" }
+      }
+    },
+    {
+      "CODE": "CMN",
+      "CITIES": {
+        "SA16": { "ENG": "Burry port" },
+        "SA31": { "ENG": "Caerfyrddin" },
+        "SA17": { "ENG": "Cydweli" },
+        "SA34": { "LONG": "-4.60570", "LAT": "51.81822", "ENG": "Hendy-gwyn" },
+        "SA19": { "LONG": "-3.99918", "LAT": "51.88406", "ENG": "Llandeilo" },
+        "SA15": { "LONG": "-4.170", "LAT": "51.680", "ENG": "Llanelli" },
+        "": { "LONG": "-4.1169095,21", "LAT": "51.6732325", "ENG": "Erwlas" },
+        "SA40": { "LONG": "-4.15383", "LAT": "52.07915", "ENG": "Llanybydder" },
+        "SA20": { "ENG": "Llanymddyfri" },
+        "SA38": { "ENG": "Newcastle emlyn" },
+        "SA18": { "ENG": "Rhydaman" },
+        "SA33": { "ENG": "St clears" },
+        "SA33": { "ENG": "Talacharn" }
+      }
+    },
+    {
+      "CODE": "CDG",
+      "CITIES": {
+        "SA46": { "LONG": "-4.26409", "LAT": "52.23895", "ENG": "Aberaeron" },
+        "SA43": { "ENG": "Aberteifi" },
+        "SY23": { "LONG": "-4.08185", "LAT": "52.41314", "ENG": "Aberystwyth" },
+        "SA48": { "ENG": "Llanbedr pont steffan" },
+        "SA44": { "LONG": "-4.31236", "LAT": "52.04018", "ENG": "Llandysul" },
+        "SA45": { "ENG": "New quay" },
+        "SY25": { "LONG": "-3.94094", "LAT": "52.21773", "ENG": "Tregaron" }
+      }
+    },
+    {
+      "CODE": "CHS",
+      "CITIES": {
+        "ST7": { "LONG": "-2.30759", "LAT": "53.09631", "ENG": "Alsager" },
+        "CW9": {
+          "LONG": "-2.4886",
+          "LAT": "53.3243",
+          "ENG": "Arley",
+          "+": "Arley Hall"
+        },
+        "SK10": { "LONG": "-2.09898", "LAT": "53.29442", "ENG": "Bollington" },
+        "": { "LONG": "-2.890000", "LAT": "53.189999", "ENG": "Chester" },
+        "CW12": { "LONG": "-2.20340", "LAT": "53.16844", "ENG": "Congleton" },
+        "CW2": { "LONG": "-2.450", "LAT": "53.080", "ENG": "Crewe" },
+        "CH65": { "LONG": "-2.910", "LAT": "53.290", "ENG": "Ellesmere port" },
+        "WA6": { "LONG": "-2.71406", "LAT": "53.29232", "ENG": "Frodsham" },
+        "WA16": { "LONG": "-2.36910", "LAT": "53.30288", "ENG": "Knutsford" },
+        "SK10": { "LONG": "-2.150", "LAT": "53.270", "ENG": "Macclesfield" },
+        "CW10": { "LONG": "-2.44301", "LAT": "53.19476", "ENG": "Middlewich" },
+        "CW5": { "LONG": "-2.51633", "LAT": "53.06862", "ENG": "Nantwich" },
+        "CH64": { "LONG": "-3.07405", "LAT": "53.28962", "ENG": "Neston" },
+        "CW9": { "LONG": "-2.520", "LAT": "53.260", "ENG": "Northwich" },
+        "SK12": { "LONG": "-2.11412", "LAT": "53.34834", "ENG": "Poynton" },
+        "CW11": { "LONG": "-2.36771", "LAT": "53.14108", "ENG": "Sandbach" },
+        "SK9": { "LONG": "-2.23415", "LAT": "53.32119", "ENG": "Wilmslow" },
+        "CW7": { "LONG": "-2.51784", "LAT": "53.19446", "ENG": "Winsford" }
+      }
+    },
+    {
+      "CODE": "CLK",
+      "CITIES": {
+        "FK10": { "LONG": "-3.79462", "LAT": "56.11219", "ENG": "Alloa" },
+        "FK12": { "LONG": "-3.79630", "LAT": "56.14812", "ENG": "Alva" },
+        "FK10": { "LONG": "-3.74600", "LAT": "56.10391", "ENG": "Clackmannan" },
+        "FK14": { "LONG": "-3.66837", "LAT": "56.16788", "ENG": "Dollar" },
+        "FK13": { "LONG": "-3.74844", "LAT": "56.15779", "ENG": "Tillicoultry" }
+      }
+    },
+    {
+      "CODE": "CNW",
+      "CITIES": {
+        "LL22": { "LONG": "-3.58391", "LAT": "53.28394", "ENG": "Abergele" },
+        "LL29": { "ENG": "Bae colwyn" },
+        "LL24": {
+          "LONG": "-3.80086",
+          "LAT": "53.09206",
+          "ENG": "Betws-y-coed"
+        },
+        "LL28": { "LONG": "-3.75", "LAT": "53.3", "ENG": "Colwyn Bay" },
+        "LL32": { "LONG": "-3.83877", "LAT": "53.28028", "ENG": "Conwy" },
+        "LL30": { "LONG": "-3.82531", "LAT": "53.31645", "ENG": "Llandudno" },
+        "LL33": {
+          "LONG": "-3.97243",
+          "LAT": "53.25117",
+          "ENG": "Llanfairfechan"
+        },
+        "LL26": { "LONG": "-3.78780", "LAT": "53.13721", "ENG": "Llanrwst" },
+        "LL34": { "LONG": "-3.92830", "LAT": "53.26987", "ENG": "Penmaenmawr" }
+      }
+    },
+    {
+      "CODE": "CON",
+      "CITIES": {
+        "PL31": { "LONG": "-4.72844", "LAT": "50.47530", "ENG": "Bodmin" },
+        "EX23": { "LONG": "-4.53607", "LAT": "50.83044", "ENG": "Bude" },
+        "PL17": { "LONG": "-4.30691", "LAT": "50.50242", "ENG": "Callington" },
+        "TR14": { "LONG": "-5.30253", "LAT": "50.21752", "ENG": "Camborne" },
+        "PL32": { "LONG": "-4.68027", "LAT": "50.62034", "ENG": "Camelford" },
+        "TR11": { "LONG": "-5.07398", "LAT": "50.15183", "ENG": "Falmouth" },
+        "PL23": { "LONG": "-4.63598", "LAT": "50.33352", "ENG": "Fowey" },
+        "TR27": { "LONG": "-5.42652", "LAT": "50.18694", "ENG": "Hayle" },
+        "TR13": { "LONG": "-5.26657", "LAT": "50.10159", "ENG": "Helston" },
+        "TR21": { "LONG": "-6.31284", "LAT": "49.91441", "ENG": "Hugh town" },
+        "PL15": { "LONG": "-4.35589", "LAT": "50.63635", "ENG": "Launceston" },
+        "PL14": { "LONG": "-4.45954", "LAT": "50.45432", "ENG": "Liskeard" },
+        "PL13": { "LONG": "-4.45442", "LAT": "50.35548", "ENG": "Looe" },
+        "PL22": { "LONG": "-4.66808", "LAT": "50.40474", "ENG": "Lostwithiel" },
+        "TR17": { "ENG": "Market jew" },
+        "TR18": { "LONG": "-5.54636", "LAT": "50.10237", "ENG": "Newlyn" },
+        "TR7": { "LONG": "-5.07676", "LAT": "50.41264", "ENG": "Newquay" },
+        "PL28": { "LONG": "-4.94402", "LAT": "50.54201", "ENG": "Padstow" },
+        "TR10": { "LONG": "-5.10310", "LAT": "50.16905", "ENG": "Penryn" },
+        "TR18": { "LONG": "-5.54769", "LAT": "50.12032", "ENG": "Penzance" },
+        "TR15": { "LONG": "-5.23377", "LAT": "50.23745", "ENG": "Redruth" },
+        "PL12": { "LONG": "-4.21774", "LAT": "50.40521", "ENG": "Saltash" },
+        "PL25": { "LONG": "-4.77685", "LAT": "50.33923", "ENG": "St austell" },
+        "PL24": { "LONG": "-4.72173", "LAT": "50.35852", "ENG": "St blazey" },
+        "TR9": {
+          "LONG": "-4.93732",
+          "LAT": "50.43423",
+          "ENG": "St columb major"
+        },
+        "TR26": { "LONG": "-0.08613", "LAT": "52.33507", "ENG": "St ives" },
+        "TR19": { "LONG": "-5.68797", "LAT": "50.12494", "ENG": "St just" },
+        "EX23": { "LONG": "-4.52189", "LAT": "50.83075", "ENG": "Stratton" },
+        "PL11": { "LONG": "-4.20243", "LAT": "50.37852", "ENG": "Torpoint" },
+        "": { "LONG": "-5.051000", "LAT": "50.259998", "ENG": "Truro" },
+        "PL27": { "LONG": "-4.84374", "LAT": "50.51752", "ENG": "Wadebridge" }
+      }
+    },
+    {
+      "CODE": "DUR",
+      "CITIES": {
+        "DH9": {
+          "LONG": "-1.72892",
+          "LAT": "54.85799",
+          "ENG": "Annfield plain"
+        },
+        "DL12": {
+          "LONG": "-1.91650",
+          "LAT": "54.54373",
+          "ENG": "Barnard castle"
+        },
+        "DL14": {
+          "LONG": "-1.68381",
+          "LAT": "54.65119",
+          "ENG": "Bishop auckland"
+        },
+        "DH3": {
+          "LONG": "-1.580",
+          "LAT": "54.860",
+          "ENG": "Chester-le-street"
+        },
+        "DH8": { "LONG": "-1.85354", "LAT": "54.85820", "ENG": "Consett" },
+        "DL15": { "LONG": "-1.74541", "LAT": "54.71424", "ENG": "Crook" },
+        "": { "LONG": "-1.573300", "LAT": "54.776100", "ENG": "Durham" },
+        "DL17": { "LONG": "-2.10901", "LAT": "57.13137", "ENG": "Ferryhill" },
+        "DL5": {
+          "LONG": "-1.57570",
+          "LAT": "54.61491",
+          "ENG": "Newton aycliffe"
+        },
+        "SR8": { "LONG": "-1.34112", "LAT": "54.75765", "ENG": "Peterlee" },
+        "SR7": { "LONG": "-1.35537", "LAT": "54.83861", "ENG": "Seaham" },
+        "TS21": { "LONG": "-1.45134", "LAT": "54.65036", "ENG": "Sedgefield" },
+        "DL4": { "LONG": "-1.63747", "LAT": "54.63309", "ENG": "Shildon" },
+        "DL16": { "LONG": "-1.60588", "LAT": "54.69589", "ENG": "Spennymoor" },
+        "DL13": { "LONG": "-2.00929", "LAT": "54.75045", "ENG": "Stanhope" },
+        "DH9": { "LONG": "-1.69770", "LAT": "54.86690", "ENG": "Stanley" },
+        "DL13": { "LONG": "-1.82290", "LAT": "54.74134", "ENG": "Tow law" },
+        "DL15": { "LONG": "-0.37243", "LAT": "52.13256", "ENG": "Willington" },
+        "DL13": { "LONG": "-1.88505", "LAT": "54.73243", "ENG": "Wolsingham" }
+      }
+    },
+    {
+      "CODE": "CMB",
+      "CITIES": {
+        "CA9": { "LONG": "-2.44498", "LAT": "54.81254", "ENG": "Alston" },
+        "LA22": { "LONG": "-2.96498", "LAT": "54.43206", "ENG": "Ambleside" },
+        "CA16": {
+          "LONG": "-2.48884",
+          "LAT": "54.57872",
+          "ENG": "Appleby-in-westmorland"
+        },
+        "CA7": { "LONG": "-3.33024", "LAT": "54.76113", "ENG": "Aspatria" },
+        "LA14": {
+          "LONG": "-3.220",
+          "LAT": "54.130",
+          "ENG": "Barrow-in-furness"
+        },
+        "LA23": {
+          "LONG": "-2.91713",
+          "LAT": "54.36053",
+          "ENG": "Bowness-on-windermere"
+        },
+        "CA8": { "LONG": "-0.23353", "LAT": "52.31938", "ENG": "Brampton" },
+        "LA20": {
+          "LONG": "-3.20708",
+          "LAT": "54.27709",
+          "ENG": "Broughton in furness"
+        },
+        "": { "LONG": "-2.944000", "LAT": "54.890999", "ENG": "Carlisle" },
+        "CA25": {
+          "LONG": "-3.50765",
+          "LAT": "54.51639",
+          "ENG": "Cleator moor"
+        },
+        "CA13": { "LONG": "-3.35800", "LAT": "54.66196", "ENG": "Cockermouth" },
+        "LA15": {
+          "LONG": "-3.17306",
+          "LAT": "54.16058",
+          "ENG": "Dalton-in-furness"
+        },
+        "CA22": { "LONG": "-3.52176", "LAT": "54.48026", "ENG": "Egremont" },
+        "LA11": {
+          "LONG": "-2.91335",
+          "LAT": "54.18980",
+          "ENG": "Grange-over-sands"
+        },
+        "LA9": { "LONG": "-2.743870", "LAT": "54.328506", "ENG": "Kendal" },
+        "CA12": { "LONG": "-3.13925", "LAT": "54.60130", "ENG": "Keswick" },
+        "LA6": {
+          "LONG": "-2.59167",
+          "LAT": "54.20080",
+          "ENG": "Kirkby lonsdale"
+        },
+        "CA17": {
+          "LONG": "-2.34869",
+          "LAT": "54.47136",
+          "ENG": "Kirkby stephen"
+        },
+        "CA6": { "LONG": "-2.96310", "LAT": "55.00724", "ENG": "Longtown" },
+        "CA15": { "LONG": "-3.49946", "LAT": "54.71422", "ENG": "Maryport" },
+        "LA18": { "LONG": "-3.26657", "LAT": "54.21357", "ENG": "Millom" },
+        "CA11": { "LONG": "-2.75348", "LAT": "54.66723", "ENG": "Penrith" },
+        "LA10": { "LONG": "-2.53197", "LAT": "54.32690", "ENG": "Sedbergh" },
+        "CA7": { "LONG": "-3.38051", "LAT": "54.86842", "ENG": "Silloth" },
+        "LA12": { "LONG": "-3.09745", "LAT": "54.19725", "ENG": "Ulverston" },
+        "CA28": { "LONG": "-3.58625", "LAT": "54.55133", "ENG": "Whitehaven" },
+        "CA7": { "LONG": "-3.16113", "LAT": "54.82578", "ENG": "Wigton" },
+        "LA23": { "LONG": "-2.90214", "LAT": "54.37862", "ENG": "Windermere" },
+        "CA14": { "LONG": "-3.55842", "LAT": "54.63258", "ENG": "Workington" }
+      }
+    },
+    {
+      "CODE": "DLG",
+      "CITIES": {
+        "DL1": { "LONG": "-1.570", "LAT": "54.520", "ENG": "Darlington" }
+      }
+    },
+    {
+      "CODE": "DEN",
+      "CITIES": {
+        "LL16": { "ENG": "Denbigh" },
+        "LL20": { "LONG": "-3.17021", "LAT": "52.96509", "ENG": "Llangollen" },
+        "LL19": { "LONG": "-3.40545", "LAT": "53.33112", "ENG": "Prestatyn" },
+        "LL18": { "LONG": "-3.46426", "LAT": "53.29446", "ENG": "Rhuddlan" },
+        "LL15": {
+          "LONG": "-3.312",
+          "LAT": "53.115",
+          "ENG": "Ruthin",
+          "+": "Rhuthun"
+        },
+        "LL18": { "LONG": "-3.48019", "LAT": "53.32123", "ENG": "Rhyl" },
+        "LL17": {
+          "LONG": "-3.442",
+          "LAT": "53.258",
+          "ENG": "St Asaph",
+          "+": "ST ASAPH DENBIGH"
+        }
+      }
+    },
+    {
+      "CODE": "DBY",
+      "CITIES": {
+        "DE55": { "LONG": "-1.38172", "LAT": "53.09510", "ENG": "Alfreton" },
+        "DE6": { "LONG": "-1.72569", "LAT": "53.01549", "ENG": "Ashbourne" },
+        "DE45": { "LONG": "-1.67951", "LAT": "53.21313", "ENG": "Bakewell" },
+        "DE56": { "LONG": "-1.47220", "LAT": "53.02362", "ENG": "Belper" },
+        "S44": { "LONG": "-1.28991", "LAT": "53.22942", "ENG": "Bolsover" },
+        "SK17": { "LONG": "-1.90402", "LAT": "53.25847", "ENG": "Buxton" },
+        "SK23": {
+          "LONG": "-1.91890",
+          "LAT": "53.32140",
+          "ENG": "Chapel-en-le-frith"
+        },
+        "S40": {
+          "LONG": "-1.421629",
+          "LAT": "53.235046",
+          "ENG": "Chesterfield"
+        },
+        "S45": { "LONG": "-1.41060", "LAT": "53.16716", "ENG": "Clay cross" },
+        "DE4": { "LONG": "-1.60505", "LAT": "53.16796", "ENG": "Darley dale" },
+        "": { "LONG": "-1.466667", "LAT": "52.916668", "ENG": "Derby" },
+        "S18": { "LONG": "-1.46877", "LAT": "53.30227", "ENG": "Dronfield" },
+        "SK13": { "LONG": "-1.94878", "LAT": "53.43827", "ENG": "Glossop" },
+        "DE75": { "LONG": "-1.35307", "LAT": "53.01404", "ENG": "Heanor" },
+        "DE7": { "LONG": "-1.310", "LAT": "52.970", "ENG": "Ilkeston" },
+        "NG10": { "LONG": "-1.270", "LAT": "52.900", "ENG": "Long eaton" },
+        "DE4": { "LONG": "-1.56055", "LAT": "53.13185", "ENG": "Matlock" },
+        "SK22": { "LONG": "-2.33930", "LAT": "53.32993", "ENG": "New mills" },
+        "DE5": { "LONG": "-1.39728", "LAT": "53.05023", "ENG": "Ripley" },
+        "NG10": { "LONG": "-1.29492", "LAT": "52.92382", "ENG": "Sandiacre" },
+        "NG20": { "LONG": "-1.21551", "LAT": "53.20199", "ENG": "Shirebrook" },
+        "S43": { "LONG": "-2.82517", "LAT": "54.37917", "ENG": "Staveley" },
+        "DE11": { "LONG": "-1.560", "LAT": "52.780", "ENG": "Swadlincote" },
+        "SK23": {
+          "LONG": "-1.97894",
+          "LAT": "53.33041",
+          "ENG": "Whaley bridge"
+        },
+        "DE4": { "LONG": "-1.57602", "LAT": "53.07797", "ENG": "Wirksworth" }
+      }
+    },
+    {
+      "CODE": "LDY",
+      "CITIES": {
+        "": { "LONG": "-7.318268", "LAT": "55.006763", "ENG": "Londonderry" }
+      }
+    },
+    {
+      "CODE": "DEV",
+      "CITIES": {
+        "TQ13": { "LONG": "-3.75761", "LAT": "50.52100", "ENG": "Ashburton" },
+        "EX13": { "LONG": "-3.00137", "LAT": "50.78177", "ENG": "Axminster" },
+        "EX31": { "LONG": "-4.05010", "LAT": "51.08282", "ENG": "Barnstaple" },
+        "EX39": { "LONG": "-4.21828", "LAT": "51.01679", "ENG": "Bideford" },
+        "TQ13": {
+          "LONG": "-3.67556",
+          "LAT": "50.59416",
+          "ENG": "Bovey tracey"
+        },
+        "TQ11": {
+          "LONG": "-3.78445",
+          "LAT": "50.48462",
+          "ENG": "Buckfastleigh"
+        },
+        "EX9": {
+          "LONG": "-3.32348",
+          "LAT": "50.63467",
+          "ENG": "Budleigh salterton"
+        },
+        "TQ13": { "LONG": "-3.83404", "LAT": "50.67272", "ENG": "Chagford" },
+        "TQ13": { "LONG": "-3.60525", "LAT": "50.60415", "ENG": "Chudleigh" },
+        "EX24": { "LONG": "-3.07125", "LAT": "50.73619", "ENG": "Colyton" },
+        "EX17": { "LONG": "-3.65426", "LAT": "50.79232", "ENG": "Crediton" },
+        "EX15": { "LONG": "-3.38665", "LAT": "50.85876", "ENG": "Cullompton" },
+        "TQ6": { "LONG": "-3.58270", "LAT": "50.35263", "ENG": "Dartmouth" },
+        "EX7": { "LONG": "-3.46316", "LAT": "50.57904", "ENG": "Dawlish" },
+        "": { "LONG": "-3.533333", "LAT": "50.716667", "ENG": "Exeter" },
+        "EX8": { "LONG": "-3.40802", "LAT": "50.62469", "ENG": "Exmouth" },
+        "EX38": {
+          "LONG": "-4.14415",
+          "LAT": "50.95522",
+          "ENG": "Great torrington"
+        },
+        "EX22": { "LONG": "-4.35029", "LAT": "50.80735", "ENG": "Holsworthy" },
+        "EX14": { "LONG": "-3.18619", "LAT": "50.79802", "ENG": "Honiton" },
+        "EX34": { "LONG": "-4.12721", "LAT": "51.20735", "ENG": "Ilfracombe" },
+        "PL21": { "LONG": "-3.92168", "LAT": "50.39249", "ENG": "Ivybridge" },
+        "TQ7": { "LONG": "-3.77704", "LAT": "50.28687", "ENG": "Kingsbridge" },
+        "TQ12": {
+          "LONG": "-3.58931",
+          "LAT": "50.55040",
+          "ENG": "Kingsteignton"
+        },
+        "EX35": { "LONG": "-3.84179", "LAT": "51.23018", "ENG": "Lynton" },
+        "TQ13": {
+          "LONG": "-3.76298",
+          "LAT": "50.66482",
+          "ENG": "Moretonhampstead"
+        },
+        "TQ12": {
+          "LONG": "-3.60281",
+          "LAT": "50.53223",
+          "ENG": "Newton abbot"
+        },
+        "EX20": {
+          "LONG": "-3.89569",
+          "LAT": "50.79764",
+          "ENG": "North tawton"
+        },
+        "EX39": { "LONG": "-4.21957", "LAT": "51.04375", "ENG": "Northam" },
+        "EX20": { "LONG": "-4.00682", "LAT": "50.74182", "ENG": "Okehampton" },
+        "EX11": {
+          "LONG": "-3.27008",
+          "LAT": "50.75218",
+          "ENG": "Ottery st mary"
+        },
+        "": { "LONG": "-4.143841", "LAT": "50.376289", "ENG": "Plymouth" },
+        "TQ8": { "LONG": "-3.77537", "LAT": "50.24192", "ENG": "Salcombe" },
+        "EX12": { "LONG": "-2.09258", "LAT": "57.16731", "ENG": "Seaton" },
+        "PL8": { "LONG": "-3.72092", "LAT": "50.28771", "ENG": "Sherford" },
+        "EX10": { "LONG": "-3.23984", "LAT": "50.68056", "ENG": "Sidmouth" },
+        "EX36": {
+          "LONG": "-3.83323",
+          "LAT": "51.01448",
+          "ENG": "South molton"
+        },
+        "PL19": { "LONG": "-4.13985", "LAT": "50.55058", "ENG": "Tavistock" },
+        "TQ14": { "LONG": "-3.49054", "LAT": "50.55171", "ENG": "Teignmouth" },
+        "EX16": { "LONG": "-2.66668", "LAT": "53.13978", "ENG": "Tiverton" },
+        "EX3": { "LONG": "-3.46651", "LAT": "50.68692", "ENG": "Topsham" },
+        "TQ9": { "LONG": "-3.68391", "LAT": "50.43216", "ENG": "Totnes" }
+      }
+    },
+    {
+      "CODE": "DOR",
+      "CITIES": {
+        "DT8": { "LONG": "-2.74651", "LAT": "50.81066", "ENG": "Beaminster" },
+        "DT11": {
+          "LONG": "-2.16475",
+          "LAT": "50.85790",
+          "ENG": "Blandford forum"
+        },
+        "BH1": {
+          "LONG": "-1.904755",
+          "LAT": "50.720806",
+          "ENG": "Bournemouth"
+        },
+        "DT6": { "LONG": "-2.75939", "LAT": "50.72964", "ENG": "Bridport" },
+        "DT3": { "LONG": "-2.50321", "LAT": "50.62312", "ENG": "Chickerell" },
+        "BH23": { "LONG": "-1.760", "LAT": "50.730", "ENG": "Christchurch" },
+        "DT1": { "LONG": "-2.44752", "LAT": "50.71327", "ENG": "Dorchester" },
+        "BH22": { "LONG": "-1.89493", "LAT": "50.80401", "ENG": "Ferndown" },
+        "DT5": { "LONG": "-2.44607", "LAT": "50.56040", "ENG": "Fortuneswell" },
+        "SP8": { "LONG": "0.550", "LAT": "51.390", "ENG": "Gillingham" },
+        "DT7": { "LONG": "-2.92939", "LAT": "50.72841", "ENG": "Lyme regis" },
+        "SP7": { "LONG": "-2.19377", "LAT": "51.00173", "ENG": "Shaftesbury" },
+        "DT9": { "LONG": "-2.52093", "LAT": "50.94677", "ENG": "Sherborne" },
+        "DT10": { "LONG": "-2.37866", "LAT": "50.95631", "ENG": "Stalbridge" },
+        "DT10": {
+          "LONG": "-2.30730",
+          "LAT": "50.92955",
+          "ENG": "Sturminster newton"
+        },
+        "BH19": { "LONG": "-1.96603", "LAT": "50.60621", "ENG": "Swanage" },
+        "BH31": { "LONG": "-1.88056", "LAT": "50.87594", "ENG": "Verwood" },
+        "BH20": { "LONG": "-2.10753", "LAT": "50.68710", "ENG": "Wareham" },
+        "DT4": { "LONG": "-2.480", "LAT": "50.620", "ENG": "Weymouth" },
+        "BH21": {
+          "LONG": "-1.98008",
+          "LAT": "50.80406",
+          "ENG": "Wimborne minster"
+        }
+      }
+    },
+    {
+      "CODE": "DGW",
+      "CITIES": {
+        "DG12": { "LONG": "-3.25954", "LAT": "54.98656", "ENG": "Annan" },
+        "DG5": {
+          "LONG": "-3.92945",
+          "LAT": "54.94183",
+          "ENG": "Castle douglas"
+        },
+        "DG5": { "LONG": "-3.81983", "LAT": "54.93453", "ENG": "Dalbeattie" },
+        "DG1": { "LONG": "-3.60680", "LAT": "55.07234", "ENG": "Dumfries" },
+        "DG7": {
+          "LONG": "-4.17612",
+          "LAT": "54.88373",
+          "ENG": "Gatehouse of fleet"
+        },
+        "DG6": {
+          "LONG": "-4.04877",
+          "LAT": "54.83201",
+          "ENG": "Kirkcudbright"
+        },
+        "DG13": { "LONG": "-2.99794", "LAT": "55.15075", "ENG": "Langholm" },
+        "DG11": { "LONG": "-3.43652", "LAT": "55.12839", "ENG": "Lochmaben" },
+        "DG11": { "LONG": "-3.35783", "LAT": "55.12031", "ENG": "Lockerbie" },
+        "DG10": { "LONG": "-3.44399", "LAT": "55.33500", "ENG": "Moffat" },
+        "DG7": { "LONG": "-4.13940", "LAT": "55.07313", "ENG": "New galloway" },
+        "DG8": {
+          "LONG": "-4.49257",
+          "LAT": "54.95855",
+          "ENG": "Newton stewart"
+        },
+        "DG4": { "LONG": "-3.91840", "LAT": "55.36442", "ENG": "Sanquhar" },
+        "DG9": { "LONG": "-5.03503", "LAT": "54.90125", "ENG": "Stranraer" },
+        "DG8": { "LONG": "-4.41670", "LAT": "54.73535", "ENG": "Whithorn" },
+        "DG8": { "LONG": "-4.44032", "LAT": "54.86972", "ENG": "Wigtown" }
+      }
+    },
+    {
+      "CODE": "DND",
+      "CITIES": {
+        "DD5": {
+          "LONG": "-2.86982",
+          "LAT": "56.46359",
+          "ENG": "Broughty ferry"
+        },
+        "": { "LONG": "-2.970700", "LAT": "56.462002", "ENG": "Dundee" }
+      }
+    },
+    {
+      "CODE": "EAR",
+      "CITIES": {
+        "KA18": { "LONG": "-4.25455", "LAT": "55.44856", "ENG": "Cumnock" },
+        "KA17": { "LONG": "-4.27968", "LAT": "55.60988", "ENG": "Darvel" },
+        "KA4": { "LONG": "-4.39016", "LAT": "55.59878", "ENG": "Galston" },
+        "KA1": { "LONG": "-4.500", "LAT": "55.620", "ENG": "Kilmarnock" },
+        "KA16": { "LONG": "-4.34313", "LAT": "55.60868", "ENG": "Newmilns" },
+        "KA3": { "LONG": "-5.64333", "LAT": "55.41506", "ENG": "Stewarton" }
+      }
+    },
+    {
+      "CODE": "EDB",
+      "CITIES": {
+        "G61": { "LONG": "-4.37805", "LAT": "55.92258", "ENG": "Bearsden" },
+        "G64": { "LONG": "-4.21713", "LAT": "55.90761", "ENG": "Bishopbriggs" },
+        "G66": {
+          "LONG": "-4.15469",
+          "LAT": "55.93568",
+          "ENG": "Kirkintilloch"
+        },
+        "G62": { "LONG": "-4.31516", "LAT": "55.94176", "ENG": "Milngavie" }
+      }
+    },
+    {
+      "CODE": "ELN",
+      "CITIES": {
+        "EH32": {
+          "LONG": "-2.95482",
+          "LAT": "55.96880",
+          "ENG": "Cockenzie and port seton"
+        },
+        "EH42": { "LONG": "-2.52265", "LAT": "55.99834", "ENG": "Dunbar" },
+        "EH40": { "LONG": "-2.65075", "LAT": "55.98875", "ENG": "East linton" },
+        "EH41": { "LONG": "-2.77825", "LAT": "55.95207", "ENG": "Haddington" },
+        "EH21": { "LONG": "-3.03443", "LAT": "55.95018", "ENG": "Musselburgh" },
+        "EH39": {
+          "LONG": "-2.71619",
+          "LAT": "56.06026",
+          "ENG": "North berwick"
+        },
+        "EH32": { "LONG": "-2.98662", "LAT": "55.95956", "ENG": "Prestonpans" },
+        "EH33": { "LONG": "-2.95415", "LAT": "55.94185", "ENG": "Tranent" },
+        "EH41": {
+          "LONG": "-2.633",
+          "LAT": "55.953",
+          "ENG": "Whittingehame",
+          "+": "WHITINGHAME"
+        }
+      }
+    },
+    {
+      "CODE": "ERF",
+      "CITIES": {
+        "G78": { "LONG": "-4.38631", "LAT": "55.79659", "ENG": "Barrhead" }
+      }
+    },
+    {
+      "CODE": "ERY",
+      "CITIES": {
+        "HU17": { "LONG": "-0.41295", "LAT": "53.85023", "ENG": "Beverley" },
+        "YO15": { "LONG": "-0.18976", "LAT": "54.08978", "ENG": "Bridlington" },
+        "HU16": { "LONG": "-0.41566", "LAT": "53.77835", "ENG": "Cottingham" },
+        "YO25": { "LONG": "-0.43731", "LAT": "54.01235", "ENG": "Driffield" },
+        "DN14": { "LONG": "-0.87297", "LAT": "53.70263", "ENG": "Goole" },
+        "HU12": { "LONG": "-0.18970", "LAT": "53.73920", "ENG": "Hedon" },
+        "HU13": { "LONG": "-0.43284", "LAT": "53.72465", "ENG": "Hessle" },
+        "HU18": { "LONG": "-0.16711", "LAT": "53.90965", "ENG": "Hornsea" },
+        "DN14": { "LONG": "-0.87177", "LAT": "53.74756", "ENG": "Howden" },
+        "": { "LONG": "-0.338653", "LAT": "53.747372", "ENG": "Hull" },
+        "YO43": {
+          "LONG": "-0.67100",
+          "LAT": "53.86235",
+          "ENG": "Market weighton"
+        },
+        "YO42": { "LONG": "-0.77531", "LAT": "53.93537", "ENG": "Pocklington" },
+        "HU15": { "LONG": "-0.59800", "LAT": "53.77164", "ENG": "South cave" },
+        "HU19": { "LONG": "0.03714", "LAT": "53.72657", "ENG": "Withernsea" }
+      }
+    },
+    {
+      "CODE": "ESX",
+      "CITIES": {
+        "TN33": { "LONG": "0.48136", "LAT": "50.92157", "ENG": "Battle" },
+        "TN40": { "ENG": "Bexhill-on-sea" },
+        "": {
+          "LONG": "-0.152778",
+          "LAT": "50.827778",
+          "ENG": "Brighton & hove"
+        },
+        "TN6": { "LONG": "0.16023", "LAT": "51.05387", "ENG": "Crowborough" },
+        "BN21": { "LONG": "0.290472", "LAT": "50.768036", "ENG": "Eastbourne" },
+        "BN27": { "LONG": "0.26508", "LAT": "50.86301", "ENG": "Hailsham" },
+        "TN34": { "LONG": "0.573453", "LAT": "50.854259", "ENG": "Hastings" },
+        "TN21": { "LONG": "0.12270", "LAT": "52.09771", "ENG": "Heathfield" },
+        "BN7": { "LONG": "0.00987", "LAT": "50.87668", "ENG": "Lewes" },
+        "BN9": { "LONG": "-3.19563", "LAT": "55.98467", "ENG": "Newhaven" },
+        "BN10": { "LONG": "0.00640", "LAT": "50.79580", "ENG": "Peacehaven" },
+        "BN26": { "LONG": "0.24872", "LAT": "50.81836", "ENG": "Polegate" },
+        "TN31": { "LONG": "0.72506", "LAT": "50.95211", "ENG": "Rye" },
+        "BN25": { "LONG": "0.10485", "LAT": "50.77608", "ENG": "Seaford" },
+        "TN22": { "LONG": "0.085831", "LAT": "50.967941", "ENG": "Uckfield" },
+        "TN5": { "LONG": "0.34600", "LAT": "51.05928", "ENG": "Wadhurst" }
+      }
+    },
+    {
+      "CODE": "EDB",
+      "CITIES": {
+        "": { "LONG": "-3.188267", "LAT": "55.953251", "ENG": "Edinburgh" }
+      }
+    },
+    {
+      "CODE": "ENS",
+      "CITIES": {
+        "HS1": { "ENG": "Steòrnabhagh" }
+      }
+    },
+    {
+      "CODE": "ESS",
+      "CITIES": {
+        "SS14": { "LONG": "0.470009", "LAT": "51.572376", "ENG": "Basildon" },
+        "CM12": { "LONG": "0.420", "LAT": "51.630", "ENG": "Billericay" },
+        "CM7": { "LONG": "0.570", "LAT": "51.880", "ENG": "Braintree" },
+        "CM15": { "LONG": "0.310", "LAT": "51.630", "ENG": "Brentwood" },
+        "CO7": { "LONG": "1.02365", "LAT": "51.81722", "ENG": "Brightlingsea" },
+        "CM0": {
+          "LONG": "0.82352",
+          "LAT": "51.63333",
+          "ENG": "Burnham-on-crouch"
+        },
+        "SS8": { "LONG": "0.630", "LAT": "51.520", "ENG": "Canvey island" },
+        "": { "LONG": "0.479800", "LAT": "51.736099", "ENG": "Chelmsford" },
+        "IG7": { "LONG": "0.07153", "LAT": "51.62203", "ENG": "Chigwell" },
+        "CM5": {
+          "LONG": "0.24918",
+          "LAT": "51.70869",
+          "ENG": "Chipping ongar"
+        },
+        "CO15": { "LONG": "1.140", "LAT": "51.800", "ENG": "Clacton-on-sea" },
+        "CO6": { "LONG": "0.69306", "LAT": "51.87022", "ENG": "Coggeshall" },
+        "CO1": { "LONG": "0.900", "LAT": "51.880", "ENG": "Colchester" },
+        "CM16": { "LONG": "0.10414", "LAT": "51.70239", "ENG": "Epping" },
+        "CO13": {
+          "LONG": "1.24221",
+          "LAT": "51.82938",
+          "ENG": "Frinton-on-sea"
+        },
+        "CM6": { "LONG": "0.34479", "LAT": "51.87768", "ENG": "Great dunmow" },
+        "CO9": { "LONG": "0.63923", "LAT": "51.94339", "ENG": "Halstead" },
+        "CM20": { "LONG": "0.102310", "LAT": "51.772938", "ENG": "Harlow" },
+        "CO12": { "LONG": "1.26450", "LAT": "51.93669", "ENG": "Harwich" },
+        "IG10": { "LONG": "0.060", "LAT": "51.660", "ENG": "Loughton" },
+        "CM9": { "LONG": "0.67057", "LAT": "51.73584", "ENG": "Maldon" },
+        "CO11": { "LONG": "1.06116", "LAT": "51.94216", "ENG": "Manningtree" },
+        "SS6": { "LONG": "0.61835", "LAT": "51.58413", "ENG": "Rayleigh" },
+        "SS4": { "LONG": "0.70486", "LAT": "51.58216", "ENG": "Rochford" },
+        "CB10": {
+          "LONG": "0.25037",
+          "LAT": "52.02341",
+          "ENG": "Saffron walden"
+        },
+        "CM3": {
+          "LONG": "0.60754",
+          "LAT": "51.64732",
+          "ENG": "South woodham ferrers"
+        },
+        "CM0": { "LONG": "0.82519", "LAT": "51.66027", "ENG": "Southminster" },
+        "CM24": {
+          "LONG": "0.20051",
+          "LAT": "51.89846",
+          "ENG": "Stansted mountfitchet"
+        },
+        "CM6": { "LONG": "0.34900", "LAT": "51.95853", "ENG": "Thaxted" },
+        "EN9": { "LONG": "0.00212", "LAT": "51.68618", "ENG": "Waltham abbey" },
+        "CO14": {
+          "LONG": "1.27249",
+          "LAT": "51.84653",
+          "ENG": "Walton-on-the-naze"
+        },
+        "CO5": { "LONG": "0.91934", "LAT": "51.77489", "ENG": "West mersea" },
+        "SS12": { "LONG": "0.51892", "LAT": "51.61328", "ENG": "Wickford" },
+        "CM8": { "LONG": "0.63083", "LAT": "51.79969", "ENG": "Witham" },
+        "CO7": { "LONG": "0.96866", "LAT": "51.86359", "ENG": "Wivenhoe" }
+      }
+    },
+    {
+      "CODE": "FLK",
+      "CITIES": {
+        "EH51": { "LONG": "-3.61368", "LAT": "56.01585", "ENG": "Bo'ness" },
+        "FK6": { "LONG": "-3.91872", "LAT": "56.02046", "ENG": "Denny" },
+        "FK1": { "LONG": "-3.790", "LAT": "56.020", "ENG": "Falkirk" },
+        "FK3": { "LONG": "-3.70988", "LAT": "56.01455", "ENG": "Grangemouth" }
+      }
+    },
+    {
+      "CODE": "FIF",
+      "CITIES": {
+        "KY10": { "LONG": "-2.700539", "LAT": "56.22298", "ENG": "Anstruther" },
+        "KY5": {
+          "LONG": "-3.2659",
+          "LAT": "56.1493",
+          "ENG": "Auchterderran",
+          "+": "Auchterderan"
+        },
+        "KY14": {
+          "LONG": "-3.23745",
+          "LAT": "56.28975",
+          "ENG": "Auchtermuchty"
+        },
+        "KY8": { "LONG": "-3.04046", "LAT": "56.17476", "ENG": "Buckhaven" },
+        "KY3": { "LONG": "-3.23024", "LAT": "56.06520", "ENG": "Burntisland" },
+        "KY4": { "LONG": "-3.34420", "LAT": "56.10893", "ENG": "Cowdenbeath" },
+        "KY10": { "LONG": "-2.62304", "LAT": "56.25843", "ENG": "Crail" },
+        "KY12": { "LONG": "-3.63123", "LAT": "56.05156", "ENG": "Culross" },
+        "KY15": { "LONG": "-3.01204", "LAT": "56.31876", "ENG": "Cupar" },
+        "KY12": { "LONG": "-3.460", "LAT": "56.070", "ENG": "Dunfermline" },
+        "KY15": { "LONG": "-3.20402", "LAT": "56.25414", "ENG": "Falkland" },
+        "KY7": { "LONG": "-3.160", "LAT": "56.200", "ENG": "Glenrothes" },
+        "KY11": {
+          "LONG": "-3.38951",
+          "LAT": "56.02756",
+          "ENG": "Inverkeithing"
+        },
+        "KY3": { "LONG": "-3.18207", "LAT": "56.06567", "ENG": "Kinghorn" },
+        "KY1": { "LONG": "-3.160", "LAT": "57.140", "ENG": "Kirkcaldy" },
+        "KY15": { "LONG": "-3.12386", "LAT": "56.27287", "ENG": "Ladybank" },
+        "KY6": { "LONG": "-2.67391", "LAT": "57.30927", "ENG": "Leslie" },
+        "KY8": { "LONG": "-0.31999", "LAT": "53.89391", "ENG": "Leven" },
+        "KY5": { "LONG": "-3.31266", "LAT": "56.12724", "ENG": "Lochgelly" },
+        "KY7": { "LONG": "-3.13787", "LAT": "56.20086", "ENG": "Markinch" },
+        "KY8": { "LONG": "-3.02459", "LAT": "56.18388", "ENG": "Methil" },
+        "KY14": { "LONG": "-2.00995", "LAT": "57.32006", "ENG": "Newburgh" },
+        "DD6": {
+          "LONG": "-2.95028",
+          "LAT": "56.43604",
+          "ENG": "Newport-on-tay"
+        },
+        "KY10": { "LONG": "-2.73516", "LAT": "56.21289", "ENG": "Pittenweem" },
+        "KY16": { "LONG": "-2.78609", "LAT": "56.33837", "ENG": "St andrews" },
+        "DD6": { "LONG": "-2.88563", "LAT": "56.44551", "ENG": "Tayport" }
+      }
+    },
+    {
+      "CODE": "FLN",
+      "CITIES": {
+        "CH7": { "ENG": "Bwcle" },
+        "CH7": { "LONG": "-3.31263", "LAT": "53.24229", "ENG": "Caerwys" },
+        "CH5": {
+          "LONG": "-3.05727",
+          "LAT": "53.21786",
+          "ENG": "Connah's quay"
+        },
+        "CH6": { "ENG": "Flint" },
+        "CH8": { "LONG": "-3.223", "LAT": "53.274", "ENG": "Holywell" },
+        "CH7": { "ENG": "Mold" },
+        "CH5": { "LONG": "-1.43622", "LAT": "54.62333", "ENG": "Shotton" },
+        "CH8": { "LONG": "-5.13472", "LAT": "51.91323", "ENG": "Treffynnon" }
+      }
+    },
+    {
+      "CODE": "GLA",
+      "CITIES": {
+        "CF63": { "ENG": "Barri" },
+        "CF45": {
+          "LONG": "-3.37916",
+          "LAT": "51.68139",
+          "ENG": "Blaenogwy Cemetry"
+        },
+        "SA11": { "ENG": "Glyn-nedd" },
+        "CF61": { "ENG": "Llantwit major" },
+        "CF45": {
+          "LONG": "-3.37916",
+          "LAT": "51.68139",
+          "ENG": "Mountain Ash"
+        },
+        "SA11": { "LONG": "-3.830", "LAT": "51.650", "ENG": "Neath" },
+        "CF64": { "LONG": "-3.17388", "LAT": "51.43661", "ENG": "Penarth" },
+        "SA8": { "LONG": "-3.84735", "LAT": "51.72468", "ENG": "Pontardawe" },
+        "SA13": { "LONG": "-3.840", "LAT": "51.620", "ENG": "Port talbot" },
+        "CF71": { "ENG": "Y bont-faen" }
+      }
+    },
+    {
+      "CODE": "GLG",
+      "CITIES": {
+        "": { "LONG": "-4.251433", "LAT": "55.860916", "ENG": "Glasgow" }
+      }
+    },
+    {
+      "CODE": "GLS",
+      "CITIES": {
+        "GL50": { "LONG": "-2.090", "LAT": "51.900", "ENG": "Cheltenham" },
+        "GL55": {
+          "LONG": "-1.77537",
+          "LAT": "52.05367",
+          "ENG": "Chipping campden"
+        },
+        "GL14": { "LONG": "-2.50192", "LAT": "51.81905", "ENG": "Cinderford" },
+        "GL7": { "LONG": "-1.96522", "LAT": "51.71223", "ENG": "Cirencester" },
+        "GL16": { "LONG": "-3.73968", "LAT": "50.80007", "ENG": "Coleford" },
+        "GL11": { "LONG": "-2.34132", "LAT": "51.68476", "ENG": "Dursley" },
+        "GL7": { "LONG": "-1.77711", "LAT": "51.70303", "ENG": "Fairford" },
+        "": { "LONG": "-2.244444", "LAT": "51.864445", "ENG": "Gloucester" },
+        "GL7": { "ENG": "Lechlade-on-thames" },
+        "GL15": { "LONG": "-2.52988", "LAT": "51.72902", "ENG": "Lydney" },
+        "GL6": {
+          "LONG": "-2.19675",
+          "LAT": "51.70308",
+          "ENG": "Minchinhampton"
+        },
+        "GL17": { "LONG": "-2.48790", "LAT": "51.86407", "ENG": "Mitcheldean" },
+        "GL56": {
+          "LONG": "-1.70287",
+          "LAT": "51.99058",
+          "ENG": "Moreton-in-marsh"
+        },
+        "GL6": { "LONG": "-2.22565", "LAT": "51.69403", "ENG": "Nailsworth" },
+        "GL18": { "LONG": "-2.40133", "LAT": "51.92733", "ENG": "Newent" },
+        "GL54": { "LONG": "-1.83453", "LAT": "51.82900", "ENG": "Northleach" },
+        "GL6": { "LONG": "-2.19710", "LAT": "51.78400", "ENG": "Painswick" },
+        "GL10": { "LONG": "-4.15986", "LAT": "50.37032", "ENG": "Stonehouse" },
+        "GL54": {
+          "LONG": "-1.71783",
+          "LAT": "51.92768",
+          "ENG": "Stow-on-the-wold"
+        },
+        "GL5": { "LONG": "-2.230", "LAT": "51.750", "ENG": "Stroud" },
+        "GL8": { "LONG": "-2.15313", "LAT": "51.64020", "ENG": "Tetbury" },
+        "GL20": { "LONG": "-2.15432", "LAT": "51.99085", "ENG": "Tewkesbury" },
+        "GL54": { "LONG": "-1.96503", "LAT": "51.95498", "ENG": "Winchcombe" },
+        "GL12": {
+          "LONG": "-2.34091",
+          "LAT": "51.63082",
+          "ENG": "Wotton-under-edge"
+        }
+      }
+    },
+    {
+      "CODE": "GND",
+      "CITIES": {
+        "LL53": {
+          "LONG": "-4.7",
+          "LAT": "52.8167",
+          "ENG": "Aberdaron",
+          "+": "ABEDARAON",
+          "+": "ASHES SCATTERED ON BEACH AT ABERDARON 17 OCT 1976"
+        },
+        "LL53": { "LONG": "-4.386", "LAT": "52.902", "ENG": "Abererch" },
+        "LL42": { "ENG": "Abermaw" },
+        "LL23": {
+          "LONG": "-3.596",
+          "LAT": "52.911",
+          "ENG": "Bala",
+          "+": "Y BALA"
+        },
+        "LL57": {
+          "LONG": "-4.128",
+          "LAT": "53.228",
+          "ENG": "Bangor",
+          "+": "BANGOR GENERAL HOSPITAL",
+          "+": "EFAILNEWYDD CREMATION AT BANGOR",
+          "+": "BANGOR CAERNARVONSHIRE"
+        },
+        "LL57": { "LONG": "-4.29326", "LAT": "53.08359", "ENG": "Bethesda" },
+        "LL41": {
+          "LONG": "-3.93075",
+          "LAT": "52.99113",
+          "ENG": "Blaenau ffestiniog",
+          "+": "FFESTINIOG",
+          "+": "FESTINIOG"
+        },
+        "LL53": {
+          "LONG": "-4.584",
+          "LAT": "52.849",
+          "ENG": "Botwnnog",
+          "+": "BOTWNNOG",
+          "+": "BOTWNOG"
+        },
+        "LL53": {
+          "LONG": "-4.6333",
+          "LAT": "52.85052",
+          "ENG": "Bryncroes",
+          "+": "BRYNCROES CHURCH"
+        },
+        "LL78": {
+          "LONG": "-4.262239",
+          "LAT": "53.311253",
+          "ENG": "Bryn Mair",
+          "+": "BRYN MARI NURSING HOME"
+        },
+        "LL55": {
+          "LONG": "-4.26626",
+          "LAT": "53.13805",
+          "ENG": "Caernarfon",
+          "+": "CAERNARFON REGISTRY OFFICE",
+          "+": "CAERNARVON"
+        },
+        "LL53": { "LONG": "-4.33", "LAT": "52.919", "ENG": "Chwilog" },
+        "LL52": {
+          "LONG": "-4.236",
+          "LAT": "52.916",
+          "ENG": "Criccieth",
+          "+": "CRICIETH"
+        },
+        "LL54": {
+          "LONG": "-4.275",
+          "LAT": "53.102",
+          "ENG": "Dinas",
+          "+": "DYNAS"
+        },
+        "LL40": {
+          "LONG": "-3.89001",
+          "LAT": "52.74005",
+          "ENG": "Dolgellau",
+          "+": "DOLLGELLAU"
+        },
+        "": { "ENG": "Dwyfor" },
+        "LL53": { "LONG": "-4.568", "LAT": "52.927", "ENG": "Edern" },
+        "LL46": { "LONG": "-4.10330", "LAT": "52.86233", "ENG": "Harlech" },
+        "": {
+          "LONG": "-4.2564783,21",
+          "LAT": "53.1344592",
+          "ENG": "Llanbeblig"
+        },
+        "LL23": { "LONG": "-3.516", "LAT": "52.922", "ENG": "Llandderfel" },
+        "LL53": {
+          "LONG": "-4.547",
+          "LAT": "52.91",
+          "ENG": "Llandudwen",
+          "+": "NYFFRYN LLANDUDWEN",
+          "+": "LLANDUDWAN"
+        },
+        "LL44": {
+          "LONG": "-4.1037075,21",
+          "LAT": "52.7892597",
+          "ENG": "Llanenddwyn"
+        },
+        "LL53": { "LONG": "-4.532", "LAT": "52.813", "ENG": "Llanengan" },
+        "LL53": { "LONG": "-4.656", "LAT": "52.809", "ENG": "Llanfaelrhys" },
+        "LL53": {
+          "LONG": "-4.52",
+          "LAT": "52.881",
+          "ENG": "Llanfihangel",
+          "+": "LLAN FIHANGEL BACHELLAETH",
+          "+": "LLANFIHANGEL LLANFAIRBACHELLAETH",
+          "+": "LLANFIHANGEL BACHELLAETH",
+          "+": "Llanfihengal"
+        },
+        "LL53": { "LONG": "-4.531", "LAT": "52.83", "ENG": "Llangian" },
+        "LL53": { "LONG": "-4.662", "LAT": "52.866", "ENG": "Llangwnadle" },
+        "LL53": { "LONG": "-4.573", "LAT": "52.874", "ENG": "Llaniestyn" },
+        "LL53": {
+          "LONG": "-4.449",
+          "LAT": "52.908",
+          "ENG": "Llannor",
+          "+": "TRAIAN LLANNOR"
+        },
+        "LL53": {
+          "LONG": "-4.505862",
+          "LAT": "52.932533",
+          "ENG": "Mynydd Nefyn"
+        },
+        "LL54": { "LONG": "-4.225", "LAT": "53.056", "ENG": "Nantlle" },
+        "LL53": { "LONG": "-4.52350", "LAT": "52.93506", "ENG": "Nefyn" },
+        "LL53": {
+          "LONG": "-4.459",
+          "LAT": "52.88",
+          "ENG": "Penrhos",
+          "+": "PENRHOS CEMETARY",
+          "+": "PENRHOS NURSING HOME"
+        },
+        "LL48": {
+          "LONG": "-4.066",
+          "LAT": "52.929",
+          "ENG": "Penrhyndeudraeth"
+        },
+        "LL53": {
+          "LONG": "-4.679770",
+          "LAT": "52.814750",
+          "ENG": "Penycaerau"
+        },
+        "LL54": { "LONG": "-4.283", "LAT": "53.053", "ENG": "Penygroes" },
+        "LL49": { "LONG": "-4.13607", "LAT": "52.92468", "ENG": "Porthmadog" },
+        "LL53": {
+          "LONG": "-4.41695",
+          "LAT": "52.89232",
+          "ENG": "Pwllheli",
+          "+": "Pwllheli Registry Office",
+          "+": "PWLLHELI CAERNARVONSHIRE",
+          "+": "PWLLJELI"
+        },
+        "LL54": { "LONG": "-4.23405", "LAT": "53.09371", "ENG": "Rhosgadfan" },
+        "": {
+          "LONG": "-3.64597",
+          "LAT": "52.85546",
+          "ENG": "Rhyd-fudr",
+          "+": "Rhydfudr"
+        },
+        "LL53": { "LONG": "-4.486", "LAT": "52.886", "ENG": "Rhydyclafdy" },
+        "LL54": {
+          "LONG": "-4.064",
+          "LAT": "52.903",
+          "ENG": "Talsarnau",
+          "+": "ASHES SCATTERED AT TALSARNAU"
+        },
+        "LL54": {
+          "LONG": "-4.08865",
+          "LAT": "52.58387",
+          "ENG": "Talyllyn",
+          "+": "TALLYLLYN"
+        },
+        "LL41": { "LONG": "-3.923", "LAT": "52.902", "ENG": "Trawsfynydd" },
+        "LL36": { "LONG": "-3.82416", "LAT": "53.28949", "ENG": "Tywyn" },
+        "LL47": {
+          "LONG": "-4.106287",
+          "LAT": "52.8874601",
+          "ENG": "Ty-Cerrig"
+        },
+        "LL55": {
+          "LONG": "-4.206",
+          "LAT": "53.111",
+          "ENG": "Waunfawr",
+          "+": "WAENFAWR"
+        },
+        "LL53": {
+          "LONG": "-4.632",
+          "LAT": "52.821",
+          "ENG": "Y Rhiw",
+          "+": "RHIW"
+        }
+      }
+    },
+    {
+      "CODE": "HLT",
+      "CITIES": {
+        "WA7": { "LONG": "-2.750", "LAT": "53.340", "ENG": "Runcorn" },
+        "WA8": { "LONG": "-2.750", "LAT": "53.360", "ENG": "Widnes" }
+      }
+    },
+    {
+      "CODE": "HAM",
+      "CITIES": {
+        "GU11": { "LONG": "-0.770", "LAT": "51.260", "ENG": "Aldershot" },
+        "GU34": { "LONG": "-1.45536", "LAT": "53.17636", "ENG": "Alton" },
+        "SP10": { "LONG": "-1.490", "LAT": "51.210", "ENG": "Andover" },
+        "RG21": { "LONG": "-1.110", "LAT": "51.270", "ENG": "Basingstoke" },
+        "SO32": {
+          "LONG": "-1.21123",
+          "LAT": "50.95427",
+          "ENG": "Bishop's waltham"
+        },
+        "GU17": { "LONG": "-5.18016", "LAT": "50.27491", "ENG": "Blackwater" },
+        "GU35": { "LONG": "-0.86566", "LAT": "51.11329", "ENG": "Bordon" },
+        "SO50": { "LONG": "-1.350", "LAT": "50.970", "ENG": "Eastleigh" },
+        "PO10": { "LONG": "-0.94301", "LAT": "50.85323", "ENG": "Emsworth" },
+        "PO16": { "LONG": "-1.190", "LAT": "50.850", "ENG": "Fareham" },
+        "GU14": { "LONG": "-0.760", "LAT": "51.300", "ENG": "Farnborough" },
+        "GU51": { "LONG": "-2.51735", "LAT": "50.62305", "ENG": "Fleet" },
+        "SP6": {
+          "LONG": "-1.79505",
+          "LAT": "50.92977",
+          "ENG": "Fordingbridge"
+        },
+        "PO12": { "LONG": "-1.140", "LAT": "50.800", "ENG": "Gosport" },
+        "PO9": { "LONG": "-0.990", "LAT": "50.860", "ENG": "Havant" },
+        "SO30": { "LONG": "-2.25000", "LAT": "50.85774", "ENG": "Hedge end" },
+        "PO8": { "LONG": "-0.99848", "LAT": "50.91667", "ENG": "Horndean" },
+        "SO41": { "LONG": "-1.54061", "LAT": "50.75819", "ENG": "Lymington" },
+        "SO24": {
+          "LONG": "-1.16611",
+          "LAT": "51.08884",
+          "ENG": "New alresford"
+        },
+        "BH25": { "LONG": "-1.66820", "LAT": "50.75862", "ENG": "New milton" },
+        "GU32": { "LONG": "-0.93954", "LAT": "51.00607", "ENG": "Petersfield" },
+        "": { "LONG": "-1.087222", "LAT": "50.805832", "ENG": "Portsmouth" },
+        "BH24": { "LONG": "-1.78120", "LAT": "50.84881", "ENG": "Ringwood" },
+        "SO51": { "LONG": "-1.49556", "LAT": "50.99181", "ENG": "Romsey" },
+        "": { "LONG": "-1.404351", "LAT": "50.909698", "ENG": "Southampton" },
+        "RG26": { "LONG": "-1.13267", "LAT": "51.34937", "ENG": "Tadley" },
+        "SO40": { "LONG": "-1.49634", "LAT": "50.91987", "ENG": "Totton" },
+        "RG28": { "LONG": "-0.83201", "LAT": "51.87727", "ENG": "Whitchurch" },
+        "PO17": { "LONG": "-1.43308", "LAT": "51.44112", "ENG": "Wickham" },
+        "": { "LONG": "-1.308000", "LAT": "51.063202", "ENG": "Winchester" },
+        "GU46": { "LONG": "-0.83142", "LAT": "51.33776", "ENG": "Yateley" }
+      }
+    },
+    {
+      "CODE": "HRP",
+      "CITIES": {
+        "TS24": { "LONG": "-1.220", "LAT": "54.690", "ENG": "Hartlepool" }
+      }
+    },
+    {
+      "CODE": "HEF",
+      "CITIES": {
+        "HR7": { "LONG": "-2.50606", "LAT": "52.18766", "ENG": "Bromyard" },
+        "": { "LONG": "-2.716000", "LAT": "52.056499", "ENG": "Hereford" },
+        "HR5": { "LONG": "-2.54296", "LAT": "51.61207", "ENG": "Kington" },
+        "HR8": { "LONG": "-2.43145", "LAT": "52.03511", "ENG": "Ledbury" },
+        "HR6": { "LONG": "-2.74083", "LAT": "52.23137", "ENG": "Leominster" },
+        "HR9": { "LONG": "-2.57572", "LAT": "51.91762", "ENG": "Ross-on-wye" }
+      }
+    },
+    {
+      "CODE": "HRT",
+      "CITIES": {
+        "SG7": { "LONG": "-0.18842", "LAT": "51.98601", "ENG": "Baldock" },
+        "HP4": { "LONG": "-0.57402", "LAT": "51.76652", "ENG": "Berkhamsted" },
+        "CM23": {
+          "LONG": "0.17016",
+          "LAT": "51.87204",
+          "ENG": "Bishop's stortford"
+        },
+        "WD6": { "LONG": "-0.27361", "LAT": "51.66358", "ENG": "Borehamwood" },
+        "SG9": { "LONG": "-0.01537", "LAT": "51.94726", "ENG": "Buntingford" },
+        "WD23": { "LONG": "-2.02258", "LAT": "50.65118", "ENG": "Bushey" },
+        "EN8": { "LONG": "-0.030", "LAT": "51.710", "ENG": "Cheshunt" },
+        "WD3": { "LONG": "-0.51960", "LAT": "51.65795", "ENG": "Chorleywood" },
+        "AL5": { "LONG": "-0.35478", "LAT": "51.81761", "ENG": "Harpenden" },
+        "AL10": { "LONG": "-2.59442", "LAT": "52.23220", "ENG": "Hatfield" },
+        "HP1": { "LONG": "-0.480", "LAT": "51.760", "ENG": "Hemel hempstead" },
+        "SG14": { "LONG": "-0.08005", "LAT": "51.79546", "ENG": "Hertford" },
+        "SG5": { "LONG": "-0.280", "LAT": "51.960", "ENG": "Hitchin" },
+        "EN11": { "LONG": "-0.020", "LAT": "51.760", "ENG": "Hoddesdon" },
+        "SG6": { "ENG": "Letchworth" },
+        "EN6": { "LONG": "-0.18547", "LAT": "51.69822", "ENG": "Potters bar" },
+        "WD7": { "LONG": "-0.31630", "LAT": "51.68219", "ENG": "Radlett" },
+        "WD3": {
+          "LONG": "-0.49130",
+          "LAT": "51.63961",
+          "ENG": "Rickmansworth"
+        },
+        "SG8": { "LONG": "-4.23105", "LAT": "55.87141", "ENG": "Royston" },
+        "S71": { "LONG": "-4.23105", "LAT": "55.87141", "ENG": "Royston" },
+        "CM21": {
+          "LONG": "0.15307",
+          "LAT": "51.81840",
+          "ENG": "Sawbridgeworth"
+        },
+        "": { "LONG": "-0.336000", "LAT": "51.755001", "ENG": "St.albans" },
+        "SG1": { "LONG": "-0.210", "LAT": "51.920", "ENG": "Stevenage" },
+        "HP23": { "LONG": "-0.66014", "LAT": "51.79451", "ENG": "Tring" },
+        "EN8": {
+          "LONG": "-0.04125",
+          "LAT": "51.68691",
+          "ENG": "Waltham cross"
+        },
+        "SG12": { "LONG": "-2.95754", "LAT": "50.71919", "ENG": "Ware" },
+        "WD17": { "LONG": "-0.400", "LAT": "51.660", "ENG": "Watford" },
+        "AL8": {
+          "LONG": "-0.210",
+          "LAT": "51.800",
+          "ENG": "Welwyn garden city"
+        }
+      }
+    },
+    {
+      "CODE": "HLD",
+      "CITIES": {
+        "IV17": { "LONG": "-4.25815", "LAT": "57.69514", "ENG": "Alness" },
+        "PH22": { "LONG": "-3.83003", "LAT": "57.18994", "ENG": "Aviemore" },
+        "IV11": { "LONG": "-4.03921", "LAT": "57.68089", "ENG": "Cromarty" },
+        "IV15": { "LONG": "-4.43589", "LAT": "57.59300", "ENG": "Dingwall" },
+        "IV25": { "LONG": "-4.01668", "LAT": "57.87891", "ENG": "Dornoch" },
+        "IV40": { "LONG": "-5.6833", "LAT": "57.3167", "ENG": "Duirinish" },
+        "PH33": { "ENG": "Fort william" },
+        "IV10": { "LONG": "-4.13395", "LAT": "57.58049", "ENG": "Fortrose" },
+        "PH26": {
+          "LONG": "-3.60433",
+          "LAT": "57.32779",
+          "ENG": "Grantown-on-spey"
+        },
+        "IV18": { "LONG": "-4.15704", "LAT": "57.68792", "ENG": "Invergordon" },
+        "PH21": { "LONG": "-4.05554", "LAT": "57.07862", "ENG": "Kingussie" },
+        "IV18": { "LONG": "-4.088459", "LAT": "57.732779", "ENG": "Kilmuir" },
+        "IV12": { "LONG": "-3.86654", "LAT": "57.58473", "ENG": "Nairn" },
+        "IV41": { "LONG": "-6.23", "LAT": "57.307", "ENG": "Skye" },
+        "IV19": { "LONG": "-4.04630", "LAT": "57.80656", "ENG": "Tain" },
+        "KW14": { "LONG": "-3.52434", "LAT": "58.59542", "ENG": "Thurso" },
+        "KW1": { "LONG": "-3.17268", "LAT": "50.82514", "ENG": "Wick" },
+        "": { "LONG": "-4.224721", "LAT": "57.477772", "ENG": "Inverness" }
+      }
+    },
+    {
+      "CODE": "ICD",
+      "CITIES": {
+        "PA19": { "LONG": "-4.81284", "LAT": "55.95836", "ENG": "Gourock" },
+        "PA15": { "LONG": "-4.790", "LAT": "55.960", "ENG": "Greenock" },
+        "PA14": { "LONG": "-4.68299", "LAT": "55.93429", "ENG": "Port glasgow" }
+      }
+    },
+    {
+      "CODE": "IWG",
+      "CITIES": {
+        "PO36": { "LONG": "-1.14515", "LAT": "50.67503", "ENG": "Brading" },
+        "PO31": { "LONG": "-1.29961", "LAT": "50.75699", "ENG": "Cowes" },
+        "PO32": { "LONG": "-1.28543", "LAT": "50.75691", "ENG": "East cowes" },
+        "PO30": { "LONG": "-3.000", "LAT": "51.590", "ENG": "Newport" },
+        "PO33": { "LONG": "-1.15834", "LAT": "50.72908", "ENG": "Ryde" },
+        "PO36": { "LONG": "-1.15962", "LAT": "50.65715", "ENG": "Sandown" },
+        "PO37": { "LONG": "-1.17424", "LAT": "50.63027", "ENG": "Shanklin" },
+        "PO38": { "LONG": "-1.20312", "LAT": "50.59450", "ENG": "Ventnor" },
+        "PO41": { "LONG": "-1.49865", "LAT": "50.70406", "ENG": "Yarmouth" }
+      }
+    },
+    {
+      "CODE": "KEN",
+      "CITIES": {
+        "TN23": { "LONG": "0.860", "LAT": "51.150", "ENG": "Ashford" },
+        "CT10": { "LONG": "1.43852", "LAT": "51.35606", "ENG": "Broadstairs" },
+        "": { "LONG": "1.080000", "LAT": "51.279999", "ENG": "Canterbury" },
+        "DA2": { "LONG": "0.220", "LAT": "51.440", "ENG": "Dartford" },
+        "CT14": { "LONG": "1.39988", "LAT": "51.22226", "ENG": "Deal" },
+        "CT16": { "LONG": "-2.58198", "LAT": "53.50877", "ENG": "Dover" },
+        "TN8": { "LONG": "0.06683", "LAT": "51.19945", "ENG": "Edenbridge" },
+        "ME13": { "LONG": "0.89015", "LAT": "51.31691", "ENG": "Faversham" },
+        "CT20": { "LONG": "1.169456", "LAT": "51.081398", "ENG": "Folkestone" },
+        "DA12": { "LONG": "0.370759", "LAT": "51.441883", "ENG": "Gravesend" },
+        "CT6": { "LONG": "1.110", "LAT": "51.370", "ENG": "Herne bay" },
+        "CT21": { "LONG": "-1.39745", "LAT": "50.86545", "ENG": "Hythe" },
+        "TN29": { "LONG": "0.90989", "LAT": "50.94765", "ENG": "Lydd" },
+        "ME14": { "LONG": "0.510", "LAT": "51.280", "ENG": "Maidstone" },
+        "CT9": { "LONG": "1.400", "LAT": "51.390", "ENG": "Margate" },
+        "ME12": { "LONG": "0.81076", "LAT": "51.42678", "ENG": "Minster" },
+        "TN28": { "LONG": "0.94059", "LAT": "50.98286", "ENG": "New romney" },
+        "DA11": { "LONG": "0.33700", "LAT": "51.44618", "ENG": "Northfleet" },
+        "TN12": { "LONG": "0.39481", "LAT": "51.17521", "ENG": "Paddock wood" },
+        "ME11": { "LONG": "0.75275", "LAT": "51.41916", "ENG": "Queenborough" },
+        "CT11": { "LONG": "1.400", "LAT": "51.340", "ENG": "Ramsgate" },
+        "TN1": {
+          "LONG": "0.260",
+          "LAT": "51.140",
+          "ENG": "Royal tunbridge wells"
+        },
+        "CT13": { "LONG": "1.34661", "LAT": "51.27777", "ENG": "Sandwich" },
+        "TN13": { "LONG": "0.18508", "LAT": "51.27824", "ENG": "Sevenoaks" },
+        "ME12": { "LONG": "0.75438", "LAT": "51.44610", "ENG": "Sheerness" },
+        "ME10": { "LONG": "0.730", "LAT": "51.350", "ENG": "Sittingbourne" },
+        "ME6": { "LONG": "0.44577", "LAT": "51.32704", "ENG": "Snodland" },
+        "TN4": { "LONG": "0.04660", "LAT": "51.38866", "ENG": "Southborough" },
+        "BR8": { "LONG": "-2.42794", "LAT": "51.66650", "ENG": "Swanley" },
+        "DA9": { "LONG": "0.29387", "LAT": "51.44703", "ENG": "Swanscombe" },
+        "TN30": { "LONG": "0.68914", "LAT": "51.06987", "ENG": "Tenterden" },
+        "TN9": { "LONG": "0.28135", "LAT": "51.19546", "ENG": "Tonbridge" },
+        "ME19": { "LONG": "0.41521", "LAT": "51.29170", "ENG": "West malling" },
+        "TN16": { "LONG": "0.07005", "LAT": "51.27134", "ENG": "Westerham" },
+        "CT5": { "LONG": "1.03641", "LAT": "51.35818", "ENG": "Whitstable" }
+      }
+    },
+    {
+      "CODE": "LAN",
+      "CITIES": {
+        "BB5": { "LONG": "-2.390", "LAT": "53.760", "ENG": "Accrington" },
+        "PR6": { "LONG": "-2.12906", "LAT": "53.32136", "ENG": "Adlington" },
+        "OL13": { "LONG": "-2.20595", "LAT": "53.69876", "ENG": "Bacup" },
+        "PR5": {
+          "LONG": "-2.66087",
+          "LAT": "53.73307",
+          "ENG": "Bamber bridge"
+        },
+        "BB18": {
+          "LONG": "-2.19179",
+          "LAT": "53.91449",
+          "ENG": "Barnoldswick"
+        },
+        "BB9": { "LONG": "-2.22190", "LAT": "53.85153", "ENG": "Barrowford" },
+        "FY1": { "LONG": "-3.060", "LAT": "53.820", "ENG": "Blackpool" },
+        "BB9": { "LONG": "-2.23695", "LAT": "53.82454", "ENG": "Brierfield" },
+        "BB11": { "LONG": "-2.260", "LAT": "53.800", "ENG": "Burnley" },
+        "LA5": { "LONG": "-2.77426", "LAT": "54.12786", "ENG": "Carnforth" },
+        "PR7": { "LONG": "-2.63559", "LAT": "53.05905", "ENG": "Chorley" },
+        "BB5": { "LONG": "-2.38828", "LAT": "53.76122", "ENG": "Church" },
+        "BB5": {
+          "LONG": "-2.38844",
+          "LAT": "53.77920",
+          "ENG": "Clayton-le-moors"
+        },
+        "FY5": { "LONG": "-3.04357", "LAT": "53.88315", "ENG": "Cleveleys" },
+        "BB7": { "LONG": "-2.38928", "LAT": "53.86908", "ENG": "Clitheroe" },
+        "BB8": { "LONG": "0.01777", "LAT": "52.36032", "ENG": "Colne" },
+        "BB18": { "LONG": "-2.14611", "LAT": "53.91456", "ENG": "Earby" },
+        "FY7": { "LONG": "-3.02924", "LAT": "53.91922", "ENG": "Fleetwood" },
+        "PR4": { "LONG": "-2.87344", "LAT": "53.74968", "ENG": "Freckleton" },
+        "PR2": { "LONG": "-2.69193", "LAT": "53.77783", "ENG": "Fulwood" },
+        "PR3": { "LONG": "-2.77010", "LAT": "53.90319", "ENG": "Garstang" },
+        "BB6": {
+          "LONG": "-2.40370",
+          "LAT": "53.78814",
+          "ENG": "Great harwood"
+        },
+        "BB4": { "LONG": "-2.32719", "LAT": "53.70748", "ENG": "Haslingden" },
+        "LA3": { "LONG": "-2.89492", "LAT": "54.04613", "ENG": "Heysham" },
+        "PR4": { "LONG": "-2.87419", "LAT": "53.78563", "ENG": "Kirkham" },
+        "": { "LONG": "-2.801000", "LAT": "54.047001", "ENG": "Lancaster" },
+        "PR25": { "LONG": "-2.700", "LAT": "53.700", "ENG": "Leyland" },
+        "PR3": { "LONG": "-2.16811", "LAT": "51.78404", "ENG": "Longridge" },
+        "FY8": {
+          "LONG": "-3.00968",
+          "LAT": "53.73962",
+          "ENG": "Lytham st anne's"
+        },
+        "LA4": { "LONG": "-2.860", "LAT": "54.080", "ENG": "Morecambe" },
+        "BB9": { "LONG": "-3.28061", "LAT": "51.65130", "ENG": "Nelson" },
+        "L39": { "LONG": "-2.88483", "LAT": "53.56983", "ENG": "Ormskirk" },
+        "BB5": {
+          "LONG": "-2.40327",
+          "LAT": "53.74320",
+          "ENG": "Oswaldtwistle"
+        },
+        "BB12": { "LONG": "-2.31270", "LAT": "53.79740", "ENG": "Padiham" },
+        "FY6": {
+          "LONG": "-2.99708",
+          "LAT": "53.84759",
+          "ENG": "Poulton-le-fylde"
+        },
+        "": {
+          "LONG": "-2.692337",
+          "LAT": "53.765762",
+          "ENG": "Preston",
+          "+": "PRESTON MATERNITY"
+        },
+        "BB4": { "LONG": "-2.28180", "LAT": "53.71658", "ENG": "Rawtenstall" },
+        "BB1": { "LONG": "-2.41870", "LAT": "53.77011", "ENG": "Rishton" },
+        "WN8": { "LONG": "-2.800", "LAT": "53.550", "ENG": "Skelmersdale" },
+        "FY5": { "LONG": "-2.98714", "LAT": "56.60646", "ENG": "Thornton" },
+        "BB8": { "LONG": "-2.13067", "LAT": "53.84267", "ENG": "Trawden" },
+        "OL12": { "LONG": "-2.17551", "LAT": "53.66286", "ENG": "Whitworth" }
+      }
+    },
+    {
+      "CODE": "LEI",
+      "CITIES": {
+        "LE65": {
+          "LONG": "-1.47557",
+          "LAT": "52.74496",
+          "ENG": "Ashby-de-la-zouch"
+        },
+        "LE67": { "LONG": "-1.37227", "LAT": "52.71749", "ENG": "Coalville" },
+        "LE9": { "LONG": "-1.31530", "LAT": "52.57334", "ENG": "Earl shilton" },
+        "LE10": { "LONG": "-1.370", "LAT": "52.540", "ENG": "Hinckley" },
+        "LE67": { "LONG": "-1.40224", "LAT": "52.69068", "ENG": "Ibstock" },
+        "": { "LONG": "-1.133333", "LAT": "52.633331", "ENG": "Leicester" },
+        "LE11": { "LONG": "-1.220", "LAT": "52.770", "ENG": "Loughborough" },
+        "LE17": { "LONG": "-1.19940", "LAT": "52.45574", "ENG": "Lutterworth" },
+        "CV13": {
+          "LONG": "-1.40310",
+          "LAT": "52.62775",
+          "ENG": "Market bosworth"
+        },
+        "LE16": {
+          "LONG": "-0.91918",
+          "LAT": "52.48048",
+          "ENG": "Market harborough"
+        },
+        "LE13": {
+          "LONG": "-0.88243",
+          "LAT": "52.76783",
+          "ENG": "Melton mowbray"
+        },
+        "LE12": { "LONG": "-1.29739", "LAT": "52.77101", "ENG": "Shepshed" },
+        "LE7": { "LONG": "-1.07660", "LAT": "52.69758", "ENG": "Syston" }
+      }
+    },
+    {
+      "CODE": "LIN",
+      "CITIES": {
+        "PE21": { "LONG": "-0.020", "LAT": "52.990", "ENG": "Boston" },
+        "PE10": { "LONG": "-0.37836", "LAT": "52.77100", "ENG": "Bourne" },
+        "PE6": { "LONG": "-0.15993", "LAT": "52.67791", "ENG": "Crowland" },
+        "DN21": {
+          "LONG": "-0.77581",
+          "LAT": "53.39605",
+          "ENG": "Gainsborough"
+        },
+        "NG31": { "LONG": "-0.650", "LAT": "52.910", "ENG": "Grantham" },
+        "NG34": { "LONG": "-0.29585", "LAT": "52.98561", "ENG": "Heckington" },
+        "PE12": { "LONG": "0.02369", "LAT": "52.80978", "ENG": "Holbeach" },
+        "LN9": { "LONG": "-1.03008", "LAT": "51.44747", "ENG": "Horncastle" },
+        "": { "LONG": "-0.538611", "LAT": "53.234444", "ENG": "Lincoln" },
+        "PE12": { "LONG": "-0.94891", "LAT": "51.22197", "ENG": "Long sutton" },
+        "LN11": { "LONG": "0.00493", "LAT": "53.36751", "ENG": "Louth" },
+        "LN12": { "LONG": "0.25927", "LAT": "53.34499", "ENG": "Mablethorpe" },
+        "PE6": {
+          "LONG": "-0.32255",
+          "LAT": "52.68032",
+          "ENG": "Market deeping"
+        },
+        "LN8": { "LONG": "-0.33986", "LAT": "53.39078", "ENG": "Market rasen" },
+        "LN6": {
+          "LONG": "-0.58720",
+          "LAT": "53.18721",
+          "ENG": "North hykeham"
+        },
+        "PE25": { "LONG": "0.33852", "LAT": "53.14566", "ENG": "Skegness" },
+        "NG34": { "LONG": "-0.85071", "LAT": "51.14012", "ENG": "Sleaford" },
+        "PE11": { "LONG": "-0.15538", "LAT": "52.78572", "ENG": "Spalding" },
+        "PE23": { "LONG": "0.10079", "LAT": "53.17706", "ENG": "Spilsby" },
+        "PE9": { "LONG": "-0.48613", "LAT": "52.65555", "ENG": "Stamford" },
+        "PE24": {
+          "LONG": "0.23208",
+          "LAT": "53.11174",
+          "ENG": "Wainfleet all saints"
+        },
+        "LN10": {
+          "LONG": "-0.21436",
+          "LAT": "53.15523",
+          "ENG": "Woodhall spa"
+        },
+        "LN8": { "LONG": "-0.29871", "LAT": "53.29132", "ENG": "Wragby" }
+      }
+    },
+    {
+      "CODE": "LDN",
+      "CITIES": {
+        "": { "LONG": "-0.118092", "LAT": "51.509865", "ENG": "London" },
+        "CR0": { "LONG": "-0.1099", "LAT": "51.3727", "ENG": "Croydon" },
+        "SE21": { "LONG": "-0.0779", "LAT": "51.4457", "ENG": "Dulwich" },
+        "EN1": { "LONG": "-0.080833", "LAT": "51.652222", "ENG": "Enfield" }
+      }
+    },
+    {
+      "CODE": "LTN",
+      "CITIES": {
+        "LU1": { "LONG": "-0.440", "LAT": "51.900", "ENG": "Luton" }
+      }
+    },
+    {
+      "CODE": "MCT",
+      "CITIES": {
+        "WA14": { "LONG": "-2.360", "LAT": "53.380", "ENG": "Altrincham" },
+        "WN4": {
+          "LONG": "-2.64202",
+          "LAT": "53.49048",
+          "ENG": "Ashton-in-makerfield"
+        },
+        "OL6": {
+          "LONG": "-2.110",
+          "LAT": "53.500",
+          "ENG": "Ashton-under-lyne"
+        },
+        "M46": { "LONG": "-2.49173", "LAT": "53.52715", "ENG": "Atherton" },
+        "WN1": {
+          "LONG": "-2.7125",
+          "LAT": "53.519722",
+          "ENG": "Billinge Hospital"
+        },
+        "BL1": { "LONG": "-2.430", "LAT": "53.580", "ENG": "Bolton" },
+        "SK7": { "LONG": "-2.15922", "LAT": "53.35727", "ENG": "Bramhall" },
+        "BL9": { "LONG": "-2.310", "LAT": "53.600", "ENG": "Bury" },
+        "OL9": { "LONG": "-2.14484", "LAT": "53.54605", "ENG": "Chadderton" },
+        "SK8": {
+          "LONG": "-2.18935",
+          "LAT": "53.37521",
+          "ENG": "Cheadle hulme"
+        },
+        "M34": { "LONG": "-2.120", "LAT": "53.450", "ENG": "Denton" },
+        "M43": { "LONG": "-2.15969", "LAT": "53.48311", "ENG": "Droylsden" },
+        "SK16": { "LONG": "-2.08433", "LAT": "53.47420", "ENG": "Dukinfield" },
+        "M30": { "LONG": "-2.330", "LAT": "53.490", "ENG": "Eccles" },
+        "M35": { "LONG": "-2.15980", "LAT": "53.51008", "ENG": "Failsworth" },
+        "BL4": { "LONG": "-2.73059", "LAT": "53.38211", "ENG": "Farnworth" },
+        "SK8": { "LONG": "-2.23454", "LAT": "53.39310", "ENG": "Gatley" },
+        "WA3": { "LONG": "-2.58149", "LAT": "53.47281", "ENG": "Golborne" },
+        "WA15": { "LONG": "-2.35469", "LAT": "53.37483", "ENG": "Hale" },
+        "SK7": { "LONG": "-2.11420", "LAT": "53.37530", "ENG": "Hazel grove" },
+        "OL10": { "LONG": "-2.22053", "LAT": "53.59088", "ENG": "Heywood" },
+        "WN2": { "LONG": "-2.56727", "LAT": "53.53580", "ENG": "Hindley" },
+        "BL6": { "LONG": "-2.55300", "LAT": "53.59879", "ENG": "Horwich" },
+        "SK14": { "LONG": "-2.74522", "LAT": "50.72973", "ENG": "Hyde" },
+        "WN3": { "ENG": "Ince-in-makerfield" },
+        "M44": { "LONG": "-2.41551", "LAT": "53.44654", "ENG": "Irlam" },
+        "BL4": { "LONG": "-2.37121", "LAT": "53.54556", "ENG": "Kearsley" },
+        "OL4": { "LONG": "-1.60718", "LAT": "52.93425", "ENG": "Lees" },
+        "WN7": { "LONG": "-2.530", "LAT": "53.500", "ENG": "Leigh" },
+        "BL3": { "LONG": "-2.37137", "LAT": "53.56354", "ENG": "Little lever" },
+        "OL15": {
+          "LONG": "-3.67165",
+          "LAT": "50.88201",
+          "ENG": "Littleborough"
+        },
+        "": { "LONG": "-2.244644", "LAT": "53.483959", "ENG": "Manchester" },
+        "SK6": { "LONG": "-2.06913", "LAT": "53.39331", "ENG": "Marple" },
+        "M24": { "LONG": "-2.210", "LAT": "53.560", "ENG": "Middleton" },
+        "OL16": { "LONG": "-2.11483", "LAT": "53.60900", "ENG": "Milnrow" },
+        "OL5": { "LONG": "-2.18836", "LAT": "53.15049", "ENG": "Mossley" },
+        "OL1": { "LONG": "-2.120", "LAT": "53.550", "ENG": "Oldham" },
+        "M31": { "LONG": "-2.43030", "LAT": "53.41952", "ENG": "Partington" },
+        "M26": { "LONG": "-2.320", "LAT": "53.570", "ENG": "Radcliffe" },
+        "BL0": { "LONG": "-2.32670", "LAT": "53.64456", "ENG": "Ramsbottom" },
+        "OL16": { "LONG": "-2.160", "LAT": "53.620", "ENG": "Rochdale" },
+        "SK6": { "LONG": "-2.08421", "LAT": "53.41128", "ENG": "Romiley" },
+        "OL2": { "LONG": "-2.12980", "LAT": "53.56404", "ENG": "Royton" },
+        "OL3": {
+          "LONG": "-2",
+          "LAT": "53.55",
+          "ENG": "Saddleworth",
+          "+": "THE MOORCOCK RESTAURANT SADLEWORTH"
+        },
+        "M33": { "LONG": "-2.340", "LAT": "53.420", "ENG": "Sale" },
+        "": { "LONG": "-2.293100", "LAT": "53.483002", "ENG": "Salford" },
+        "OL2": { "LONG": "-2.09963", "LAT": "53.57306", "ENG": "Shaw" },
+        "SK15": { "LONG": "-2.05421", "LAT": "53.48321", "ENG": "Stalybridge" },
+        "WN6": { "LONG": "-2.65863", "LAT": "53.58927", "ENG": "Standish" },
+        "SK1": { "LONG": "-2.170", "LAT": "53.420", "ENG": "Stockport" },
+        "M32": { "LONG": "-2.310", "LAT": "53.460", "ENG": "Stretford" },
+        "M27": { "LONG": "-4.10232", "LAT": "55.85570", "ENG": "Swinton" },
+        "M29": { "LONG": "-2.44628", "LAT": "53.50935", "ENG": "Tyldesley" },
+        "M41": { "LONG": "-2.380", "LAT": "53.450", "ENG": "Urmston" },
+        "M28": { "LONG": "-2.400", "LAT": "53.520", "ENG": "Walkden" },
+        "BL5": { "LONG": "-2.52212", "LAT": "53.54500", "ENG": "Westhoughton" },
+        "M45": { "LONG": "-2.13603", "LAT": "50.75002", "ENG": "Whitefield" },
+        "WN1": {
+          "LONG": "-2.640",
+          "LAT": "53.550",
+          "ENG": "Wigan",
+          "+": "GRANTHAM GROVE WIGAN",
+          "+": "WIGAN INFIRMARY"
+        },
+        "M28": { "LONG": "-2.38597", "LAT": "53.50956", "ENG": "Worsley" }
+      }
+    },
+    {
+      "CODE": "MDW",
+      "CITIES": {
+        "ME4": { "LONG": "0.510", "LAT": "51.380", "ENG": "Chatham" },
+        "ME8": { "LONG": "0.550", "LAT": "51.390", "ENG": "Gillingham" },
+        "ME1": { "LONG": "0.47784", "LAT": "51.38932", "ENG": "Rochester" }
+      }
+    },
+    {
+      "CODE": "MRS",
+      "CITIES": {
+        "L4 2SL": {
+          "LONG": "-2.9584",
+          "LAT": "53.4387",
+          "+": "Anfield Cemetary"
+        },
+        "CH62": { "LONG": "-3.010", "LAT": "53.350", "ENG": "Bebington" },
+        "L8": { "LONG": "-2.9585", "LAT": "53.3857", "ENG": "Belvedere Road" },
+        "WN5": { "LONG": "-2.70245", "LAT": "53.49913", "ENG": "Billinge" },
+        "CH41": { "LONG": "-3.040", "LAT": "53.390", "ENG": "Birkenhead" },
+        "L20": { "LONG": "-3.010", "LAT": "53.470", "ENG": "Bootle" },
+        "L14": {
+          "LONG": "-2.8965",
+          "LAT": "53.4062",
+          "ENG": "Broadgreen",
+          "+": "BROADGREEN HOSPITAL"
+        },
+        "L22": { "LONG": "-3.030", "LAT": "53.500", "ENG": "Crosby" },
+        "L37": { "LONG": "-3.06577", "LAT": "53.55936", "ENG": "Formby" },
+        "WN4": {
+          "LONG": "-2.67",
+          "LAT": "53.488",
+          "ENG": "Garswood",
+          "+": "GARSWOOD WN4 0SH"
+        },
+        "WA11": { "LONG": "-2.65668", "LAT": "53.46344", "ENG": "Haydock" },
+        "CH60": { "LONG": "-3.10544", "LAT": "53.34327", "ENG": "Heswall" },
+        "CH47": { "LONG": "-3.18176", "LAT": "53.38748", "ENG": "Hoylake" },
+        "L32": { "LONG": "-2.890", "LAT": "53.490", "ENG": "Kirkby" },
+        "L21": { "LONG": "-3.00348", "LAT": "53.47900", "ENG": "Litherland" },
+        "": {
+          "LONG": "-2.983333",
+          "LAT": "53.400002",
+          "ENG": "Liverpool",
+          "+": "AT HOME IN MENLOVE AVE LIVERPOOL",
+          "+": "LIVERPOOL MARIE CURIE HOSPICE",
+          "+": "LIVERPOOL MATERNITY HOSPITAL",
+          "+": "LIVERPOOL NORTH",
+          "+": "LIVERPOOL SOUTH",
+          "+": "Edge Lane Chapel"
+        },
+        "L31": { "LONG": "-2.94402", "LAT": "53.51544", "ENG": "Maghull" },
+        "WA12": {
+          "LONG": "-2.62642",
+          "LAT": "53.45461",
+          "ENG": "Newton-le-willows"
+        },
+        "L34": { "LONG": "-2.810", "LAT": "53.430", "ENG": "Prescot" },
+        "L35": {
+          "LONG": "-2.78537",
+          "LAT": "53.4212019",
+          "ENG": "Whiston Hospital"
+        },
+        "WA11": { "LONG": "-2.79306", "LAT": "53.50755", "ENG": "Rainford" },
+        "PR8": { "LONG": "-3.010", "LAT": "53.660", "ENG": "Southport" },
+        "WA10": {
+          "LONG": "-3.52914",
+          "LAT": "54.67790",
+          "ENG": "St helens",
+          "+": "ST HELENS CREMATORIUM"
+        },
+        "CH45": { "LONG": "-3.050", "LAT": "53.430", "ENG": "Wallasey" },
+        "CH48": { "LONG": "-3.18127", "LAT": "53.36951", "ENG": "West kirby" },
+        "CH46": { "LONG": "-3.0667", "LAT": "53.4333", "ENG": "Wirral" }
+      }
+    },
+    {
+      "CODE": "MTT",
+      "CITIES": {
+        "CF47": { "LONG": "-3.378", "LAT": "51.743", "ENG": "Merthyr Tydfil" },
+        "CF46": { "LONG": "-3.31003", "LAT": "51.66896", "ENG": "Treharris" }
+      }
+    },
+    {
+      "CODE": "MBR",
+      "CITIES": {
+        "TS1": { "LONG": "-1.230", "LAT": "54.580", "ENG": "Middlesbrough" }
+      }
+    },
+    {
+      "CODE": "MLN",
+      "CITIES": {
+        "EH19": { "LONG": "-3.12840", "LAT": "55.87748", "ENG": "Bonnyrigg" },
+        "EH22": { "LONG": "-3.060", "LAT": "55.890", "ENG": "Dalkeith" },
+        "EH20": { "LONG": "-3.16035", "LAT": "55.87718", "ENG": "Loanhead" },
+        "EH26": { "LONG": "-3.22286", "LAT": "55.83165", "ENG": "Penicuik" },
+        "EH30": { "LONG": "-3.40425", "LAT": "55.99145", "ENG": "Queensferry" }
+      }
+    },
+    {
+      "CODE": "MKN",
+      "CITIES": {
+        "MK3": { "LONG": "-0.740", "LAT": "52.000", "ENG": "Bletchley" },
+        "MK9": {
+          "LONG": "-0.75517",
+          "LAT": "52.02933",
+          "ENG": "Milton keynes"
+        },
+        "MK16": {
+          "LONG": "-0.72449",
+          "LAT": "52.08295",
+          "ENG": "Newport pagnell"
+        },
+        "MK46": { "LONG": "-0.70783", "LAT": "52.15470", "ENG": "Olney" },
+        "MK17": { "LONG": "-0.65371", "LAT": "52.01023", "ENG": "Woburn sands" }
+      }
+    },
+    {
+      "CODE": "MON",
+      "CITIES": {
+        "NP15": { "ENG": "Brynbuga" },
+        "NP26": { "ENG": "Caldicot" },
+        "NP16": { "ENG": "Cas-gwent" },
+        "NP25": { "ENG": "Trefynwy" },
+        "NP7": { "ENG": "Y fenni" }
+      }
+    },
+    {
+      "CODE": "MOR",
+      "CITIES": {
+        "AB56": { "LONG": "-2.98249", "LAT": "57.67554", "ENG": "Buckie" },
+        "IV30": { "LONG": "-3.48679", "LAT": "57.70655", "ENG": "Burghead" },
+        "AB38": {
+          "LONG": "-3.22696",
+          "LAT": "57.46679",
+          "ENG": "Charlestown of aberlour"
+        },
+        "AB56": { "LONG": "-2.81525", "LAT": "57.69470", "ENG": "Cullen" },
+        "AB55": { "LONG": "-3.12613", "LAT": "57.44078", "ENG": "Dufftown" },
+        "IV30": { "LONG": "-3.335724", "LAT": "57.653484", "ENG": "Elgin" },
+        "AB56": { "LONG": "-2.89934", "LAT": "57.70311", "ENG": "Findochty" },
+        "IV36": { "LONG": "-3.61658", "LAT": "57.60614", "ENG": "Forres" },
+        "AB55": { "LONG": "-2.96216", "LAT": "57.54096", "ENG": "Keith" },
+        "IV31": { "LONG": "-3.28580", "LAT": "57.71774", "ENG": "Lossiemouth" },
+        "AB38": { "LONG": "-3.21237", "LAT": "57.52982", "ENG": "Rothes" }
+      }
+    },
+    {
+      "CODE": "NPT",
+      "CITIES": {
+        "NP18": { "ENG": "Caerleon" }
+      }
+    },
+    {
+      "CODE": "NFK",
+      "CITIES": {
+        "NR17": { "LONG": "1.01267", "LAT": "52.51899", "ENG": "Attleborough" },
+        "NR11": { "LONG": "1.25467", "LAT": "52.80037", "ENG": "Aylsham" },
+        "NR30": {
+          "LONG": "1.73162",
+          "LAT": "52.65140",
+          "ENG": "Caister-on-sea"
+        },
+        "NR27": { "LONG": "-0.11754", "LAT": "51.93994", "ENG": "Cromer" },
+        "NR19": { "LONG": "0.93455", "LAT": "52.67384", "ENG": "Dereham" },
+        "IP22": { "LONG": "1.10619", "LAT": "52.38167", "ENG": "Diss" },
+        "PE38": {
+          "LONG": "0.38347",
+          "LAT": "52.60528",
+          "ENG": "Downham market"
+        },
+        "NR21": { "LONG": "0.85649", "LAT": "52.83761", "ENG": "Fakenham" },
+        "NR31": {
+          "LONG": "1.72475",
+          "LAT": "52.57066",
+          "ENG": "Gorleston-on-sea"
+        },
+        "NR30": { "LONG": "1.710", "LAT": "52.590", "ENG": "Great yarmouth" },
+        "IP20": { "LONG": "-3.69318", "LAT": "50.29711", "ENG": "Harleston" },
+        "NR9": { "LONG": "0.98751", "LAT": "52.58258", "ENG": "Hingham" },
+        "NR25": { "LONG": "-1.96587", "LAT": "50.83103", "ENG": "Holt" },
+        "PE36": { "LONG": "0.49089", "LAT": "52.93576", "ENG": "Hunstanton" },
+        "PE30": { "LONG": "0.400", "LAT": "52.750", "ENG": "King's lynn" },
+        "NR14": { "LONG": "1.48557", "LAT": "52.53298", "ENG": "Loddon" },
+        "NR28": {
+          "LONG": "1.39002",
+          "LAT": "52.82356",
+          "ENG": "North walsham"
+        },
+        "NR10": { "LONG": "-0.45030", "LAT": "53.24844", "ENG": "Reepham" },
+        "NR26": { "LONG": "1.20601", "LAT": "52.94559", "ENG": "Sheringham" },
+        "NR12": { "LONG": "1.51970", "LAT": "52.77481", "ENG": "Stalham" },
+        "PE37": { "LONG": "0.68177", "LAT": "52.65285", "ENG": "Swaffham" },
+        "IP24": { "LONG": "-0.35077", "LAT": "52.71668", "ENG": "Thetford" },
+        "IP25": { "LONG": "-2.77341", "LAT": "50.72056", "ENG": "Watton" },
+        "NR23": {
+          "LONG": "0.84931",
+          "LAT": "52.95468",
+          "ENG": "Wells-next-the-sea"
+        },
+        "NR18": { "LONG": "-0.73452", "LAT": "52.75735", "ENG": "Wymondham" }
+      }
+    },
+    {
+      "CODE": "NAY",
+      "CITIES": {
+        "KA22": { "LONG": "-4.80614", "LAT": "55.64390", "ENG": "Ardrossan" },
+        "KA12": { "LONG": "-4.690", "LAT": "55.620", "ENG": "Irvine" },
+        "KA13": { "LONG": "-4.69567", "LAT": "55.65537", "ENG": "Kilwinning" },
+        "KA30": { "LONG": "-4.86490", "LAT": "55.79536", "ENG": "Largs" },
+        "KA28": { "LONG": "-4.92592", "LAT": "55.75796", "ENG": "Millport" },
+        "KA21": { "LONG": "-3.42481", "LAT": "54.35561", "ENG": "Saltcoats" },
+        "KA20": { "LONG": "-4.75853", "LAT": "55.64498", "ENG": "Stevenston" }
+      }
+    },
+    {
+      "CODE": "NEL",
+      "CITIES": {
+        "DN35": { "LONG": "-0.03142", "LAT": "53.55691", "ENG": "Cleethorpes" },
+        "DN31": { "LONG": "-0.110", "LAT": "53.570", "ENG": "Grimsby" },
+        "DN40": { "LONG": "-0.21019", "LAT": "53.61365", "ENG": "Immingham" }
+      }
+    },
+    {
+      "CODE": "NLK",
+      "CITIES": {
+        "ML6": { "LONG": "-3.97506", "LAT": "55.86680", "ENG": "Airdrie" },
+        "ML4": { "LONG": "-4.03612", "LAT": "55.81188", "ENG": "Bellshill" },
+        "ML5": { "LONG": "-4.03894", "LAT": "55.86576", "ENG": "Coatbridge" },
+        "G67": { "LONG": "-3.990", "LAT": "55.960", "ENG": "Cumbernauld" },
+        "G65": { "LONG": "-4.06110", "LAT": "55.98222", "ENG": "Kilsyth" },
+        "ML1": { "LONG": "-4.000", "LAT": "55.790", "ENG": "Motherwell" },
+        "ML2": { "LONG": "-3.92272", "LAT": "55.77776", "ENG": "Wishaw" }
+      }
+    },
+    {
+      "CODE": "NLN",
+      "CITIES": {
+        "DN18": {
+          "LONG": "-0.43418",
+          "LAT": "53.68871",
+          "ENG": "Barton-upon-humber"
+        },
+        "DN20": { "LONG": "-0.48442", "LAT": "53.55452", "ENG": "Brigg" },
+        "DN17": { "LONG": "-0.83028", "LAT": "53.60334", "ENG": "Crowle" },
+        "DN9": { "LONG": "-0.81743", "LAT": "53.52232", "ENG": "Epworth" },
+        "DN21": {
+          "LONG": "-0.59273",
+          "LAT": "53.47494",
+          "ENG": "Kirton in lindsey"
+        },
+        "DN15": { "LONG": "-0.670", "LAT": "53.590", "ENG": "Scunthorpe" },
+        "DN15": { "LONG": "-0.60188", "LAT": "53.65483", "ENG": "Winterton" }
+      }
+    },
+    {
+      "CODE": "NSR",
+      "CITIES": {
+        "BS21": { "LONG": "-2.87181", "LAT": "51.43925", "ENG": "Clevedon" },
+        "BS48": { "LONG": "-2.77081", "LAT": "51.42197", "ENG": "Nailsea" },
+        "BS20": { "LONG": "-2.77187", "LAT": "51.48491", "ENG": "Portishead" },
+        "BS23": {
+          "LONG": "-2.980",
+          "LAT": "51.360",
+          "ENG": "Weston-super-mare"
+        }
+      }
+    },
+    {
+      "CODE": "NRY",
+      "CITIES": {
+        "DL8": { "LONG": "-1.59439", "LAT": "54.29144", "ENG": "Bedale" },
+        "YO51": {
+          "LONG": "-1.39756",
+          "LAT": "54.09289",
+          "ENG": "Boroughbridge"
+        },
+        "YO61": { "LONG": "-1.18301", "LAT": "54.11859", "ENG": "Easingwold" },
+        "YO14": { "LONG": "-0.29193", "LAT": "54.20812", "ENG": "Filey" },
+        "HG1": { "LONG": "-1.540", "LAT": "53.990", "ENG": "Harrogate" },
+        "YO32": { "LONG": "-1.07832", "LAT": "54.00998", "ENG": "Haxby" },
+        "YO62": { "LONG": "-1.05757", "LAT": "54.25249", "ENG": "Helmsley" },
+        "LA2": { "LONG": "-2.51402", "LAT": "54.12026", "ENG": "High bentham" },
+        "YO62": {
+          "LONG": "-0.93434",
+          "LAT": "54.26944",
+          "ENG": "Kirkbymoorside"
+        },
+        "HG5": {
+          "LONG": "-1.45977",
+          "LAT": "54.01230",
+          "ENG": "Knaresborough"
+        },
+        "DL8": { "LONG": "-1.82475", "LAT": "54.30997", "ENG": "Leyburn" },
+        "YO17": { "LONG": "-0.80009", "LAT": "54.13336", "ENG": "Malton" },
+        "HG4": { "LONG": "-1.65644", "LAT": "54.21974", "ENG": "Masham" },
+        "DL8": { "LONG": "-1.80951", "LAT": "54.28299", "ENG": "Middleham" },
+        "DL7": {
+          "LONG": "-1.42466",
+          "LAT": "54.34468",
+          "ENG": "Northallerton"
+        },
+        "YO17": {
+          "LONG": "-0.78479",
+          "LAT": "54.13321",
+          "ENG": "Norton-on-derwent"
+        },
+        "HG3": {
+          "LONG": "-1.76455",
+          "LAT": "54.08518",
+          "ENG": "Pateley bridge"
+        },
+        "YO18": { "LONG": "-0.78136", "LAT": "54.25002", "ENG": "Pickering" },
+        "DL10": { "LONG": "-1.73189", "LAT": "54.40866", "ENG": "Richmond" },
+        "": { "LONG": "-1.524000", "LAT": "54.138000", "ENG": "Ripon" },
+        "YO11": { "LONG": "-0.430", "LAT": "54.290", "ENG": "Scarborough" },
+        "YO8": { "LONG": "-1.06807", "LAT": "53.78520", "ENG": "Selby" },
+        "BD24": { "LONG": "-2.28417", "LAT": "54.06710", "ENG": "Settle" },
+        "BD23": { "LONG": "-2.02435", "LAT": "53.95958", "ENG": "Skipton" },
+        "LS24": { "LONG": "-1.26363", "LAT": "53.88543", "ENG": "Tadcaster" },
+        "YO7": { "LONG": "-1.34945", "LAT": "54.23645", "ENG": "Thirsk" },
+        "YO21": { "LONG": "-2.90868", "LAT": "53.27302", "ENG": "Whitby" },
+        "": { "LONG": "-1.080278", "LAT": "53.958332", "ENG": "York" }
+      }
+    },
+    {
+      "CODE": "NTH",
+      "CITIES": {
+        "NN13": { "LONG": "-1.14866", "LAT": "52.03283", "ENG": "Brackley" },
+        "NN15": {
+          "LONG": "-0.68712",
+          "LAT": "52.36126",
+          "ENG": "Burton latimer"
+        },
+        "NN17": { "LONG": "-0.730", "LAT": "52.500", "ENG": "Corby" },
+        "NN11": { "LONG": "-1.15902", "LAT": "52.25767", "ENG": "Daventry" },
+        "NN14": { "LONG": "-0.81709", "LAT": "52.44355", "ENG": "Desborough" },
+        "NN10": {
+          "LONG": "-0.58608",
+          "LAT": "52.30615",
+          "ENG": "Higham ferrers"
+        },
+        "NN9": {
+          "LONG": "-0.61485",
+          "LAT": "52.32447",
+          "ENG": "Irthlingborough"
+        },
+        "NN16": { "LONG": "-0.730", "LAT": "52.400", "ENG": "Kettering" },
+        "NN1": {
+          "LONG": "-0.902656",
+          "LAT": "52.240479",
+          "ENG": "Northampton"
+        },
+        "PE8": { "LONG": "-0.47728", "LAT": "52.48461", "ENG": "Oundle" },
+        "NN9": { "LONG": "-0.54092", "LAT": "52.34156", "ENG": "Raunds" },
+        "LS26": { "LONG": "-0.26105", "LAT": "53.47956", "ENG": "Rothwell" },
+        "NN10": { "LONG": "-0.10186", "LAT": "51.96667", "ENG": "Rushden" },
+        "NN14": { "LONG": "-0.53914", "LAT": "52.39549", "ENG": "Thrapston" },
+        "NN12": { "LONG": "-0.98610", "LAT": "52.13044", "ENG": "Towcester" },
+        "NN8": { "LONG": "-0.700", "LAT": "52.300", "ENG": "Wellingborough" }
+      }
+    },
+    {
+      "CODE": "NIR",
+      "CITIES": {
+        "": { "LONG": "-7.307400", "LAT": "54.995800", "ENG": "Derry" },
+        "": { "LONG": "-6.349000", "LAT": "54.175999", "ENG": "Newry" }
+      }
+    },
+    {
+      "CODE": "NBL",
+      "CITIES": {
+        "NE66": { "LONG": "-1.70933", "LAT": "55.41507", "ENG": "Alnwick" },
+        "NE65": { "LONG": "-1.56815", "LAT": "55.32480", "ENG": "Amble" },
+        "NE63": { "LONG": "-1.99427", "LAT": "50.78607", "ENG": "Ashington" },
+        "NE22": { "LONG": "-1.58597", "LAT": "55.12717", "ENG": "Bedlington" },
+        "TD15": {
+          "LONG": "-2.00954",
+          "LAT": "55.76585",
+          "ENG": "Berwick-upon-tweed"
+        },
+        "NE24": { "LONG": "-1.520", "LAT": "55.120", "ENG": "Blyth" },
+        "NE45": { "LONG": "-2.00934", "LAT": "54.97511", "ENG": "Corbridge" },
+        "NE23": { "LONG": "-1.58643", "LAT": "55.08224", "ENG": "Cramlington" },
+        "NE49": { "LONG": "-2.46239", "LAT": "54.97423", "ENG": "Haltwhistle" },
+        "NE46": { "LONG": "-2.10306", "LAT": "54.96608", "ENG": "Hexham" },
+        "NE61": { "LONG": "-1.67977", "LAT": "55.16340", "ENG": "Morpeth" },
+        "NE64": {
+          "LONG": "-1.52260",
+          "LAT": "55.18086",
+          "ENG": "Newbiggin-by-the-sea"
+        },
+        "NE20": { "LONG": "-1.74325", "LAT": "55.05572", "ENG": "Ponteland" },
+        "NE42": { "LONG": "-1.85318", "LAT": "54.95705", "ENG": "Prudhoe" },
+        "NE65": { "LONG": "-1.91491", "LAT": "55.30756", "ENG": "Rothbury" },
+        "NE71": { "LONG": "-2.00948", "LAT": "55.55020", "ENG": "Wooler" }
+      }
+    },
+    {
+      "CODE": "NTT",
+      "CITIES": {
+        "NG5": { "LONG": "-1.130", "LAT": "53.010", "ENG": "Arnold" },
+        "NG9": { "LONG": "-0.29975", "LAT": "52.12255", "ENG": "Beeston" },
+        "NG13": { "LONG": "-3.11422", "LAT": "55.94050", "ENG": "Bingham" },
+        "NG12": { "LONG": "-1.04228", "LAT": "52.91306", "ENG": "Cotgrave" },
+        "NG16": { "LONG": "0.66056", "LAT": "51.56519", "ENG": "Eastwood" },
+        "NG15": { "LONG": "-1.20353", "LAT": "53.04011", "ENG": "Hucknall" },
+        "NG16": { "LONG": "1.06245", "LAT": "52.59865", "ENG": "Kimberley" },
+        "NG17": {
+          "LONG": "-1.24718",
+          "LAT": "53.10331",
+          "ENG": "Kirkby-in-ashfield"
+        },
+        "NG18": { "LONG": "-1.210", "LAT": "53.150", "ENG": "Mansfield" },
+        "NG19": {
+          "LONG": "-1.18625",
+          "LAT": "53.16584",
+          "ENG": "Mansfield woodhouse"
+        },
+        "NG20": {
+          "LONG": "-1.15563",
+          "LAT": "53.20158",
+          "ENG": "Market warsop"
+        },
+        "NG24": { "LONG": "-0.820", "LAT": "53.080", "ENG": "Newark-on-trent" },
+        "": { "LONG": "-1.150000", "LAT": "52.950001", "ENG": "Nottingham" },
+        "DN22": { "LONG": "-0.94321", "LAT": "53.31675", "ENG": "Retford" },
+        "NG25": { "LONG": "-2.44582", "LAT": "50.53342", "ENG": "Southwell" },
+        "NG9": { "LONG": "0.15404", "LAT": "52.14210", "ENG": "Stapleford" },
+        "NG17": {
+          "LONG": "-1.270",
+          "LAT": "53.130",
+          "ENG": "Sutton in ashfield"
+        },
+        "NG2": {
+          "LONG": "-1.13132",
+          "LAT": "52.92274",
+          "ENG": "West bridgford"
+        },
+        "S80": { "LONG": "-1.130", "LAT": "53.310", "ENG": "Worksop" }
+      }
+    },
+    {
+      "CODE": "OKI",
+      "CITIES": {
+        "KW15": { "LONG": "-2.94974", "LAT": "58.97816", "ENG": "Kirkwall" },
+        "KW16": { "LONG": "-3.29720", "LAT": "58.96617", "ENG": "Stromness" }
+      }
+    },
+    {
+      "CODE": "OXF",
+      "CITIES": {
+        "OX14": {
+          "LONG": "-1.25649",
+          "LAT": "51.68291",
+          "ENG": "Abingdon-on-thames"
+        },
+        "OX16": { "LONG": "-1.350", "LAT": "52.060", "ENG": "Banbury" },
+        "OX26": { "LONG": "-1.15121", "LAT": "51.89798", "ENG": "Bicester" },
+        "OX18": { "LONG": "-2.56122", "LAT": "53.07740", "ENG": "Burford" },
+        "OX18": { "LONG": "-1.58850", "LAT": "51.75647", "ENG": "Carterton" },
+        "OX7": { "LONG": "-1.48577", "LAT": "51.87295", "ENG": "Charlbury" },
+        "OX7": {
+          "LONG": "-1.54323",
+          "LAT": "51.93612",
+          "ENG": "Chipping norton"
+        },
+        "OX11": { "LONG": "-1.24338", "LAT": "51.60190", "ENG": "Didcot" },
+        "SN7": { "LONG": "-1.58940", "LAT": "51.65757", "ENG": "Faringdon" },
+        "RG9": {
+          "LONG": "-0.89843",
+          "LAT": "51.53623",
+          "ENG": "Henley-on-thames"
+        },
+        "OX5": { "LONG": "-1.28329", "LAT": "51.81794", "ENG": "Kidlington" },
+        "": { "LONG": "-1.257677", "LAT": "51.752022", "ENG": "Oxford" },
+        "OX9": { "LONG": "-0.98030", "LAT": "51.74378", "ENG": "Thame" },
+        "OX10": { "LONG": "-1.12788", "LAT": "51.60110", "ENG": "Wallingford" },
+        "OX12": { "LONG": "-1.41686", "LAT": "51.58491", "ENG": "Wantage" },
+        "OX49": { "LONG": "0.38689", "LAT": "52.66815", "ENG": "Watlington" },
+        "OX28": { "LONG": "-1.48679", "LAT": "51.78304", "ENG": "Witney" },
+        "OX20": { "LONG": "0.73197", "LAT": "51.31172", "ENG": "Woodstock" }
+      }
+    },
+    {
+      "CODE": "PEM",
+      "CITIES": {
+        "SA73": { "ENG": "Aberdaugleddau" },
+        "SA65": { "ENG": "Abergwaun" },
+        "SA67": { "ENG": "Arberth" },
+        "SA70": { "ENG": "Dinbych-y-pysgod" },
+        "SA72": { "ENG": "Doc penfro" },
+        "SA61": { "ENG": "Hwlffordd" },
+        "SA73": { "LONG": "-4.94699", "LAT": "51.71123", "ENG": "Neyland" },
+        "SA71": { "ENG": "Penfro" },
+        "": { "LONG": "-5.269000", "LAT": "51.882000", "ENG": "St. davids" },
+        "SA42": { "LONG": "-4.38973", "LAT": "53.20757", "ENG": "Trefdraeth" },
+        "SA64": { "ENG": "Wdig" }
+      }
+    },
+    {
+      "CODE": "PKR",
+      "CITIES": {
+        "PH15": { "LONG": "-3.86771", "LAT": "56.62331", "ENG": "Aberfeldy" },
+        "PH11": { "LONG": "-3.23201", "LAT": "56.62225", "ENG": "Alyth" },
+        "PH3": { "LONG": "-3.70614", "LAT": "56.29317", "ENG": "Auchterarder" },
+        "PH10": { "ENG": "Blairgowrie and rattray" },
+        "PH13": {
+          "LONG": "-3.26220",
+          "LAT": "56.55007",
+          "ENG": "Coupar angus"
+        },
+        "PH7": { "LONG": "-3.83921", "LAT": "56.37214", "ENG": "Crieff" },
+        "KY13": { "LONG": "-3.42823", "LAT": "56.20683", "ENG": "Kinross" },
+        "": { "LONG": "-3.437000", "LAT": "56.396999", "ENG": "Perth" },
+        "PH16": { "LONG": "-3.72480", "LAT": "56.70624", "ENG": "Pitlochry" }
+      }
+    },
+    {
+      "CODE": "PLE",
+      "CITIES": {
+        "BH15": { "LONG": "-1.980", "LAT": "50.720", "ENG": "Poole" }
+      }
+    },
+    {
+      "CODE": "PWS",
+      "CITIES": {
+        "LD3": { "ENG": "Aberhonddu" },
+        "NP8": { "ENG": "Crughywel" },
+        "LD8": { "ENG": "Llanandras" },
+        "LD1": { "ENG": "Llandrindod" },
+        "SY21": {
+          "LONG": "-3.32434",
+          "LAT": "52.64882",
+          "ENG": "Llanfair caereinion"
+        },
+        "LD2": { "ENG": "Llanfair-ym-muallt" },
+        "SY22": { "LONG": "-3.26862", "LAT": "52.76630", "ENG": "Llanfyllin" },
+        "SY18": { "LONG": "-3.53904", "LAT": "52.44843", "ENG": "Llanidloes" },
+        "LD5": {
+          "LONG": "-3.64401",
+          "LAT": "52.10535",
+          "ENG": "Llanwrtyd wells"
+        },
+        "SY20": { "LONG": "-3.85392", "LAT": "52.58777", "ENG": "Machynlleth" },
+        "SY15": { "LONG": "-3.1493", "LAT": "52.5628", "ENG": "Montgomery" },
+        "LD6": { "ENG": "Rhayader" },
+        "LD3": { "LONG": "-3.23209", "LAT": "51.99349", "ENG": "Talgarth" },
+        "SY15": { "ENG": "Trefaldwyn" },
+        "LD7": { "ENG": "Tref-y-clawdd" },
+        "SY21": { "ENG": "Welshpool" },
+        "SY16": { "ENG": "Y drenewydd" },
+        "HR3": { "ENG": "Y gelli gandryll" },
+        "SA9": { "LONG": "-3.76263", "LAT": "51.77993", "ENG": "Ystradgynlais" }
+      }
+    },
+    {
+      "CODE": "RCL",
+      "CITIES": {
+        "TS12": { "LONG": "-0.94209", "LAT": "54.56610", "ENG": "Brotton" },
+        "TS14": { "LONG": "-1.05117", "LAT": "54.53105", "ENG": "Guisborough" },
+        "TS13": { "LONG": "-0.89594", "LAT": "54.55670", "ENG": "Loftus" },
+        "TS11": {
+          "LONG": "-1.01876",
+          "LAT": "54.59371",
+          "ENG": "Marske-by-the-sea"
+        },
+        "TS10": { "LONG": "-1.070", "LAT": "54.610", "ENG": "Redcar" },
+        "TS12": {
+          "LONG": "-0.97256",
+          "LAT": "54.58434",
+          "ENG": "Saltburn-by-the-sea"
+        },
+        "TS12": { "LONG": "-2.87847", "LAT": "54.71132", "ENG": "Skelton" }
+      }
+    },
+    {
+      "CODE": "RFW",
+      "CITIES": {
+        "PA8": { "LONG": "-4.47339", "LAT": "55.91172", "ENG": "Erskine" },
+        "PA5": { "LONG": "-4.50016", "LAT": "55.83028", "ENG": "Johnstone" },
+        "PA1": { "LONG": "-4.42097", "LAT": "55.84086", "ENG": "Paisley" },
+        "PA4": { "LONG": "-4.40668", "LAT": "55.86810", "ENG": "Renfrew" }
+      }
+    },
+    {
+      "CODE": "RCT",
+      "CITIES": {
+        "CF45": { "LONG": "-3.32396", "LAT": "51.65082", "ENG": "Abercynon" },
+        "CF44": { "LONG": "-3.44155", "LAT": "51.71238", "ENG": "Aberdare" },
+        "CF45": { "LONG": "-3.38285", "LAT": "51.68611", "ENG": "Aberpennar" },
+        "CF43": { "LONG": "0.27869", "LAT": "51.14155", "ENG": "Ferndale" },
+        "CF72": { "LONG": "-4.45625", "LAT": "53.32310", "ENG": "Llantrisant" },
+        "CF37": { "LONG": "-3.33682", "LAT": "51.59672", "ENG": "Pontypridd" },
+        "CF39": { "LONG": "-5.04923", "LAT": "50.42236", "ENG": "Porth" },
+        "CF41": { "LONG": "-3.460", "LAT": "51.630", "ENG": "Rhondda" },
+        "CF37": { "LONG": "-3.305103", "LAT": "51.58666", "ENG": "Rhydyfelin" },
+        "CF72": {
+          "LONG": "-3.39263",
+          "LAT": "51.53313",
+          "ENG": "Talbot green"
+        },
+        "CF40": { "LONG": "-3.45314", "LAT": "51.62232", "ENG": "Tonypandy" },
+        "CF42": { "LONG": "-3.52715", "LAT": "51.67533", "ENG": "Treherbert" },
+        "CF42": { "LONG": "-3.51210", "LAT": "51.65754", "ENG": "Treorchy" }
+      }
+    },
+    {
+      "CODE": "RUT",
+      "CITIES": {
+        "LE15": { "LONG": "-0.73686", "LAT": "52.67647", "ENG": "Oakham" },
+        "LE15": { "LONG": "-0.72469", "LAT": "52.58643", "ENG": "Uppingham" }
+      }
+    },
+    {
+      "CODE": "STB",
+      "CITIES": {
+        "TD12": { "LONG": "-2.24785", "LAT": "55.64879", "ENG": "Coldstream" },
+        "TD11": { "LONG": "-2.34429", "LAT": "55.77435", "ENG": "Duns" },
+        "TD14": { "LONG": "-2.08947", "LAT": "55.87363", "ENG": "Eyemouth" },
+        "TD1": { "LONG": "-2.80340", "LAT": "55.61945", "ENG": "Galashiels" },
+        "TD9": { "LONG": "-2.78376", "LAT": "55.43088", "ENG": "Hawick" },
+        "EH44": {
+          "LONG": "-3.05740",
+          "LAT": "55.61752",
+          "ENG": "Innerleithen"
+        },
+        "TD8": { "LONG": "-2.54736", "LAT": "55.47709", "ENG": "Jedburgh" },
+        "TD5": { "LONG": "-2.43802", "LAT": "55.60333", "ENG": "Kelso" },
+        "TD2": { "LONG": "-2.75768", "LAT": "55.71858", "ENG": "Lauder" },
+        "TD6": { "LONG": "-2.72368", "LAT": "55.60198", "ENG": "Melrose" },
+        "EH45": { "LONG": "-3.18548", "LAT": "55.65230", "ENG": "Peebles" },
+        "TD7": { "LONG": "-2.83363", "LAT": "55.54736", "ENG": "Selkirk" }
+      }
+    },
+    {
+      "CODE": "SHI",
+      "CITIES": {
+        "ZE1": { "LONG": "-1.14621", "LAT": "60.15523", "ENG": "Lerwick" }
+      }
+    },
+    {
+      "CODE": "SAL",
+      "CITIES": {
+        "SY9": {
+          "LONG": "-2.99555",
+          "LAT": "52.49022",
+          "ENG": "Bishop's castle"
+        },
+        "WV16": { "LONG": "-2.42163", "LAT": "52.53861", "ENG": "Bridgnorth" },
+        "TF12": { "LONG": "-2.48139", "LAT": "52.61030", "ENG": "Broseley" },
+        "SY6": {
+          "LONG": "-2.80493",
+          "LAT": "52.53662",
+          "ENG": "Church stretton"
+        },
+        "DY14": {
+          "LONG": "-2.47884",
+          "LAT": "52.37657",
+          "ENG": "Cleobury mortimer"
+        },
+        "SY7": { "LONG": "-2.83255", "LAT": "52.43754", "ENG": "Craven arms" },
+        "SY12": { "LONG": "-2.90095", "LAT": "52.90451", "ENG": "Ellesmere" },
+        "SY8": { "LONG": "-2.71371", "LAT": "52.36639", "ENG": "Ludlow" },
+        "TF9": {
+          "LONG": "-2.48467",
+          "LAT": "52.90694",
+          "ENG": "Market drayton"
+        },
+        "TF13": {
+          "LONG": "-2.55500",
+          "LAT": "52.59200",
+          "ENG": "Much wenlock"
+        },
+        "SY11": { "LONG": "-3.04851", "LAT": "52.85835", "ENG": "Oswestry" },
+        "SY1": { "LONG": "-2.750", "LAT": "52.710", "ENG": "Shrewsbury" },
+        "SY4": { "LONG": "-2.72180", "LAT": "52.86079", "ENG": "Wem" },
+        "SY13": { "LONG": "-0.83201", "LAT": "51.87727", "ENG": "Whitchurch" }
+      }
+    },
+    {
+      "CODE": "SOM",
+      "CITIES": {
+        "BS26": { "LONG": "-2.81156", "LAT": "51.28682", "ENG": "Axbridge" },
+        "": { "LONG": "-2.360000", "LAT": "51.380001", "ENG": "Bath" },
+        "TA6": { "LONG": "-3.010", "LAT": "51.130", "ENG": "Bridgwater" },
+        "BA10": { "LONG": "-2.45133", "LAT": "51.10892", "ENG": "Bruton" },
+        "TA8": {
+          "LONG": "-2.99698",
+          "LAT": "51.24043",
+          "ENG": "Burnham-on-sea"
+        },
+        "BA7": { "LONG": "-2.52255", "LAT": "51.09064", "ENG": "Castle cary" },
+        "TA20": { "LONG": "-2.96067", "LAT": "50.87204", "ENG": "Chard" },
+        "TA18": { "LONG": "-2.79030", "LAT": "50.88231", "ENG": "Crewkerne" },
+        "TA22": { "LONG": "-3.54914", "LAT": "51.04557", "ENG": "Dulverton" },
+        "BA11": { "LONG": "-2.32359", "LAT": "51.22624", "ENG": "Frome" },
+        "BA6": { "LONG": "-2.70912", "LAT": "51.15260", "ENG": "Glastonbury" },
+        "TA19": { "LONG": "-2.90488", "LAT": "50.92644", "ENG": "Ilminster" },
+        "TA10": { "LONG": "-2.82142", "LAT": "51.03497", "ENG": "Langport" },
+        "TA24": { "LONG": "-3.48302", "LAT": "51.20830", "ENG": "Minehead" },
+        "TA6": {
+          "LONG": "-3.00816",
+          "LAT": "51.09645",
+          "ENG": "North petherton"
+        },
+        "BA4": {
+          "LONG": "-2.55228",
+          "LAT": "51.18942",
+          "ENG": "Shepton mallet"
+        },
+        "TA11": { "LONG": "-2.96115", "LAT": "51.58242", "ENG": "Somerton" },
+        "TA13": {
+          "LONG": "-2.80560",
+          "LAT": "50.94516",
+          "ENG": "South petherton"
+        },
+        "BA16": { "LONG": "-2.58013", "LAT": "54.47047", "ENG": "Street" },
+        "TA1": { "LONG": "-3.110", "LAT": "51.030", "ENG": "Taunton" },
+        "TA23": { "LONG": "-3.32482", "LAT": "51.18322", "ENG": "Watchet" },
+        "TA21": { "LONG": "-3.42731", "LAT": "54.42748", "ENG": "Wellington" },
+        "": { "LONG": "-2.647000", "LAT": "51.209000", "ENG": "Wells" },
+        "BA9": { "LONG": "-2.40801", "LAT": "51.05513", "ENG": "Wincanton" },
+        "TA4": { "LONG": "-3.30645", "LAT": "51.03955", "ENG": "Wiveliscombe" },
+        "BA20": { "LONG": "-2.650", "LAT": "50.950", "ENG": "Yeovil" }
+      }
+    },
+    {
+      "CODE": "SAY",
+      "CITIES": {
+        "KA7": { "LONG": "-4.629179", "LAT": "55.458565", "ENG": "Ayr" },
+        "KA26": { "LONG": "-4.85614", "LAT": "55.23822", "ENG": "Girvan" },
+        "KA19": { "LONG": "-4.69064", "LAT": "55.34985", "ENG": "Maybole" },
+        "KA9": { "LONG": "-1.71200", "LAT": "55.04666", "ENG": "Prestwick" },
+        "KA10": { "LONG": "-5.27331", "LAT": "50.20036", "ENG": "Troon" }
+      }
+    },
+    {
+      "CODE": "SGS",
+      "CITIES": {
+        "BS32": {
+          "LONG": "-2.54199",
+          "LAT": "51.53115",
+          "ENG": "Bradley stoke"
+        },
+        "BS37": {
+          "LONG": "-2.420",
+          "LAT": "51.540",
+          "ENG": "Chipping sodbury"
+        },
+        "BS34": { "LONG": "-2.57049", "LAT": "51.50404", "ENG": "Filton" },
+        "BS35": { "LONG": "-4.26738", "LAT": "50.85396", "ENG": "Thornbury" },
+        "BS37": { "LONG": "-2.41234", "LAT": "51.54067", "ENG": "Yate" }
+      }
+    },
+    {
+      "CODE": "SLK",
+      "CITIES": {
+        "ML12": { "LONG": "-3.23216", "LAT": "54.08809", "ENG": "Biggar" },
+        "ML8": { "LONG": "-3.84094", "LAT": "55.73408", "ENG": "Carluke" },
+        "G74": { "LONG": "-4.180", "LAT": "55.770", "ENG": "East kilbride" },
+        "ML3": { "LONG": "-4.03425", "LAT": "55.77597", "ENG": "Hamilton" },
+        "ML11": { "LONG": "-3.77442", "LAT": "55.67215", "ENG": "Lanark" },
+        "ML9": { "LONG": "-2.35355", "LAT": "51.39700", "ENG": "Larkhall" },
+        "G73": { "LONG": "-4.26090", "LAT": "55.83492", "ENG": "Rutherglen" },
+        "G71": { "LONG": "-4.08444", "LAT": "55.82006", "ENG": "Uddingston" }
+      }
+    },
+    {
+      "CODE": "SYK",
+      "CITIES": {
+        "DN6": {
+          "LONG": "-1.19378",
+          "LAT": "53.56140",
+          "ENG": "Adwick le street"
+        },
+        "S70": { "LONG": "-1.490", "LAT": "53.570", "ENG": "Barnsley" },
+        "DN10": { "LONG": "-1.01556", "LAT": "53.43422", "ENG": "Bawtry" },
+        "DN5": { "LONG": "-1.14885", "LAT": "53.54311", "ENG": "Bentley" },
+        "S63": {
+          "LONG": "-1.31527",
+          "LAT": "53.51721",
+          "ENG": "Bolton upon dearne"
+        },
+        "DN12": { "LONG": "-1.22544", "LAT": "53.48071", "ENG": "Conisbrough" },
+        "S25": { "LONG": "-2.84764", "LAT": "50.90889", "ENG": "Dinnington" },
+        "DN1": { "LONG": "-1.128462", "LAT": "53.522820", "ENG": "Doncaster" },
+        "S63": { "LONG": "-1.29989", "LAT": "53.53510", "ENG": "Goldthorpe" },
+        "S66": { "LONG": "-1.28325", "LAT": "54.51468", "ENG": "Maltby" },
+        "S64": { "LONG": "-1.28541", "LAT": "53.49906", "ENG": "Mexborough" },
+        "S36": { "LONG": "-1.63189", "LAT": "53.52760", "ENG": "Penistone" },
+        "S62": { "LONG": "-1.34626", "LAT": "53.46346", "ENG": "Rawmarsh" },
+        "S65": { "LONG": "-1.350", "LAT": "53.440", "ENG": "Rotherham" },
+        "": { "LONG": "-1.466667", "LAT": "53.383331", "ENG": "Sheffield" },
+        "S36": { "LONG": "-1.60214", "LAT": "53.48256", "ENG": "Stocksbridge" },
+        "DN8": { "LONG": "-4.53510", "LAT": "50.81247", "ENG": "Thorne" },
+        "S63": { "LONG": "-1.31483", "LAT": "53.54418", "ENG": "Thurnscoe" },
+        "DN11": { "LONG": "-1.10586", "LAT": "53.43493", "ENG": "Tickhill" },
+        "S63": {
+          "LONG": "-1.34571",
+          "LAT": "53.49941",
+          "ENG": "Wath upon dearne"
+        },
+        "S73": { "LONG": "-1.40575", "LAT": "53.51770", "ENG": "Wombwell" },
+        "S70": { "LONG": "-1.46596", "LAT": "53.52697", "ENG": "Worsbrough" }
+      }
+    },
+    {
+      "CODE": "SOS",
+      "CITIES": {
+        "SS9": { "LONG": "0.65951", "LAT": "51.54723", "ENG": "Leigh-on-sea" },
+        "SS1": { "LONG": "0.710", "LAT": "51.550", "ENG": "Southend-on-sea" }
+      }
+    },
+    {
+      "CODE": "STS",
+      "CITIES": {
+        "ST8": { "LONG": "-2.17326", "LAT": "53.11456", "ENG": "Biddulph" },
+        "WS7": { "LONG": "-1.92008", "LAT": "52.68317", "ENG": "Burntwood" },
+        "DE14": {
+          "LONG": "-1.63806",
+          "LAT": "52.79951",
+          "ENG": "Burton upon trent"
+        },
+        "WS11": { "LONG": "-2.040", "LAT": "52.700", "ENG": "Cannock" },
+        "ST10": { "LONG": "-2.20447", "LAT": "53.39316", "ENG": "Cheadle" },
+        "SK8": { "LONG": "-2.20447", "LAT": "53.39316", "ENG": "Cheadle" },
+        "ST21": { "LONG": "-2.24652", "LAT": "52.86273", "ENG": "Eccleshall" },
+        "B78": { "LONG": "-1.69863", "LAT": "52.61988", "ENG": "Fazeley" },
+        "ST7": { "LONG": "-2.24781", "LAT": "53.08746", "ENG": "Kidsgrove" },
+        "ST13": { "LONG": "-2.02386", "LAT": "53.10569", "ENG": "Leek" },
+        "": { "LONG": "-1.826530", "LAT": "52.683498", "ENG": "Lichfield" },
+        "CW3": { "LONG": "-2.45213", "LAT": "52.63738", "ENG": "Madeley" },
+        "ST5": {
+          "LONG": "-2.230",
+          "LAT": "53.020",
+          "ENG": "Newcastle-under-lyme"
+        },
+        "ST19": { "LONG": "-2.11247", "LAT": "52.71910", "ENG": "Penkridge" },
+        "WS15": { "LONG": "-1.93475", "LAT": "52.76408", "ENG": "Rugeley" },
+        "ST16": { "LONG": "-2.120", "LAT": "52.810", "ENG": "Stafford" },
+        "": {
+          "LONG": "-2.179404",
+          "LAT": "53.002666",
+          "ENG": "Stoke-on-trent"
+        },
+        "ST15": { "LONG": "-0.86287", "LAT": "51.80564", "ENG": "Stone" },
+        "B79": { "LONG": "-1.690", "LAT": "52.630", "ENG": "Tamworth" },
+        "ST14": { "LONG": "-1.86022", "LAT": "52.89886", "ENG": "Uttoxeter" }
+      }
+    },
+    {
+      "CODE": "STI",
+      "CITIES": {
+        "FK7": { "LONG": "-3.91", "LAT": "56.09", "ENG": "Bannockburn" },
+        "FK9": {
+          "LONG": "-3.94152",
+          "LAT": "56.15490",
+          "ENG": "Bridge of allan"
+        },
+        "FK17": { "LONG": "-4.20405", "LAT": "56.24037", "ENG": "Callander" },
+        "FK16": { "LONG": "-3.84522", "LAT": "57.16276", "ENG": "Doune" },
+        "FK15": { "LONG": "-3.95944", "LAT": "56.19057", "ENG": "Dunblane" },
+        "FK7": {
+          "LONG": "-3.9396574,21",
+          "LAT": "56.1023782",
+          "ENG": "St. Ninians",
+          "+": "ST NINANS PARISH",
+          "+": "ST NINIANS PARISH"
+        }
+      }
+    },
+    {
+      "CODE": "SOT",
+      "CITIES": {
+        "TS23": { "LONG": "-1.280", "LAT": "54.610", "ENG": "Billingham" },
+        "TS18": {
+          "LONG": "-1.320",
+          "LAT": "54.570",
+          "ENG": "Stockton-on-tees"
+        },
+        "TS17": {
+          "LONG": "-1.29823",
+          "LAT": "54.54173",
+          "ENG": "Thornaby-on-tees"
+        },
+        "TS15": { "LONG": "-1.36062", "LAT": "54.50612", "ENG": "Yarm" }
+      }
+    },
+    {
+      "CODE": "SFK",
+      "CITIES": {
+        "CO10": { "LONG": "-6.36667", "LAT": "54.30000", "ENG": "Acton" },
+        "IP15": { "LONG": "1.60190", "LAT": "52.15172", "ENG": "Aldeburgh" },
+        "NR34": { "LONG": "1.56802", "LAT": "52.45857", "ENG": "Beccles" },
+        "IP27": { "LONG": "-1.63643", "LAT": "54.74991", "ENG": "Brandon" },
+        "NR35": { "LONG": "1.43511", "LAT": "52.45351", "ENG": "Bungay" },
+        "IP33": {
+          "LONG": "0.71585",
+          "LAT": "52.24741",
+          "ENG": "Bury st edmunds"
+        },
+        "CO10": { "LONG": "-6.45000", "LAT": "54.33333", "ENG": "Clare" },
+        "IP23": { "LONG": "-0.19246", "LAT": "52.60648", "ENG": "Eye" },
+        "IP11": { "LONG": "1.35363", "LAT": "51.96117", "ENG": "Felixstowe" },
+        "IP13": { "LONG": "1.34400", "LAT": "52.22228", "ENG": "Framlingham" },
+        "IP7": { "LONG": "0.61681", "LAT": "51.55718", "ENG": "Hadleigh" },
+        "IP19": { "LONG": "1.50001", "LAT": "52.34367", "ENG": "Halesworth" },
+        "CB9": { "LONG": "0.444517", "LAT": "52.080875", "ENG": "Haverhill" },
+        "IP1": { "LONG": "1.140", "LAT": "52.070", "ENG": "Ipswich" },
+        "IP5": { "LONG": "1.22997", "LAT": "52.06356", "ENG": "Kesgrave" },
+        "IP16": { "LONG": "1.57705", "LAT": "52.20644", "ENG": "Leiston" },
+        "NR32": { "LONG": "1.720", "LAT": "52.490", "ENG": "Lowestoft" },
+        "IP28": { "LONG": "0.51659", "LAT": "52.35074", "ENG": "Mildenhall" },
+        "IP6": {
+          "LONG": "1.04674",
+          "LAT": "52.15838",
+          "ENG": "Needham market"
+        },
+        "CB8": { "LONG": "-2.22565", "LAT": "51.69403", "ENG": "Newmarket" },
+        "IP17": { "LONG": "1.49012", "LAT": "52.21804", "ENG": "Saxmundham" },
+        "IP18": { "LONG": "1.67506", "LAT": "52.32936", "ENG": "Southwold" },
+        "IP14": { "LONG": "1.00476", "LAT": "52.18644", "ENG": "Stowmarket" },
+        "CO10": { "LONG": "-0.32095", "LAT": "51.55636", "ENG": "Sudbury" },
+        "IP13": {
+          "LONG": "1.36779",
+          "LAT": "52.14965",
+          "ENG": "Wickham market"
+        },
+        "IP12": { "LONG": "-3.15670", "LAT": "50.75336", "ENG": "Woodbridge" }
+      }
+    },
+    {
+      "CODE": "SRY",
+      "CITIES": {
+        "KT15": { "LONG": "-0.50018", "LAT": "51.36996", "ENG": "Addlestone" },
+        "TW15": { "LONG": "0.860", "LAT": "51.150", "ENG": "Ashford" },
+        "SM7": { "LONG": "-0.20040", "LAT": "51.32077", "ENG": "Banstead" },
+        "GU15": { "LONG": "-0.73095", "LAT": "51.33671", "ENG": "Camberley" },
+        "CR3": { "LONG": "-0.08716", "LAT": "51.28300", "ENG": "Caterham" },
+        "KT16": { "LONG": "-0.49959", "LAT": "51.38793", "ENG": "Chertsey" },
+        "RH4": { "LONG": "-0.33275", "LAT": "51.23280", "ENG": "Dorking" },
+        "TW20": { "LONG": "-0.55564", "LAT": "51.43360", "ENG": "Egham" },
+        "KT19": { "LONG": "-0.27178", "LAT": "51.33084", "ENG": "Epsom" },
+        "KT10": { "LONG": "-0.35658", "LAT": "51.36803", "ENG": "Esher" },
+        "KT17": { "LONG": "-0.25675", "LAT": "51.34860", "ENG": "Ewell" },
+        "GU9": { "LONG": "-0.800", "LAT": "51.210", "ENG": "Farnham" },
+        "GU16": { "LONG": "-0.73145", "LAT": "51.31873", "ENG": "Frimley" },
+        "GU7": { "LONG": "-0.62073", "LAT": "51.18260", "ENG": "Godalming" },
+        "GU1": { "LONG": "-0.580", "LAT": "51.240", "ENG": "Guildford" },
+        "GU27": { "LONG": "-0.72358", "LAT": "51.08485", "ENG": "Haslemere" },
+        "RH6": { "LONG": "-1.39573", "LAT": "52.08830", "ENG": "Horley" },
+        "KT22": { "LONG": "-0.340", "LAT": "51.300", "ENG": "Leatherhead" },
+        "RH8": { "LONG": "-0.01667", "LAT": "51.25485", "ENG": "Oxted" },
+        "RH1": { "LONG": "-2.37331", "LAT": "57.13086", "ENG": "Redhill" },
+        "RH2": { "LONG": "-0.220", "LAT": "51.240", "ENG": "Reigate" },
+        "TW18": {
+          "LONG": "-0.49812",
+          "LAT": "51.43287",
+          "ENG": "Staines-upon-thames"
+        },
+        "TW16": {
+          "LONG": "-0.41246",
+          "LAT": "51.41376",
+          "ENG": "Sunbury-on-thames"
+        },
+        "KT12": {
+          "LONG": "-0.41339",
+          "LAT": "51.38680",
+          "ENG": "Walton-on-thames"
+        },
+        "CR6": { "LONG": "-0.05736", "LAT": "51.30949", "ENG": "Warlingham" },
+        "KT13": { "LONG": "-0.44273", "LAT": "51.36921", "ENG": "Weybridge" },
+        "GU21": { "LONG": "-0.55931", "LAT": "51.31674", "ENG": "Woking" }
+      }
+    },
+    {
+      "CODE": "SWS",
+      "CITIES": {
+        "SA4": { "ENG": "Casllwchwr" },
+        "SA4": { "LONG": "-4.04747", "LAT": "51.66741", "ENG": "Gorseinon" },
+        "SA4": {
+          "LONG": "-4.03504",
+          "LAT": "51.71259",
+          "ENG": "Pontarddulais"
+        },
+        "": { "LONG": "-3.943646", "LAT": "51.621441", "ENG": "Swansea" }
+      }
+    },
+    {
+      "CODE": "SDN",
+      "CITIES": {
+        "SN6": { "LONG": "-1.70522", "LAT": "51.63094", "ENG": "Highworth" },
+        "SN1": { "LONG": "-1.772232", "LAT": "51.568535", "ENG": "Swindon" }
+      }
+    },
+    {
+      "CODE": "TWK",
+      "CITIES": {
+        "TF10": { "LONG": "-3.000", "LAT": "51.590", "ENG": "Newport" },
+        "TF3": { "LONG": "-2.470", "LAT": "52.680", "ENG": "Telford" }
+      }
+    },
+    {
+      "CODE": "TRK",
+      "CITIES": {
+        "RM17": { "LONG": "0.320", "LAT": "51.480", "ENG": "Grays" },
+        "SS17": {
+          "LONG": "0.42707",
+          "LAT": "51.51629",
+          "ENG": "Stanford-le-hope"
+        },
+        "RM18": { "LONG": "0.36668", "LAT": "51.46357", "ENG": "Tilbury" }
+      }
+    },
+    {
+      "CODE": "TRB",
+      "CITIES": {
+        "TQ5": { "LONG": "-3.51359", "LAT": "50.38953", "ENG": "Brixham" },
+        "TQ3": { "LONG": "-3.580", "LAT": "50.440", "ENG": "Paignton" },
+        "TQ1": { "LONG": "-3.520", "LAT": "50.470", "ENG": "Torquay" }
+      }
+    },
+    {
+      "CODE": "TFN",
+      "CITIES": {
+        "NP4": { "LONG": "-3.06552", "LAT": "51.72538", "ENG": "Abersychan" },
+        "NP4": { "LONG": "-3.08129", "LAT": "51.77919", "ENG": "Blaenavon" },
+        "NP44": { "LONG": "-3.02048", "LAT": "51.65385", "ENG": "Cwmbrân" },
+        "NP4": { "LONG": "-3.03596", "LAT": "51.69867", "ENG": "Pont-y-pwl" }
+      }
+    },
+    {
+      "CODE": "TWR",
+      "CITIES": {
+        "NE21": { "LONG": "-1.72826", "LAT": "54.95684", "ENG": "Blaydon" },
+        "NE8": { "LONG": "-1.620", "LAT": "54.970", "ENG": "Gateshead" },
+        "NE31": { "LONG": "-1.50943", "LAT": "54.97412", "ENG": "Hebburn" },
+        "DH5": {
+          "LONG": "-1.44903",
+          "LAT": "54.82110",
+          "ENG": "Hetton-le-hole"
+        },
+        "DH4": {
+          "LONG": "-1.470",
+          "LAT": "54.850",
+          "ENG": "Houghton-le-spring"
+        },
+        "NE32": { "LONG": "-1.46245", "LAT": "54.98291", "ENG": "Jarrow" },
+        "NE12": { "LONG": "-1.58717", "LAT": "55.01036", "ENG": "Longbenton" },
+        "": {
+          "LONG": "-1.600000",
+          "LAT": "54.966667",
+          "ENG": "Newcastle upon tyne"
+        },
+        "NE40": { "LONG": "-2.40181", "LAT": "51.98127", "ENG": "Ryton" },
+        "NE33": { "LONG": "-1.430", "LAT": "55.000", "ENG": "South shields" },
+        "": { "LONG": "-1.381130", "LAT": "54.906101", "ENG": "Sunderland" },
+        "NE30": { "LONG": "-1.44633", "LAT": "55.01878", "ENG": "Tynemouth" },
+        "NE28": { "LONG": "-1.530", "LAT": "54.990", "ENG": "Wallsend" },
+        "NE38": { "LONG": "-1.530", "LAT": "54.910", "ENG": "Washington" },
+        "NE16": { "LONG": "-1.68156", "LAT": "54.93875", "ENG": "Whickham" },
+        "NE26": { "LONG": "-1.44596", "LAT": "55.04574", "ENG": "Whitley bay" }
+      }
+    },
+    {
+      "CODE": "WRT",
+      "CITIES": {
+        "WA13": { "LONG": "-2.47503", "LAT": "53.38340", "ENG": "Lymm" },
+        "WA1": { "LONG": "-2.600", "LAT": "53.390", "ENG": "Warrington" }
+      }
+    },
+    {
+      "CODE": "WAR",
+      "CITIES": {
+        "B49": { "LONG": "-2.20802", "LAT": "51.00170", "ENG": "Alcester" },
+        "CV9": { "LONG": "-2.87676", "LAT": "50.94464", "ENG": "Atherstone" },
+        "CV12": { "LONG": "-1.47878", "LAT": "52.47528", "ENG": "Bedworth" },
+        "B46": { "LONG": "-0.63549", "LAT": "51.65036", "ENG": "Coleshill" },
+        "": { "LONG": "-1.377561", "LAT": "52.328415", "ENG": "Frankton" },
+        "B95": {
+          "LONG": "-1.77419",
+          "LAT": "52.28742",
+          "ENG": "Henley-in-arden"
+        },
+        "CV8": { "LONG": "-1.56843", "LAT": "52.34079", "ENG": "Kenilworth" },
+        "CV11": { "LONG": "-1.490", "LAT": "52.530", "ENG": "Nuneaton" },
+        "CV32": {
+          "LONG": "-1.53963",
+          "LAT": "52.28674",
+          "ENG": "Royal leamington spa"
+        },
+        "CV21": { "LONG": "-1.265032", "LAT": "52.370876", "ENG": "Rugby" },
+        "CV36": {
+          "LONG": "-1.62946",
+          "LAT": "52.06229",
+          "ENG": "Shipston-on-stour"
+        },
+        "CV47": { "LONG": "-3.55329", "LAT": "54.49783", "ENG": "Southam" },
+        "CV37": {
+          "LONG": "-1.71612",
+          "LAT": "52.19739",
+          "ENG": "Stratford-upon-avon"
+        },
+        "CV34": { "LONG": "-1.58361", "LAT": "52.28690", "ENG": "Warwick" },
+        "CV31": { "LONG": "-1.52516", "LAT": "52.26870", "ENG": "Whitnash" }
+      }
+    },
+    {
+      "CODE": "WDT",
+      "CITIES": {
+        "G83": { "LONG": "-4.57464", "LAT": "55.99053", "ENG": "Alexandria" },
+        "G81": { "LONG": "-4.40891", "LAT": "55.90401", "ENG": "Clydebank" },
+        "G82": { "LONG": "-4.570", "LAT": "55.950", "ENG": "Dumbarton" }
+      }
+    },
+    {
+      "CODE": "WLN",
+      "CITIES": {
+        "EH48": { "LONG": "-4.08958", "LAT": "58.55154", "ENG": "Armadale" },
+        "EH48": { "LONG": "-3.64118", "LAT": "55.90765", "ENG": "Bathgate" },
+        "EH47": { "LONG": "-2.490", "LAT": "53.750", "ENG": "Blackburn" },
+        "EH52": { "LONG": "-2.49047", "LAT": "55.98949", "ENG": "Broxburn" },
+        "": { "LONG": "-2.49047", "LAT": "55.901731", "ENG": "Craig Marrie" },
+        "EH49": {
+          "LONG": "-3.59579",
+          "LAT": "55.97115",
+          "ENG": "Linlithgow",
+          "+": "LINITHGOW"
+        },
+        "EH54": { "LONG": "-3.500", "LAT": "55.910", "ENG": "Livingston" },
+        "EH47": { "LONG": "-1.36912", "LAT": "54.95550", "ENG": "Whitburn" },
+        "SR6": { "LONG": "-1.36912", "LAT": "54.95550", "ENG": "Whitburn" }
+      }
+    },
+    {
+      "CODE": "WML",
+      "CITIES": {
+        "WS9": { "LONG": "-1.92023", "LAT": "52.60226", "ENG": "Aldridge" },
+        "WV14": { "LONG": "-3.17606", "LAT": "55.86804", "ENG": "Bilston" },
+        "B2": { "LONG": "-1.898575", "LAT": "52.489471", "ENG": "Birmingham" },
+        "B65": { "LONG": "-6.70000", "LAT": "55.05000", "ENG": "Blackheath" },
+        "WS3": { "LONG": "-2.00882", "LAT": "52.62027", "ENG": "Bloxwich" },
+        "DY5": {
+          "LONG": "-2.11185",
+          "LAT": "52.47638",
+          "ENG": "Brierley hill"
+        },
+        "WS8": { "LONG": "-2.76974", "LAT": "56.32948", "ENG": "Brownhills" },
+        "WV14": { "LONG": "-2.08254", "LAT": "52.54832", "ENG": "Coseley" },
+        "CV1": { "LONG": "-1.510556", "LAT": "52.408054", "ENG": "Coventry" },
+        "WS10": { "LONG": "-2.03832", "LAT": "52.57531", "ENG": "Darlaston" },
+        "DY1": { "LONG": "-2.080", "LAT": "52.500", "ENG": "Dudley" },
+        "B63": { "LONG": "-2.060", "LAT": "52.460", "ENG": "Halesowen" },
+        "DY6": { "LONG": "-2.17081", "LAT": "52.49429", "ENG": "Kingswinford" },
+        "B69": { "LONG": "0.27147", "LAT": "51.28559", "ENG": "Oldbury" },
+        "B65": { "LONG": "-2.05297", "LAT": "52.48541", "ENG": "Rowley regis" },
+        "B66": { "ENG": "Sandwell" },
+        "DY3": { "LONG": "-2.12678", "LAT": "52.54828", "ENG": "Sedgley" },
+        "B66": { "LONG": "-1.96461", "LAT": "52.48541", "ENG": "Smethwick" },
+        "B91": { "LONG": "-1.778197", "LAT": "52.412811", "ENG": "Solihull" },
+        "DY8": { "LONG": "-2.160", "LAT": "52.460", "ENG": "Stourbridge" },
+        "B72": {
+          "LONG": "-1.824042",
+          "LAT": "52.570385",
+          "ENG": "Sutton coldfield"
+        },
+        "DY4": { "LONG": "-2.06776", "LAT": "52.53035", "ENG": "Tipton" },
+        "WS1": { "LONG": "-1.970", "LAT": "52.600", "ENG": "Walsall" },
+        "WS10": { "LONG": "-2.02356", "LAT": "52.55734", "ENG": "Wednesbury" },
+        "B70": { "LONG": "-1.970", "LAT": "52.530", "ENG": "West bromwich" },
+        "WV13": { "LONG": "-2.05309", "LAT": "52.58430", "ENG": "Willenhall" },
+        "WV1": {
+          "LONG": "-2.110748",
+          "LAT": "52.591370",
+          "ENG": "Wolverhampton"
+        }
+      }
+    },
+    {
+      "CODE": "WSX",
+      "CITIES": {
+        "BN18": { "LONG": "-0.55928", "LAT": "50.85812", "ENG": "Arundel" },
+        "PO21": { "LONG": "-0.690", "LAT": "50.790", "ENG": "Bognor regis" },
+        "RH15": {
+          "LONG": "-0.12894",
+          "LAT": "50.95993",
+          "ENG": "Burgess hill"
+        },
+        "": { "LONG": "-0.779200", "LAT": "50.836498", "ENG": "Chichester" },
+        "RH10": { "LONG": "-0.200", "LAT": "51.130", "ENG": "Crawley" },
+        "RH17": { "LONG": "-0.14138", "LAT": "51.00509", "ENG": "Cuckfield" },
+        "RH19": {
+          "LONG": "-0.00779",
+          "LAT": "51.12880",
+          "ENG": "East grinstead"
+        },
+        "RH16": {
+          "LONG": "-0.09864",
+          "LAT": "51.00441",
+          "ENG": "Haywards heath"
+        },
+        "RH12": { "LONG": "-0.330", "LAT": "51.070", "ENG": "Horsham" },
+        "BN17": { "LONG": "-0.540", "LAT": "50.820", "ENG": "Littlehampton" },
+        "GU29": { "LONG": "-0.74054", "LAT": "50.98611", "ENG": "Midhurst" },
+        "GU28": { "LONG": "-0.61235", "LAT": "50.98466", "ENG": "Petworth" },
+        "PO20": { "LONG": "-0.78980", "LAT": "50.73483", "ENG": "Selsey" },
+        "BN43": {
+          "LONG": "-0.26205",
+          "LAT": "50.82709",
+          "ENG": "Shoreham-by-sea"
+        },
+        "BN42": { "LONG": "-1.11312", "LAT": "50.87263", "ENG": "Southwick" },
+        "BN44": { "LONG": "-0.33077", "LAT": "50.89104", "ENG": "Steyning" },
+        "BN11": { "LONG": "-0.383835", "LAT": "50.825024", "ENG": "Worthing" }
+      }
+    },
+    {
+      "CODE": "WYK",
+      "CITIES": {
+        "BD17": { "LONG": "-1.76587", "LAT": "53.85151", "ENG": "Baildon" },
+        "WF17": { "LONG": "-1.640", "LAT": "53.720", "ENG": "Batley" },
+        "BD16": { "LONG": "-1.82667", "LAT": "53.85161", "ENG": "Bingley" },
+        "": { "LONG": "-1.750000", "LAT": "53.799999", "ENG": "Bradford" },
+        "HD6": { "LONG": "-1.78181", "LAT": "53.70773", "ENG": "Brighouse" },
+        "WF10": { "LONG": "-1.350", "LAT": "53.720", "ENG": "Castleford" },
+        "BD19": { "LONG": "-1.72110", "LAT": "53.72558", "ENG": "Cleckheaton" },
+        "WF13": { "LONG": "-1.660", "LAT": "53.700", "ENG": "Dewsbury" },
+        "HX5": { "LONG": "-1.82733", "LAT": "53.68983", "ENG": "Elland" },
+        "WF7": { "LONG": "-2.08273", "LAT": "52.64721", "ENG": "Featherstone" },
+        "LS25": { "LONG": "-1.37160", "LAT": "53.78717", "ENG": "Garforth" },
+        "LS20": { "LONG": "-1.70487", "LAT": "53.87833", "ENG": "Guiseley" },
+        "HX1": { "LONG": "-1.880", "LAT": "53.730", "ENG": "Halifax" },
+        "HX7": {
+          "LONG": "-2.02422",
+          "LAT": "53.74388",
+          "ENG": "Hebden bridge"
+        },
+        "WF16": {
+          "LONG": "-1.67577",
+          "LAT": "53.70749",
+          "ENG": "Heckmondwike"
+        },
+        "WF9": { "LONG": "-2.05109", "LAT": "50.84901", "ENG": "Hemsworth" },
+        "HD9": { "LONG": "-1.78251", "LAT": "53.57291", "ENG": "Holmfirth" },
+        "WF4": { "LONG": "-1.55505", "LAT": "53.66216", "ENG": "Horbury" },
+        "HD1": { "LONG": "-1.800", "LAT": "53.660", "ENG": "Huddersfield" },
+        "LS29": { "LONG": "-1.82637", "LAT": "53.92351", "ENG": "Ilkley" },
+        "BD21": { "LONG": "-1.920", "LAT": "53.870", "ENG": "Keighley" },
+        "WF11": { "LONG": "-1.25162", "LAT": "53.70559", "ENG": "Knottingley" },
+        "": { "LONG": "-1.548567", "LAT": "53.801277", "ENG": "Leeds" },
+        "WF15": { "LONG": "-1.69092", "LAT": "53.70753", "ENG": "Liversedge" },
+        "HD9": { "LONG": "-1.85795", "LAT": "53.59100", "ENG": "Meltham" },
+        "WF14": { "LONG": "-1.69112", "LAT": "53.68056", "ENG": "Mirfield" },
+        "LS27": { "LONG": "-1.600", "LAT": "53.740", "ENG": "Morley" },
+        "WF6": { "LONG": "-1.48859", "LAT": "52.89784", "ENG": "Normanton" },
+        "WF5": { "LONG": "-1.57000", "LAT": "53.68019", "ENG": "Ossett" },
+        "LS21": { "LONG": "1.22188", "LAT": "52.15373", "ENG": "Otley" },
+        "WF8": { "LONG": "-1.31250", "LAT": "53.68798", "ENG": "Pontefract" },
+        "LS28": { "LONG": "-2.14549", "LAT": "53.73480", "ENG": "Pudsey" },
+        "BD18": { "LONG": "-1.33830", "LAT": "53.00497", "ENG": "Shipley" },
+        "BD20": { "LONG": "-1.93298", "LAT": "53.91463", "ENG": "Silsden" },
+        "WF9": {
+          "LONG": "-1.28374",
+          "LAT": "53.59793",
+          "ENG": "South elmsall"
+        },
+        "WF9": { "LONG": "-1.32921", "LAT": "53.58920", "ENG": "South kirkby" },
+        "HX6": {
+          "LONG": "-1.90301",
+          "LAT": "53.70789",
+          "ENG": "Sowerby bridge"
+        },
+        "OL14": { "LONG": "-2.08482", "LAT": "53.71688", "ENG": "Todmorden" },
+        "": { "LONG": "-1.490000", "LAT": "53.680000", "ENG": "Wakefield" },
+        "LS22": { "LONG": "-1.38467", "LAT": "53.93105", "ENG": "Wetherby" },
+        "LS19": { "LONG": "-1.68979", "LAT": "53.86032", "ENG": "Yeadon" }
+      }
+    },
+    {
+      "CODE": "WIL",
+      "CITIES": {
+        "SP4": { "LONG": "-2.49650", "LAT": "51.32455", "ENG": "Amesbury" },
+        "BA15": {
+          "LONG": "-2.25268",
+          "LAT": "51.35230",
+          "ENG": "Bradford-on-avon"
+        },
+        "SN11": { "LONG": "-2.00858", "LAT": "51.44249", "ENG": "Calne" },
+        "SN15": {
+          "LONG": "-2.116074",
+          "LAT": "51.458057",
+          "ENG": "Chippenham"
+        },
+        "SN13": { "LONG": "-2.19559", "LAT": "51.43334", "ENG": "Corsham" },
+        "SN6": { "LONG": "-1.86412", "LAT": "51.64022", "ENG": "Cricklade" },
+        "SN10": { "LONG": "-1.99421", "LAT": "51.35258", "ENG": "Devizes" },
+        "SP11": { "LONG": "-1.03593", "LAT": "51.85214", "ENG": "Ludgershall" },
+        "SN16": { "LONG": "-2.09521", "LAT": "51.58632", "ENG": "Malmesbury" },
+        "SN8": { "LONG": "-1.73532", "LAT": "51.42421", "ENG": "Marlborough" },
+        "SN12": { "LONG": "-2.13789", "LAT": "51.37947", "ENG": "Melksham" },
+        "BA12": { "LONG": "-2.41438", "LAT": "53.32969", "ENG": "Mere" },
+        "SN4": {
+          "LONG": "-1.90767",
+          "LAT": "51.54136",
+          "ENG": "Royal wootton bassett"
+        },
+        "": { "LONG": "-1.794472", "LAT": "51.068787", "ENG": "Salisbury" },
+        "SP9": { "LONG": "-1.65046", "LAT": "51.23516", "ENG": "Tidworth" },
+        "BA14": { "LONG": "-3.10392", "LAT": "51.51822", "ENG": "Trowbridge" },
+        "BA12": { "LONG": "-2.18032", "LAT": "51.20857", "ENG": "Warminster" },
+        "BA13": { "LONG": "-1.09073", "LAT": "52.01442", "ENG": "Westbury" },
+        "SP2": { "LONG": "-3.49123", "LAT": "54.48963", "ENG": "Wilton" }
+      }
+    },
+    {
+      "CODE": "WOR",
+      "CITIES": {
+        "DY12": { "LONG": "-2.31726", "LAT": "52.37711", "ENG": "Bewdley" },
+        "B60": { "LONG": "-2.06746", "LAT": "52.33257", "ENG": "Bromsgrove" },
+        "WR9": {
+          "LONG": "-2.15529",
+          "LAT": "52.26955",
+          "ENG": "Droitwich spa"
+        },
+        "WR11": { "LONG": "-1.95033", "LAT": "52.08984", "ENG": "Evesham" },
+        "WR14": {
+          "LONG": "-2.31540",
+          "LAT": "52.11640",
+          "ENG": "Great malvern"
+        },
+        "DY10": { "LONG": "-2.270", "LAT": "52.400", "ENG": "Kidderminster" },
+        "WR10": { "LONG": "-2.08172", "LAT": "52.10780", "ENG": "Pershore" },
+        "B97": { "LONG": "-1.940", "LAT": "52.310", "ENG": "Redditch" },
+        "DY13": {
+          "LONG": "-2.27297",
+          "LAT": "52.34126",
+          "ENG": "Stourport-on-severn"
+        },
+        "WR15": {
+          "LONG": "-2.59538",
+          "LAT": "52.30412",
+          "ENG": "Tenbury wells"
+        },
+        "": { "LONG": "-2.220000", "LAT": "52.192001", "ENG": "Worcester" }
+      }
+    },
+    {
+      "CODE": "WXM",
+      "CITIES": {
+        "LL14": { "LONG": "-3.0667", "LAT": "53", "ENG": "Rhosllannerchrugog" },
+        "LL11": {
+          "LONG": "-2.99343",
+          "LAT": "53.04761",
+          "ENG": "Wrexham",
+          "+": "Wrecsam"
+        }
+      }
+    }
+  ]
+}
