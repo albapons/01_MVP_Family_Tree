@@ -27,13 +27,7 @@ class App extends Component {
         this.setState({ allFamily: response });
       })
       .catch((err) => console.log(err));
-    // fetch(`/parents`)
-    //   .then((response) => response.json())
-    //   .then((response) => {
-    //     console.log(response);
-    //     this.setState({ allParents: response });
-    //   })
-    //   .catch((err) => console.log(err));
+
   };
 
   onAddPerson = (msg) => {
