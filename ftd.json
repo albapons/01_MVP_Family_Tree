@@ -1,0 +1,39 @@
+{
+  "name": "Antonino_UID",
+  "children": [
+    {
+      "name": "Rosaria_UID",
+      "children": [
+        { "name": "Luisa_UID", "value": "0.5" },
+        {
+          "name": "Valeria_UID",
+          "children": [
+            { "name": "Lavinia_UID", "value": "0.5" },
+            { "name": "Veronica_UID", "value": "0.5" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enzo_UID",
+      "children": [
+        {
+          "name": "Daniela_UID",
+          "children": [
+            { "name": "Laila_UID", "value": "0.5" },
+            { "name": "Ruby_UID", "value": "0.5" }
+          ]
+        },
+        { "name": "Erica_UID", "value": "0.5" }
+      ]
+    },
+    {
+      "name": "Paulo_UID",
+      "value": "0.5"
+    },
+    {
+      "name": "Francesco_UID",
+      "value": "0.5"
+    }
+  ]
+}
